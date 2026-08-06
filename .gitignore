@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Kaggle competition assets are intentionally never versioned.
+data/
+models/
+artifacts/
+outputs/
+submissions/
+*.cbm
+*.pt
+*.pth
+*.onnx
+submission*.csv
+
+# Credentials and local configuration.
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
