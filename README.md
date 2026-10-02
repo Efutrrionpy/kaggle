@@ -1,21 +1,34 @@
-# Kaggle 比賽研究紀錄
+# Kaggle Research Reports
 
-這個專案收錄三場比賽的研究過程、最終成果、驗證限制與重現說明。各場比賽獨立放在自己的資料夾。
+Three applied research studies in geological sequence prediction, cell tracking,
+and competitive resource management.
 
-| 比賽 | 研究紀錄 | 結果 |
+| Competition | Principal models and methods | Competition result |
 |---|---|---|
-| ROGII — Wellbore Geology Prediction | [ROGII](ROGII/README.md) | Private RMSE 8.889；444 / 6,191；銅牌 |
-| Kaggriculture | [Kaggriculture](Kaggriculture/README.md) | 最終提交已截止；後續官方評分仍在進行，最終獎牌待確認 |
-| Biohub | [Biohub](Biohub/README.md) | Private 0.910；1,714 / 4,020；未達金牌目標 |
+| [ROGII — Wellbore Geology Prediction](ROGII/README.md) | CatBoost, Particle Filter / HMM alignment, robust stratigraphic projection | **Private RMSE 8.889 · 444 / 6,191 · Bronze** |
+| [Biohub — Cell Tracking during Development](Biohub/README.md) | Temporal 3D U-Nets, node Transformers, DeepCenter, ILP tracking, collective-motion refinement | **Best selected Private score 0.91051 · 1,714 / 4,020** |
+| [Kaggriculture](Kaggriculture/README.md) | Demonstration-derived policies, state-conditioned economic routing, resource-constrained service planning | **Public ratings 2409.8 / 2163.7; final ranking pending**¹ |
 
-## 如何閱讀
+## Research findings
 
-每個資料夾包含比賽與方法概述、重要實驗及決策、最終結果和重現方式。分數會區分本地驗證、Public、Private 與仍未確定的結果。
+**ROGII:** Combining a 290-feature CatBoost model with physical path smoothing
+and HMM alignment reduced the final internal estimate to 8.5186 RMSE. The
+Private result favored this ensemble over a candidate with a better Public score.
 
-原有 ROGII 內容移入 `ROGII/`，原始提交歷史仍保留。ROGII 的安裝、範例和測試請在該資料夾執行；其他比賽依各自的重現說明操作。現有 CI 執行 ROGII 的參考程式檢查與測試；其他比賽的完整性檢查記錄在各自文件中。
+**Biohub:** Learned spatiotemporal features supported a deployable tracking
+pipeline. NCC, learned division residuals, five-frame encoders, and
+self-supervised features were evaluated; improvements in local objectives did
+not consistently improve complete tracking graphs or official scores.
 
-## 資料與成果保存
+**Kaggriculture:** Full production programs with current-state material and
+cash-flow feedback outperformed narrower market selectors in local comparisons.
+The submitted FlexService policy scored 677 / 768 points on a prospective
+world/opponent/seat panel, against 622 for AdaptiveMilk on that same panel.
 
-GitHub 保存適合公開的研究紀錄、程式與重要結果摘要。競賽資料、憑證、模型權重及大型研究產物保留在本地或依各場說明重新取得，不包含於此專案。各場引用的外部方法會標示來源；公開內容不代表能在缺少原始資料與保留權重時一鍵重現官方分數。
+Each report describes the models, evaluation protocol, experimental results,
+and reproducibility scope. Official results and local estimates are reported
+separately; scores from different competitions or validation panels are not
+directly comparable.
 
-這些研究使用了 AI agents 協助分析、實作與執行。研究主張仍以實際測量與可追溯證據為準。
+¹ Kaggriculture ratings are from the saved official observation on
+**2026-10-02 04:26 UTC**, not a final medal result.

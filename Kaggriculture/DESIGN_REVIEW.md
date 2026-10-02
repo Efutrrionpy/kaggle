@@ -1,54 +1,25 @@
-# 原始設計與提示詞檢討
+# Research Design Review
 
-完整原 Goal 保存於 `design/GOAL_original.md`，含歷史規範與後加覆寫。
-這是研究設計紀錄，不是讓讀者照舊文重新啟動工作或沿用舊停止條件。
+The [original specification](design/GOAL_original.md) provides the historical
+research context. This appendix summarizes lessons from the measured experiments.
 
-## 保留下來的原意
+**Evaluate interaction, not isolated profit.** Shared markets allowed a
+production improvement to benefit the opponent more. Complete games and
+both-player accounting were necessary to identify this effect.
 
-原設計要求端到端理解比賽、可信驗證、高上限研究、可部署主力與互補版本、官方
-提交確認、最終結果監測及可重現交付。研究與正式發布分開；不能編造實驗、分數、
-submission 或自信，也不能以 Public 排名代替 Private 金牌。
+**Hold out world cohorts and diversify opponents.** Ridge and ExtraTrees
+performed better on within-world OOF than on separate cohorts. Committed's
+11 recovered wins were concentrated against one policy ancestor. Neither
+result supported broad field generalization.
 
-後來使用者明確把成功條件統一為金牌，要求少方法先驗，不因一個配置失敗淘汰整個
-方法家族。三條 track、方法例子與早期里程碑只是指引，不是硬性清單。又明確要求
-額度為零仍繼續有用研究，研究代理自行決定衝刺方向。這些覆寫優先於早期銀牌 gate
-與自行凍結的決定。
+**Expand the decision horizon when constraints propagate.** NativeDeadlines
+passed an immediate feasibility check but lost a later worker hire. Extending
+cash-flow reasoning to the next investment decision corrected the tested mechanism.
 
-## 有幫助的設計
+**Compare implementable portfolios.** Per-game best-of-two selection is an
+upper-bound diagnostic, not an available deployment rule. Submitted portfolio
+choices must be evaluated under the competition's actual selection mechanism.
 
-- 固定世界／對手／座位，保留錯誤與負面結果，阻止只挑好看的對局。
-- 原生引擎、實際交貨與雙方現金核對，區分「模型說有效」和「真的執行且贏了」。
-- 新世界確認、來源更新與對手分組，揭露高本地勝率的覆盖不足。
-- 發布時才做精確封裝與清潔環境測試；確認實際active/latest pair，不能靠上傳成功推定。
-- 多程序逐場checkpoint、每worker數值執行緒1，讓可獨立對局真正平行；獨立耗時另測。
-- 依完成事件與可信ETA等待，維持程序級健康檢查，不以模型短輪詢製造活動量。
-
-## 需要修正的地方
-
-1. **通用ML模板不完全適合動態博弈。** OOF、lockbox、預訓練等規範有其用途，
-   但不應逼策略研究變成固定特徵表。真正要守的是合法資訊、分組、完整互動與公平比較。
-2. **過早凍結與過度保守。** 已提交、額度用盡、局部实验失敗，都不是金牌高信心。
-   使用者多次糾正停止判斷。最後研究確實延續到提交截止；截止後是否能改變結果則由
-   官方規則決定，不靠 API 剩餘配額猜測。
-3. **可重現不等於有競爭力。** 原生動作與会計做對是底線，不應讓小型診斷與manifest
-   維護取代高價值方法比較。期末原生重排新增11勝卻只贏自家舊對手，就是警訊。
-4. **資料收集量不等於覆蓋。** 累積回放需要轉為近期、結構不同、會回應的對手與
-   可解釋缺口；公開corpus不是獨家資產。全量索引或再收更多資料也不會自動解決問題。
-5. **雙提交是實際輪替約束，不是任意portfolio。** 最後一次上傳犧牲Feed互補性，
-   應與主力進步同時報告；事後逐局挑最好只能當上限，不是可實現成績。
-6. **基礎設施錯誤不能算科學否證。** CUDA硬體故障、工具傳輸、Python崩潰與
-   Oracle附件／答案擷取錯誤，都要保存原錯誤、恢復未完成部分，不重跑已完成好壞結果。
-
-## Oracle 的實際角色
-
-使用者後來要求只在多輪研究進展不足或邊際收益低時做實質方向審查，非每次實驗
-自動詢問。非同步期間可做不依賴答案的有效工作；同一問題保留唯一session，不因
-等待久就重送。附件要給分組數據、反例、程式及驗證限制，不只是有說服力的摘要。
-
-我們遇過頁面選取、附件展開與回答只擷取到片段的錯誤。因此「參數要求某模型」不
-等於模型選取證明；「傳入檔名」不等於文件抵達；「有文字回覆」不等於完整答案。
-有用建議仍須自己驗證。最後完整服務路線與原生工作／資金視野的研究有實測支持，
-但照護交換、舊對手上的增益也同樣保留反證，沒有把 Pro 當作權威或金牌認證。
-
-本包不公開私人瀏覽器profile、服務連線資訊、個人session路徑、原對話逐字稿或完整
-第三方writeup；這些不是重現最後策略所必需的資料。
+The strongest results came from complete production policies with material
+and funding feedback. The remaining research gap was broader responsive-opponent
+coverage and generalization beyond related policy families.

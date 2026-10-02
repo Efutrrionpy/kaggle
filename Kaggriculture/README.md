@@ -1,31 +1,55 @@
-# Kaggriculture：完整生產策略、資金約束與動態對手
+# Kaggriculture — Resource-Constrained Competitive Planning
 
-這是本次 Kaggriculture 研究與最後提交的可重現公開封存包，不是金牌解法宣告。
-目標一直是官方最終 Private 金牌；截至本包所附的官方觀察，**結果仍為 pending**。
-9月30日的提交截止已過，官方正在進行後續對局與最終評分。
+## Abstract
 
-最後保留的正式提交：
+We studied competitive control in a 720-turn farming simulation with shared
+markets, limited labor, and coupled production and transport constraints.
+The final policies combined demonstration-derived production programs with
+current-state economic decisions and explicit cash-flow feasibility.
+**FlexService scored 677 / 768 local evaluation points**, against 622 for
+AdaptiveMilk on the same panel. Their saved official Public ratings were
+**2409.8 and 2163.7**; final ranking was pending at the 2026-10-02 observation.
 
-| 策略 | Submission ID | 核心 |
-| --- | ---: | --- |
-| FlexService | 56705674 | 完整生產策略，加上付得起工資與飼料的整段服務路線 |
-| AdaptiveMilk | 56698261 | 依合法當下資訊選擇後期乳牛投資，保留既有生產與運輸 |
+## Models and methods
 
-兩者的 `main.py`、所有推論依賴及政策參數逐位元保存在 `strategies/`，沒有重新訓練或重新擬合。
-`tools/rebuild_submissions.py` 可重建壓縮包並核對原提交 SHA256；`tools/verify.py` 檢查整包完整性。
-不需要研究工作站、私人 session、憑證或原始回放，便可重建最後策略。
+| Model or method | Application | Outcome |
+|---|---|---|
+| Ridge regression | Select among compatible policy branches from legal current-state features | Limited transfer to new world cohorts |
+| ExtraTrees | Nonlinear branch selection | Cohort-held-out performance below the fixed candidate |
+| Cross-entropy method (CEM) | Optimize market-control parameters through full-game simulation | Small, opponent-dependent gain; not promoted |
+| Demonstration-derived production policies | Compile public action programs into state-responsive production and logistics | Basis of the final submitted controllers |
+| AdaptiveMilk economic routing | Evaluate later animal investment using visible market and farm state | Submitted policy; 636 / 704 points in its confirmation panel |
+| FlexService constrained planning | Evaluate complete paid service tours, wages, feed, delivery, and incremental production | Submitted policy; 677 / 768 points in its confirmation panel |
 
-## 導覽
+The final controllers use deterministic routing and economic forecasts.
+The learned selectors were research alternatives. Public demonstrations supplied
+offline policy parameters; our modules added material feedback, investment
+selection, and service planning. Attribution is documented in
+[sources](SOURCES_AND_LICENSES.md).
 
-- [研究過程](RESEARCH.md)：方法如何演進、負面結果、轉向理由與因果診斷。
-- [最後結果與競爭差距](RESULTS.md)：正式提交、當時榜單、確認實驗及未解問題。
-- [重現說明](REPRODUCE.md)：環境、重建、執行介面、重現範圍與限制。
-- [原始設計與提示詞檢討](DESIGN_REVIEW.md)：哪些設計有幫助，哪些造成過度保守或局部最適。
-- [來源與授權](SOURCES_AND_LICENSES.md)：自有程式、Apache-2.0 引擎摘錄、公開示範參數的區別。
-- `results/`：逐場精簡結果、分組統計、重要診斷與官方驗證證據，不含完整原始回放。
-- `manifests/`：原始提交檔案清單、大型本地成果 checksum 與來源指紋。
-- `design/GOAL_original.md`：保留原完整 Goal；後加覆寫優先，歷史文字不代表目前再啟動研究。
+## Evaluation and results
 
-本包沒有上傳動作、帳號設定或自動提交腳本。由使用者的整合端放入既有
-`Efutrrionpy/kaggle` 的比賽子資料夾；本研究代理不修改該遠端 repository。
-公開碼、收集場數與高本地勝率都不是獨家競爭優勢或金牌機率的替代品。
+Policies were compared in the same worlds against fixed opponents in both
+seats. A win contributes 1 point and a draw 0.5. Uncertainty was evaluated
+at the world level because seats and related opponent policies are dependent.
+
+| Policy | Confirmation panel | Points | Status |
+|---|---|---:|---|
+| AdaptiveMilk | 32 new worlds × 11 opponents × 2 seats | 636 / 704 | Submitted |
+| FlexService | 32 new worlds × 12 opponents × 2 seats | **677 / 768** | Submitted |
+| NativeDeadlines | 32 new worlds × 17 opponents × 2 seats | 1055 / 1088 | Local research |
+| Committed funding horizon | 64 new worlds × 7 opponents × 2 seats | 843 / 896 | Local research |
+
+The panels differ, so their rates do not directly rank every method.
+Committed's 11 additional wins over Flex were all against the earlier
+LateFlock policy, exposing a coverage limitation despite its favorable total.
+
+## Report and implementation
+
+- [Research report](RESEARCH.md): model progression, mechanisms, and negative results
+- [Results](RESULTS.md): matched comparisons and official observations
+- [Reproduction](REPRODUCE.md): exact reconstruction of both submitted policies
+- [FlexService code](strategies/flex_service/) and [AdaptiveMilk code](strategies/adaptive_milk/)
+
+Both submitted policies and their inference dependencies are included.
+The broader research comparisons also require the original opponent assets.

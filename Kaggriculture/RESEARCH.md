@@ -1,112 +1,136 @@
-# 研究過程與失敗教訓
+# Kaggriculture Research Report
 
-## 1. 真正的目標不是最大化單方收入
+## 1. Problem formulation
 
-Kaggriculture 的對局以720回合後銀行金額比較勝負，排名依勝、負、和更新，
-不是直接把多賺的金額加到排行榜。兩名玩家共享市場與商店消耗；增加自己產量，
-可能更大幅改善對手的成交與收入。工人、作物、動物、飼料、攜帶物與倉庫又有
-時序約束，因此「現在售價高就賣」、「預測利潤大就買」不等於可執行的強策略。
+The simulation compares bank balances after 720 turns. Players share market
+and shop effects, while workers, crops, animals, feed, storage, and transport
+create coupled timing constraints. Increasing production can benefit the
+opponent more than the acting player; estimated profit is useful only when
+the associated work, funding, and deliveries are feasible.
 
-我們把一個世界（固定隨機種子）當作主要獨立比較單位，在同世界、同對手、雙座位
-做成對比較。每次會保留所有勝敗、錯誤與超時；方法因看過測試而修改後，該區塊
-就被標為已使用，不再稱未接觸驗證。逐回合模擬除了檢查得分，也用來追查物料、
-雇工、倉庫溢出與雙方現金。對手私人狀態只用於評估與事後會計，不餵給策略。
+We compared policies in matched world/opponent/seat cells and examined complete
+game outcomes alongside worker actions, material flows, and both players'
+cash balances. A new world block was used for confirmation after development.
+The world was the primary grouping unit for uncertainty analysis.
 
-## 2. 市場與局部選擇器：有訊號，不代表能轉移
+## 2. Learned selectors and market optimization
 
-早期研究沿用可執行的生產骨架，探索銷售、庫存與路線分支。這降低原型成本，
-卻也把可選行動限制在既有生產能力內。以9月19日的 Farm96 延續選擇為例：
-26個開發世界中，Ridge 可在可相容的完整分支間找到收益；但32個新世界、128個
-世界／對手／座位格子裡，原策略95分，早期選擇83、後期選擇95、固定分支83。
-後期版本只有2次改善、2次退步。這沒有支持晉級，也不能推論所有學習式策略無用。
+Early models selected among branches of an existing production policy.
+A **Ridge regression** selector learned compatible branch choices from
+development games. In a new 32-world, 128-cell comparison, the fixed policy
+scored **95 points**, while early and late selection scored **83 and 95**.
+The late selector gained two outcomes and lost two, providing no net advantage.
 
-曾出現數值輸出誤差：相同訓練目標的分支，Ridge 係數有約3.4e-13差異，導致
-15列 argmax 不同。我們對「確實相同的目標欄」做固定順序正規化，而不是調整分數、
-重跑好看的測試或把浮點問題算成方法失敗。
+We also tested **Ridge and ExtraTrees** at the first divergence between strong
+policies, using 92 legal current-state features. World-OOF scores were
+**120 / 152 and 122 / 152**. Holding out an entire cohort reduced them to
+**113 and 115**, below the fixed candidate's **118**. Selection performance
+was sensitive to how the evaluation distribution was separated.
 
-9月20日的聯合市場控制先碰到更直接的語義問題：賣掉預定要取用的飼料，或讓新增
-庫存擠掉工人交回的牛奶。修正物料保留與攜帶容量後，48場原型的三種配置仍分別
-只有4/16、4/16、2/16，相對原策略10/16。之後對合法價格、庫存與資金特徵做完整
-對局 CEM 搜尋，J_3 在新世界得到93/128分，原策略89；但95%世界分組差異區間跨零，
-且對 Yarn5 反而39/64比43/64差。這是有限且有對手依賴性的改善，不是金牌證明。
+Market-control experiments used **CEM** to search parameters through complete
+games. Initial candidates sold feed that was needed later or created inventory
+that displaced incoming milk. Correcting these constraints improved the
+implementation, but did not establish a strong policy. A later J_3 candidate
+scored **93 / 128**, against **89 / 128** for the control; the world-grouped
+interval crossed zero and performance against Yarn5 decreased from 43 to 39
+points out of 64.
 
-## 3. 勞動與運輸：看見產量增加，仍要看雙方得分
+## 3. Current-state service and competitive effects
 
-我們轉向動作、路線、資產與服務的完整聯動，測試目前庫存與生物狀態驅動的服務。
-9月24日的原生服務候選在小型已使用世界由26/32分到27/32；新8世界的確認卻是
-46/64比原策略47/64。新增服務確實多賣了蛋，但啟動局中自身收入約多20–25，
-對手約多53–59。這個反例提醒我們：機制有發生，不代表競爭效果正確。
+We next modeled service decisions from actual inventory and animal state.
+A small development comparison improved from **26 / 32 to 27 / 32**, but
+confirmation on eight new worlds scored **46 / 64**, against **47 / 64**
+for the original policy.
 
-9月25日也問過「能否在兩個強候選第一次分歧時，靠當下資訊選擇？」分歧前共同
-前綴逐動作核對，92個特徵沒有種子、對手ID或未來資訊。Ridge／ExtraTrees 在
-world-OOF 分別120/152、122/152，換成留整批 cohort 驗證卻113、115，低於固定
-候選118。沒有靠同批反覆調參強行晉級，也沒有因此永久排除 learned controller。
+The added service generated more eggs, yet in activated cases the acting
+player's income increased by roughly 20–25 while the opponent gained 53–59.
+This demonstrated why local production gains must be evaluated through shared
+markets and relative end-game wealth.
 
-## 4. 完整公開示範，加上當下資源回饋
+## 4. Demonstration-derived programs and resource feedback
 
-後期不再只修改窄小的市場係數，而是把公開可下載對局的完整物理行程編譯為政策
-參數。策略使用自己目前可見的狀態，先精確推進本回合己方工人作用，再補足示範
-行程需要的材料／工人／土地，賣出實際剩餘資源。歷史行程是離線參數，不是執行時
-讀取評估世界未來，也沒有取得示範作者的私人程式碼。
+The later policy family used complete physical programs compiled from
+publicly downloadable demonstrations. At each turn, it projected the acting
+player's worker effects, supplied required materials, labor, and land, and
+sold available surpluses. Historical actions became offline policy parameters;
+runtime decisions used the player's currently visible state.
 
-這仍有重大限制：固定示範的物理指令與保留量，未必適合新的商店、價格及對手。
-完整示範重放也不能當作真實強隊控制器。部分版本自身多賺三萬多，卻讓對手多賺
-更多。後續才把共同合法開局、進入條件、商店到完整行程的選擇，以及羊／牛等後期
-投資選擇結合，而不是從贏局手選未來動作。
+We extended this representation with common openings, state-dependent entry
+conditions, shop-to-program routing, and later animal-investment choices.
+The demonstrations came from public episodes of submission 56614976; they
+were not the author's private controller code. Related descendants were
+treated as correlated opponents rather than independent strong policies.
 
-最後政策沒有依賴第三方 notebook 的未授權原始碼。公開對手程式只用於合法取得
-後的本地比較，不隨本包再散布；示範參數來源及引擎授權另見來源文件。
+## 5. Submitted controllers
 
-## 5. 最後被提交的 AdaptiveMilk 與 FlexService
+### AdaptiveMilk
 
-AdaptiveMilk 保留合法共同開局，在後期198／219附近的既定決策點，以當下公開
-市場與己方狀態評估動物組合；未揭露的商店是近似預期，不是偷看真實未來。
-其32新世界、11對手、雙座位比較為636/704分，EconomicFirst595、FeedDebt501。
-要注意這裡有和局：AdaptiveMilk 是635勝、2和、67敗，636不是636勝。
+AdaptiveMilk preserved the established opening and used economic forecasts
+at later investment decisions to choose animal exposure. The forecasts used
+visible prices and farm state, with approximate expectations for unrevealed
+shops. They did not read hidden world seeds or future observations.
 
-FlexService 在已有農場上評估整段付費服務路線：工人真的能雇到、飼料真的存在、
-移動與交貨真的可執行、既有作物與退休承諾不被破壞。完整路線的價值包括增量
-生物產出、工資、飼料與共享市場下的雙方收入，並非額外工人永遠有利。
-32新世界、12對手、雙座位確認為677/768分，當時 Adaptive622、Feed548。
+On **32 new worlds × 11 opponents × 2 seats**, AdaptiveMilk scored
+**636 / 704 points**, compared with **595** for EconomicFirst and **501**
+for FeedDebt. Its total comprised 635 wins, two draws, and 67 losses.
 
-最後一筆合法提交會依 latest-two 規則擠掉 Feed，不是任意挑選歷史最佳兩筆。
-本地的「每局事後挑較好一個」上限其實偏好 Flex+Feed（728/768），超過能保留的
-Flex+Adaptive（683/768）；但它不是實際可部署的選擇器，也不是官方雙提交評分。
-我們選擇提升單一主力到 Flex，保留 Adaptive；這個互補性代價必須公開，不能只列
-有利平均值。兩個正式壓縮包都通過獨立離線執行及各自官方驗證對局的1438動作核對。
+### FlexService
 
-## 6. 截止前再研究：原生工作重排、延長資金視野、照護交換
+FlexService evaluated complete paid service tours on an existing farm.
+The calculation included marginal wages, feed reserves, incremental animal
+production, transport and delivery, and nonlinear market value. A service
+route had to remain compatible with existing crop and retirement commitments.
 
-額度耗盡後仍繼續有價值研究。NativeDeadlines 利用已付工資的原生工人重新安排
-有限窗口，保留原本物理工作、增加一次真正吃掉小麥的餵食，再檢查工作截止前的
-資金可行性。17對手、32新世界、雙座位得到1055/1088勝，Flex1037；20次救回、
-2次退步。兩次退步是同一世界的雙座位，不是兩個獨立世界。
+On **32 new worlds × 12 opponents × 2 seats**, FlexService scored
+**677 / 768**, compared with **622** for AdaptiveMilk and **548** for FeedDebt.
+The official submissions were FlexService 56705674 and AdaptiveMilk 56698261.
 
-精確追查發現：115步多餵一次，移除了120步的麥銷售；168步資金32而非62，
-七次雇工需33，於是少一工人，後续產銷下滑。原預測只看到143步。
-Committed 版本把資金視野延至下一個尚未作出的投資分歧，沒有增加任意現金門檻。
-兩個互不重疊的32世界區塊合併為843/896勝，Flex832；11次救回、0次退步。
-但**11次全是對自己的舊 LateFlock**；其餘6對手兩者同為733/768，沒有新增救回。
+Portfolio analysis identified a trade-off: an after-the-fact best-of-two
+diagnostic favored Flex + Feed at **728 / 768**, compared with **683 / 768**
+for Flex + Adaptive. This diagnostic is an unattainable per-game selection
+upper bound, not a reproduction of the official two-submission rating system.
 
-CareTrade 再允許犧牲一項原 CARE 以換得額外 FEED，聯合計入失去照護與得到餵食的
-效果。開發比較有兩次救回，到了新32世界卻與 Committed 同為418/448，平均分差
-還低28.88。因此不晉級這個配置，不宣稱整個工作交換家族失敗。
+## 6. Native scheduling and longer cash-flow horizons
 
-最後一次確認曾遇到 Python GC segmentation fault 和另一個開局前 hash assertion。
-它們是實際執行故障，不是策略敗局。保留原錯誤後，只重跑未完成格子；300場原本
-有效結果不動，隔離恢復兩格後，後續16-worker補完其餘1042格。最終1344場完整有效。
-根因未確定，不把沒有 OOM 記錄當成硬體已被排除。
+**NativeDeadlines** rearranged the work of already-paid workers within limited
+windows while preserving necessary physical tasks. On 32 new worlds against
+17 opponents in both seats, it won **1055 / 1088** cells, versus **1037** for
+FlexService: 20 recoveries and two regressions.
 
-## 7. 競爭差距與資料資產的實際邊界
+Both regressions occurred in one world. Additional feeding at turn 115
+removed a wheat sale at turn 120. By turn 168, the candidate held 32 cash
+instead of 62; seven workers required 33, so one could not be hired. The
+original feasibility forecast ended at turn 143 and missed this commitment.
 
-曾盤點到6297場完整官方回放、2782個對手team與5543個submission，但它們不是
-6297個獨立世界，也不是2782個可執行對手。共用索引落後新資料；定向使用部分
-回放不等於已覆蓋近期頂尖隊伍。高本地勝率的一部分來自相近政策祖先與飽和對手。
+**Committed** extended the funding horizon to the next unresolved investment
+decision. Across two non-overlapping 32-world blocks with seven opponents,
+it won **843 / 896**, versus **832** for Flex, with 11 recoveries and no
+regressions. All 11 recoveries were against the earlier LateFlock policy;
+against the other six opponents, both scored **733 / 768**.
 
-有用資產是可驗證的介面、來源與配置指紋、逐場成對結果、雙方會計和可重現提交，
-不是檔案數量。最後仍缺少充分的近期頂尖 responsive peer 覆蓋與更廣泛策略自由度。
-不能用持續的小診斷、Oracle 的口頭肯定或 Public 名次，取代這個競爭差距。
-新的未提交候選本地已封裝、量測，但提交截止後沒有合法機會把它們換入最終比賽。
+**CareTrade** allowed one scheduled care action to be exchanged for additional
+feeding, accounting for both effects. It recovered two development outcomes,
+but on 32 new worlds scored **418 / 448**, identical to Committed, with mean
+final-balance difference lower by 28.88. This configuration was not promoted.
 
-本文件由研究代理依留存結果重寫；沒有收錄完整第三方 writeup 或完整 Oracle 回答。
-重要分組與逐場表在 `results/`，來源摘要指紋在 `manifests/research_sources.json`。
+These variants were local research results and were not part of the submitted
+pair. Committed's measured maximum callback was 6.878 seconds, substantially
+higher than the submitted controllers, adding a deployment cost to its narrow gain.
+
+## 7. Results and limitations
+
+The saved official observation on **2026-10-02 04:26 UTC** reported Public
+ratings of **2409.8 for FlexService** and **2163.7 for AdaptiveMilk**.
+Final ranking remained pending during post-submission evaluation.
+
+The study collected 6,297 complete official replays spanning 2,782 opponent
+teams and 5,543 submissions. These counts do not represent that many
+independent worlds or executable opponent controllers. Local panels contained
+related policies and lacked sufficient coverage of recent leading responsive
+opponents. High local scores therefore did not establish equivalent field strength.
+
+The strongest measured progression came from expanding narrow selectors into
+complete production programs with actual material, labor, and funding feedback.
+The remaining limitation was generalization across changing opponents and
+markets. [Results](RESULTS.md) preserves matched comparisons;
+[reproduction](REPRODUCE.md) explains which submitted policies can be rebuilt.

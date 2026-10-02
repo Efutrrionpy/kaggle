@@ -29,7 +29,7 @@
         "sha256": "0f5b2a754fe4796f4ccc99f1fd21e1e7d5a25139b4e035e76f37f5e34674ba87",
         "bytes": 196124
       },
-      "strategy": "精確動態推論 replay；不是固定 visible CSV 回填。雙 temporal UNet/node-transformer、DeepCenter 輔助先驗、bidirectional/harmonic association、ILP 與圖修補。"
+      "strategy": "Dynamic inference replay using two temporal U-Net / node-Transformer models, a DeepCenter auxiliary prior, bidirectional / harmonic association, ILP, and graph repair."
     },
     {
       "reference_label": "final_selected_fixed_collective_motion",
@@ -60,7 +60,7 @@
         "sha256": "052ebbb0c2f582f9bcb94fd914e994a6afa255acaa1ccef422df9c7b025656fe",
         "bytes": 12197672
       },
-      "strategy": "0.26 DeepCenter safe-division threshold baseline，追加固定 collective-motion overlay；只更改既有 ordinary continuation 的 source_id，保護 division、node、row 與 edge count。"
+      "strategy": "DeepCenter safe-division baseline at threshold 0.26, followed by fixed collective-motion refinement. It changes source_id only for existing ordinary continuations, preserving division structure, nodes, rows, and edge counts."
     }
   ],
   "model_references": [
@@ -135,14 +135,14 @@
     "changed_visible_edges": 20
   },
   "exclusions": [
-    "原始受限比賽影像、標籤、visible prediction CSV 及大型權重不放入 GitHub。",
-    "完整第三方 Notebook 與 writeup 不重發；未在保存 metadata 證實 Notebook code license，僅給公開來源、hash 和取得/重建說明。",
-    "不包含憑證、cookie、個人 session、機器絕對路徑或外部服務私有執行識別碼。",
-    "三模型 dataset 的 CC0 宣告與 upstream repo 的 BSD-3-Clause 不自動涵蓋整本衍生 Notebook。"
+    "Competition images, labels, visible prediction CSVs, and model weights are referenced separately.",
+    "External notebooks and writeups are referenced through their sources; notebook redistribution terms were not established.",
+    "Credentials, cookies, personal sessions, machine paths, and private service identifiers are excluded.",
+    "Checkpoint CC0 declarations and the upstream BSD-3-Clause license do not establish rights to the full derived notebook."
   ],
   "limitations": [
-    "visible CSV checksum 不是 hidden rerun CSV checksum；官方分數以 submission ref 的 COMPLETE 記錄獨立核對。",
-    "未保存完整 Torch/CUDA 或 Kaggle base-image imported-version inventory；列出的 overlay versions 為實際 runtime evidence。",
-    "wheel 授權 metadata 不等於完整 transitive legal closure；沒有宣稱法律審查全部完成。"
+    "Visible-output hashes identify visible predictions, not hidden rerun outputs. Official scores are verified through completed submission records.",
+    "Recorded overlay versions do not specify the complete Torch, CUDA, or Kaggle base-image environment.",
+    "Retained wheel license metadata is not a complete review of all transitive dependencies."
   ]
 }

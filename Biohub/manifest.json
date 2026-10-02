@@ -10,8 +10,8 @@
     },
     {
       "path": "FINAL_RESULTS.md",
-      "bytes": 3216,
-      "sha256": "325aac7ab52cc8045924b57aed6e28f54328161c283fe6e15eb41febe915a19a"
+      "bytes": 2767,
+      "sha256": "a516916fd5ece59f6aa9c7b7b45b3c746e4311995d374d276d09e341d2d3e027"
     },
     {
       "path": "LICENSE",
@@ -20,28 +20,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 2701,
-      "sha256": "d6e23dfd407606659bb18924744c4b39ab31613fc10d90efc831d335e8cce1dc"
+      "bytes": 3421,
+      "sha256": "2bd2f8a55a1d554d99fc9480ac45428c834e920f91bf8942f2ccb2b80bb377a4"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 5047,
-      "sha256": "faf412b3de999014507ecde7324e48ef7ac5755158d4e5fb4f93d8919440e879"
+      "bytes": 2985,
+      "sha256": "c3a12a83a7206081ab66013e4a2b07dbc0fee84abe684579d831462fbefcebc2"
     },
     {
       "path": "RESEARCH_HISTORY.md",
-      "bytes": 15627,
-      "sha256": "0dae6f53a1da575a73ee9bca2cdd32e2daca4203cd5934f787767d184e3e55e3"
+      "bytes": 8608,
+      "sha256": "12fb8f93c815cec2dd4a6f9ad2bec99cee091749453264fedb9ed0a60ef14487"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1725,
-      "sha256": "b025f6b4fa5673da28db558e1397aec55f1a5bcf463df0eb65cd21f34ee62dd8"
+      "bytes": 1343,
+      "sha256": "9293dddad49edb220962587a47ae8e2f683b37ea5973d682cfca654a87c41713"
     },
     {
       "path": "docs/PROMPT_REVIEW.md",
-      "bytes": 6226,
-      "sha256": "bd870a2f3f8b735def422c406db5c4beeca8718615b6575710f198e02847434d"
+      "bytes": 1760,
+      "sha256": "0da773a0464ece11c2c9cc7cd50e3992f9b64699d02ba7d05d9a4c01012d27c7"
     },
     {
       "path": "prompts/CURRENT_DESIGN.md",
@@ -65,8 +65,8 @@
     },
     {
       "path": "results/final_artifacts.json",
-      "bytes": 7381,
-      "sha256": "91ea0d2eebd8df043054e739456a5349034ddc24d7e174a600406413f6ef70bf"
+      "bytes": 7357,
+      "sha256": "f6a508fb5075c9fc2d7f5305483711d1a269163295de97a7642c62dc511276d4"
     },
     {
       "path": "results/official_evidence.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "results/research_results.csv",
-      "bytes": 7776,
-      "sha256": "b176ecaf7b27b5ca01172229df281bb3aca52d71cb3fc614f1bde31fb3e68a91"
+      "bytes": 8402,
+      "sha256": "361da5a7fb066d9f1504937649d41a06c7804fdd9e056c649fc7e7ab3678aa95"
     },
     {
       "path": "src/csv_overlay.py",
