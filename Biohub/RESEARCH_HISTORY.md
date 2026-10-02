@@ -12,7 +12,7 @@ The study examined whether motion evidence, learned division configurations,
 longer temporal context, and self-supervised representations could improve
 this pipeline. The final selected baseline achieved **0.91051 Private**;
 the motion variant achieved **0.90743 Private**. The account placed
-**1,714 / 4,020** on the final Private leaderboard.
+**1,714th out of 4,020 teams** on the final Private leaderboard.
 
 ## 2. Threshold and collective-motion refinement
 

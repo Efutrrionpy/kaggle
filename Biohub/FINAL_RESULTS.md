@@ -2,9 +2,15 @@
 
 ## Official evaluation
 
-The best selected submission achieved **0.91051 Private**, with the account
-ranked **1,714 / 4,020**. The saved leaderboard displayed the score as 0.910;
-the submission readback retained five-decimal precision.
+| Final competition result | Outcome |
+|---|---|
+| Final Private leaderboard rank | **1,714th out of 4,020 teams** |
+| Best selected Private score | **0.91051** |
+| Medal | None |
+
+The rank is the team's final placement, based on its best selected submission.
+The saved leaderboard displayed the score as 0.910; the submission readback
+retained five-decimal precision.
 
 | Pipeline | Submission | Public | Private | Selection |
 |---|---:|---:|---:|---|

@@ -8,7 +8,9 @@ The final policies combined demonstration-derived production programs with
 current-state economic decisions and explicit cash-flow feasibility.
 **FlexService scored 677 / 768 local evaluation points**, against 622 for
 AdaptiveMilk on the same panel. Their saved official Public ratings were
-**2409.8 and 2163.7**; final ranking was pending at the 2026-10-02 observation.
+**2409.8 and 2163.7**, respectively. **Final competition rank: pending official
+finalization** at the 2026-10-02 observation. The two values are skill ratings,
+not leaderboard positions.
 
 ## Models and methods
 

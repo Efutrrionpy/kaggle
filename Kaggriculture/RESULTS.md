@@ -2,6 +2,10 @@
 
 ## Official submissions
 
+**Final competition rank: pending official finalization** in the saved
+2026-10-02 04:26 UTC observation. The scores below are Public skill ratings,
+not ranks; both controllers belong to the same team.
+
 | Controller | Submission | Public rating¹ | Measured maximum callback |
 |---|---:|---:|---:|
 | FlexService | 56705674 | **2409.8** | ≤ 0.1051 s |

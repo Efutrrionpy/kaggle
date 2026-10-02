@@ -3,11 +3,11 @@
 Three applied research studies in geological sequence prediction, cell tracking,
 and competitive resource management.
 
-| Competition | Principal models and methods | Competition result |
-|---|---|---|
-| [ROGII — Wellbore Geology Prediction](ROGII/README.md) | CatBoost, Particle Filter / HMM alignment, robust stratigraphic projection | **Private RMSE 8.889 · 444 / 6,191 · Bronze** |
-| [Biohub — Cell Tracking during Development](Biohub/README.md) | Temporal 3D U-Nets, node Transformers, DeepCenter, ILP tracking, collective-motion refinement | **Best selected Private score 0.91051 · 1,714 / 4,020** |
-| [Kaggriculture](Kaggriculture/README.md) | Demonstration-derived policies, state-conditioned economic routing, resource-constrained service planning | **Public ratings 2409.8 / 2163.7; final ranking pending**¹ |
+| Competition | Principal models and methods | Final Private leaderboard rank | Official score |
+|---|---|---|---|
+| [ROGII — Wellbore Geology Prediction](ROGII/README.md) | CatBoost, Particle Filter / HMM alignment, robust stratigraphic projection | **444th out of 6,191 teams — Bronze medal** | Private RMSE **8.889** |
+| [Biohub — Cell Tracking during Development](Biohub/README.md) | Temporal 3D U-Nets, node Transformers, DeepCenter, ILP tracking, collective-motion refinement | **1,714th out of 4,020 teams** | Best selected Private score **0.91051** |
+| [Kaggriculture](Kaggriculture/README.md) | Demonstration-derived policies, state-conditioned economic routing, resource-constrained service planning | **Pending official finalization**¹ | Public ratings: FlexService **2409.8**; AdaptiveMilk **2163.7**¹ |
 
 ## Research findings
 
@@ -30,5 +30,5 @@ and reproducibility scope. Official results and local estimates are reported
 separately; scores from different competitions or validation panels are not
 directly comparable.
 
-¹ Kaggriculture ratings are from the saved official observation on
-**2026-10-02 04:26 UTC**, not a final medal result.
+¹ Kaggriculture had no confirmed final rank in the saved official observation on
+**2026-10-02 04:26 UTC**. The reported values are Public skill ratings, not ranks.

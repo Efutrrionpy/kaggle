@@ -2,7 +2,8 @@
 
 ## Outcome
 
-F57 finished with Private RMSE **8.889**, rank **444 of 6,191**, and a Bronze
+F57 finished with Private RMSE **8.889**, a final Private leaderboard rank of
+**444th out of 6,191 teams**, and a Bronze
 medal. Silver ended at rank 309 and RMSE 8.581, leaving a 0.308 gap.
 
 This is a successful Bronze result and an unsuccessful Silver objective. Both

@@ -6,7 +6,8 @@ We studied prediction of the hidden True Vertical Thickness (TVT) tail of
 horizontal wells using trajectory coordinates, Gamma Ray logs, a known TVT
 prefix, and a paired typewell. The final system combined query-local CatBoost
 regression, robust stratigraphic projection, and HMM alignment. It achieved
-**8.889 Private RMSE**, placing **444th of 6,191 teams** and earning a
+**8.889 Private RMSE**, placing **444th out of 6,191 teams on the final
+Private leaderboard** and earning a
 **Bronze medal**.
 
 ## Models and methods
@@ -57,7 +58,7 @@ recorded progression rather than a controlled ablation across every row.
 |---|---:|
 | Public RMSE | 7.502 |
 | Private RMSE | **8.889** |
-| Private rank | **444 / 6,191** |
+| Final Private leaderboard rank | **444th out of 6,191 teams** |
 | Medal | **Bronze** |
 
 A competing account submission scored 6.449 Public but 9.565 Private. The

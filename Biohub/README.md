@@ -5,8 +5,8 @@
 We investigated cell detection and lineage tracking in volumetric developmental
 microscopy. The submitted pipeline combined temporal 3D U-Nets, node
 Transformers, an auxiliary DeepCenter model, and graph optimization.
-The best selected submission achieved **0.91051 Private**, placing
-**1,714th of 4,020 teams**. A collective-motion variant achieved
+The best selected submission achieved **0.91051 Private**. The team's final
+Private leaderboard rank was **1,714th out of 4,020 teams**. A collective-motion variant achieved
 **0.94218 Public** and **0.90743 Private**.
 
 ## Models and methods

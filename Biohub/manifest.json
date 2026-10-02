@@ -10,8 +10,8 @@
     },
     {
       "path": "FINAL_RESULTS.md",
-      "bytes": 2767,
-      "sha256": "a516916fd5ece59f6aa9c7b7b45b3c746e4311995d374d276d09e341d2d3e027"
+      "bytes": 2925,
+      "sha256": "d988f2d6bdb67bc5189e1b50094cb719bb553f3300c6ab1c1bb00ca46f3bfa70"
     },
     {
       "path": "LICENSE",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3421,
-      "sha256": "2bd2f8a55a1d554d99fc9480ac45428c834e920f91bf8942f2ccb2b80bb377a4"
+      "bytes": 3463,
+      "sha256": "e7847f93b43985a89e16234cbd5085bf0b8cc7880fd1d9bcb92515382335fbb4"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "RESEARCH_HISTORY.md",
-      "bytes": 8608,
-      "sha256": "12fb8f93c815cec2dd4a6f9ad2bec99cee091749453264fedb9ed0a60ef14487"
+      "bytes": 8621,
+      "sha256": "f04907d26fa3afc505a2a67bd003d63ee6d42894c3bd363917a3ee3e4c979a19"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
