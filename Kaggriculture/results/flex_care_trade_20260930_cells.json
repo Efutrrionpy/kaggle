@@ -1,0 +1,7175 @@
+{
+  "experiment": "flex_care_trade_20260930",
+  "source_result_sha256": "26d74fbc6117e810ba283e0dfdef8be8a56fdf909351742945062146e9ca42b7",
+  "rows": [
+    {
+      "key": "2026210001-accepted_late-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        150813.0,
+        147913.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-accepted_late-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        147913.0,
+        150813.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        139853.0,
+        105784.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105784.0,
+        139853.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        114029.0,
+        107922.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107922.0,
+        114029.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137232.0,
+        123837.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        123837.0,
+        137232.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        157306.0,
+        121348.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        121348.0,
+        157306.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-harvest94-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105956.0,
+        91153.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-harvest94-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91153.0,
+        105956.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-flex43_latest-0-care_trade",
+      "seed": 2026210001,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106545.0,
+        89033.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210001-flex43_latest-1-care_trade",
+      "seed": 2026210001,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        89033.0,
+        106545.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-accepted_late-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        50816.0,
+        48978.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-accepted_late-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        48978.0,
+        50816.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91815.0,
+        70593.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70593.0,
+        91815.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        85387.0,
+        41909.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        41909.0,
+        85387.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        72613.0,
+        57884.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        57884.0,
+        72613.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70103.0,
+        48276.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        48276.0,
+        70103.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-harvest94-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        74594.0,
+        64289.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-harvest94-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        64289.0,
+        74594.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-flex43_latest-0-care_trade",
+      "seed": 2026210002,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        84705.0,
+        70509.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210002-flex43_latest-1-care_trade",
+      "seed": 2026210002,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70509.0,
+        84705.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-accepted_late-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        84014.0,
+        74660.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-accepted_late-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        74660.0,
+        84014.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        87830.0,
+        69831.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        69831.0,
+        87830.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93400.0,
+        41122.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        41122.0,
+        93400.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91008.0,
+        84055.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        84055.0,
+        91008.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        90206.0,
+        67865.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67865.0,
+        90206.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-harvest94-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94110.0,
+        103487.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-harvest94-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103487.0,
+        94110.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-flex43_latest-0-care_trade",
+      "seed": 2026210003,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        96314.0,
+        99742.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210003-flex43_latest-1-care_trade",
+      "seed": 2026210003,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        99742.0,
+        96314.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-accepted_late-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133030.0,
+        129823.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-accepted_late-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        129823.0,
+        133030.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        111623.0,
+        112313.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        112313.0,
+        111623.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        95354.0,
+        74757.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        74757.0,
+        95354.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103198.0,
+        87060.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        87060.0,
+        103198.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106497.0,
+        75641.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        75641.0,
+        106497.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-harvest94-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        121803.0,
+        109539.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-harvest94-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        109539.0,
+        121803.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-flex43_latest-0-care_trade",
+      "seed": 2026210004,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        124805.0,
+        111849.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210004-flex43_latest-1-care_trade",
+      "seed": 2026210004,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        111849.0,
+        124805.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-accepted_late-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94251.0,
+        83569.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-accepted_late-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        83569.0,
+        94251.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        90161.0,
+        76637.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        76637.0,
+        90161.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93316.0,
+        52171.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        52219.0,
+        93314.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91397.0,
+        78717.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        78638.0,
+        91406.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        120455.0,
+        98584.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        98873.0,
+        120310.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-harvest94-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        90196.0,
+        89147.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-harvest94-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        89147.0,
+        90196.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-flex43_latest-0-care_trade",
+      "seed": 2026210005,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91330.0,
+        89656.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210005-flex43_latest-1-care_trade",
+      "seed": 2026210005,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        89656.0,
+        91330.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-accepted_late-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108251.0,
+        106026.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-accepted_late-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106026.0,
+        108251.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102256.0,
+        86624.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        86624.0,
+        102256.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108857.0,
+        99509.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        99509.0,
+        108857.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        114841.0,
+        102979.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102979.0,
+        114841.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88577.0,
+        84257.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        84257.0,
+        88577.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-harvest94-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91691.0,
+        77093.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-harvest94-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        77093.0,
+        91691.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-flex43_latest-0-care_trade",
+      "seed": 2026210006,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93419.0,
+        77786.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210006-flex43_latest-1-care_trade",
+      "seed": 2026210006,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        77786.0,
+        93419.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-accepted_late-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91720.0,
+        83110.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-accepted_late-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        83110.0,
+        91720.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67427.0,
+        76143.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        76143.0,
+        67427.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        77015.0,
+        58444.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        58444.0,
+        77015.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        81424.0,
+        69573.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        69573.0,
+        81424.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        85816.0,
+        75366.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        75366.0,
+        85816.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-harvest94-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        76014.0,
+        62431.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-harvest94-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        62431.0,
+        76014.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-flex43_latest-0-care_trade",
+      "seed": 2026210007,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        77260.0,
+        59525.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210007-flex43_latest-1-care_trade",
+      "seed": 2026210007,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        59525.0,
+        77260.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-accepted_late-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        125268.0,
+        121857.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-accepted_late-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        121857.0,
+        125268.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        138336.0,
+        78478.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        78478.0,
+        138336.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133630.0,
+        55561.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        55561.0,
+        133630.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        126013.0,
+        82879.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        82879.0,
+        126013.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137543.0,
+        64353.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        64353.0,
+        137543.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-harvest94-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        144741.0,
+        139253.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-harvest94-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        139253.0,
+        144741.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-flex43_latest-0-care_trade",
+      "seed": 2026210008,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        131497.0,
+        113307.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210008-flex43_latest-1-care_trade",
+      "seed": 2026210008,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113307.0,
+        131497.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-accepted_late-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        138679.0,
+        137057.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-accepted_late-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137057.0,
+        138679.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116347.0,
+        94108.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94108.0,
+        116347.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133011.0,
+        100713.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        100713.0,
+        133011.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113502.0,
+        96171.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        96047.0,
+        113509.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        124365.0,
+        126762.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        126762.0,
+        124365.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-harvest94-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        112856.0,
+        102038.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-harvest94-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102038.0,
+        112856.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-flex43_latest-0-care_trade",
+      "seed": 2026210009,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        112490.0,
+        100068.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210009-flex43_latest-1-care_trade",
+      "seed": 2026210009,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        100068.0,
+        112490.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-accepted_late-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        61401.0,
+        59270.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-accepted_late-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        59270.0,
+        61401.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        83435.0,
+        70463.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70463.0,
+        83435.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        78281.0,
+        46934.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        46932.0,
+        78284.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67441.0,
+        44313.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        44313.0,
+        67441.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        76191.0,
+        52047.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        52047.0,
+        76191.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-harvest94-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        78435.0,
+        67124.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-harvest94-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67124.0,
+        78435.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-flex43_latest-0-care_trade",
+      "seed": 2026210010,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        79510.0,
+        66347.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210010-flex43_latest-1-care_trade",
+      "seed": 2026210010,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        66347.0,
+        79510.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-accepted_late-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        104473.0,
+        103436.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-accepted_late-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103496.0,
+        104413.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        127591.0,
+        101410.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101410.0,
+        127591.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108596.0,
+        95196.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        95196.0,
+        108596.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93938.0,
+        75450.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        75450.0,
+        93938.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        168274.0,
+        150398.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        150398.0,
+        168274.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-harvest94-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        128315.0,
+        115438.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-harvest94-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115438.0,
+        128315.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-flex43_latest-0-care_trade",
+      "seed": 2026210011,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        129627.0,
+        116580.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210011-flex43_latest-1-care_trade",
+      "seed": 2026210011,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116580.0,
+        129627.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-accepted_late-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        119500.0,
+        118518.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-accepted_late-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        118518.0,
+        119500.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        140700.0,
+        117240.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        117240.0,
+        140700.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        125077.0,
+        109208.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        109208.0,
+        125077.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113150.0,
+        108713.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108713.0,
+        113150.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        144534.0,
+        102799.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102799.0,
+        144534.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-harvest94-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        131869.0,
+        123820.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-harvest94-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        123820.0,
+        131869.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-flex43_latest-0-care_trade",
+      "seed": 2026210012,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133838.0,
+        122675.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210012-flex43_latest-1-care_trade",
+      "seed": 2026210012,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        122675.0,
+        133838.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-accepted_late-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133313.0,
+        123908.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-accepted_late-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        123908.0,
+        133313.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        127819.0,
+        110946.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110946.0,
+        127819.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102113.0,
+        97568.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        97674.0,
+        102105.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133234.0,
+        98338.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        98676.0,
+        132743.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        141343.0,
+        96626.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        96626.0,
+        141343.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-harvest94-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        89883.0,
+        68494.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-harvest94-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        68494.0,
+        89883.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-flex43_latest-0-care_trade",
+      "seed": 2026210013,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        90063.0,
+        67968.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210013-flex43_latest-1-care_trade",
+      "seed": 2026210013,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67968.0,
+        90063.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-accepted_late-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        63354.0,
+        61537.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-accepted_late-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        61537.0,
+        63354.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        71618.0,
+        69876.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        69876.0,
+        71618.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        84650.0,
+        45617.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        45617.0,
+        84650.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101032.0,
+        91643.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91643.0,
+        101032.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105075.0,
+        80272.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        80272.0,
+        105075.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-harvest94-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        72015.0,
+        54675.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-harvest94-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        54675.0,
+        72015.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-flex43_latest-0-care_trade",
+      "seed": 2026210014,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        72306.0,
+        54057.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210014-flex43_latest-1-care_trade",
+      "seed": 2026210014,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        54057.0,
+        72306.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-accepted_late-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        126739.0,
+        118555.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-accepted_late-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        118555.0,
+        126739.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        118412.0,
+        109146.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        109146.0,
+        118412.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        95698.0,
+        75927.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        75927.0,
+        95698.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        133291.0,
+        101736.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101736.0,
+        133291.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        136883.0,
+        110793.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110793.0,
+        136883.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-harvest94-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113713.0,
+        102003.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-harvest94-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102003.0,
+        113713.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-flex43_latest-0-care_trade",
+      "seed": 2026210015,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115514.0,
+        102651.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210015-flex43_latest-1-care_trade",
+      "seed": 2026210015,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102651.0,
+        115514.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-accepted_late-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67124.0,
+        65052.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-accepted_late-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        65052.0,
+        67124.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        74722.0,
+        81457.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        81457.0,
+        74722.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        84201.0,
+        58036.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        58036.0,
+        84201.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        86743.0,
+        79140.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        79140.0,
+        86743.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        127638.0,
+        93433.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93433.0,
+        127638.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-harvest94-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        68974.0,
+        56838.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-harvest94-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        56838.0,
+        68974.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-flex43_latest-0-care_trade",
+      "seed": 2026210016,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        69195.0,
+        53898.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210016-flex43_latest-1-care_trade",
+      "seed": 2026210016,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        53898.0,
+        69195.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-accepted_late-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91545.0,
+        81786.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-accepted_late-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        81786.0,
+        91545.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110257.0,
+        83330.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        83330.0,
+        110257.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113519.0,
+        68065.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        68062.0,
+        113533.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        98121.0,
+        83790.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        83790.0,
+        98121.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        131610.0,
+        106702.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106702.0,
+        131610.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-harvest94-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107093.0,
+        101887.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-harvest94-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101887.0,
+        107093.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-flex43_latest-0-care_trade",
+      "seed": 2026210017,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107577.0,
+        101927.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210017-flex43_latest-1-care_trade",
+      "seed": 2026210017,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101927.0,
+        107577.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-accepted_late-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        68372.0,
+        66758.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-accepted_late-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        66758.0,
+        68372.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        78316.0,
+        68222.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        68222.0,
+        78316.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        85593.0,
+        52325.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        52325.0,
+        85593.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        78689.0,
+        63708.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        63708.0,
+        78689.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        77684.0,
+        56412.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        56412.0,
+        77684.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-harvest94-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        72044.0,
+        60160.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-harvest94-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        60160.0,
+        72044.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-flex43_latest-0-care_trade",
+      "seed": 2026210018,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        71787.0,
+        53602.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210018-flex43_latest-1-care_trade",
+      "seed": 2026210018,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        53602.0,
+        71787.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-accepted_late-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        109633.0,
+        107324.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-accepted_late-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107324.0,
+        109633.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        125656.0,
+        98453.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        98453.0,
+        125656.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        119630.0,
+        94184.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94184.0,
+        119630.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        124211.0,
+        118983.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        118983.0,
+        124211.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103260.0,
+        74758.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        74758.0,
+        103260.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-harvest94-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105891.0,
+        91612.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-harvest94-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91612.0,
+        105891.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-flex43_latest-0-care_trade",
+      "seed": 2026210019,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107247.0,
+        91054.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210019-flex43_latest-1-care_trade",
+      "seed": 2026210019,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91054.0,
+        107247.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-accepted_late-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106899.0,
+        105527.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-accepted_late-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105527.0,
+        106899.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116115.0,
+        94029.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94029.0,
+        116115.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110019.0,
+        96422.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        95158.0,
+        109254.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107425.0,
+        92781.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        92781.0,
+        107425.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        142156.0,
+        137477.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137477.0,
+        142156.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-harvest94-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115201.0,
+        104180.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-harvest94-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        104180.0,
+        115201.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-flex43_latest-0-care_trade",
+      "seed": 2026210020,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115989.0,
+        105143.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210020-flex43_latest-1-care_trade",
+      "seed": 2026210020,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105143.0,
+        115989.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-accepted_late-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103404.0,
+        94459.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-accepted_late-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94459.0,
+        103404.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        145959.0,
+        116079.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116079.0,
+        145959.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        134700.0,
+        136304.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        136304.0,
+        134700.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137513.0,
+        103128.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103128.0,
+        137513.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102936.0,
+        71723.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        71723.0,
+        102936.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-harvest94-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        146286.0,
+        138727.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-harvest94-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        138727.0,
+        146286.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-flex43_latest-0-care_trade",
+      "seed": 2026210021,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        153686.0,
+        142993.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210021-flex43_latest-1-care_trade",
+      "seed": 2026210021,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        142993.0,
+        153686.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-accepted_late-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        104297.0,
+        93661.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-accepted_late-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93661.0,
+        104297.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        170956.0,
+        121870.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        121870.0,
+        170956.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        148983.0,
+        110552.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110552.0,
+        148983.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110355.0,
+        101808.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101808.0,
+        110355.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116627.0,
+        79313.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        79313.0,
+        116627.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-harvest94-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137047.0,
+        126201.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-harvest94-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        126201.0,
+        137047.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-flex43_latest-0-care_trade",
+      "seed": 2026210022,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116465.0,
+        114393.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210022-flex43_latest-1-care_trade",
+      "seed": 2026210022,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        114393.0,
+        116465.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-accepted_late-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102698.0,
+        102674.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-accepted_late-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102674.0,
+        102698.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        123207.0,
+        108722.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108722.0,
+        123207.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93077.0,
+        62630.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        62630.0,
+        93077.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        123426.0,
+        103300.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103300.0,
+        123426.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        132848.0,
+        100768.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        100768.0,
+        132848.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-harvest94-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106247.0,
+        91075.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-harvest94-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91075.0,
+        106247.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-flex43_latest-0-care_trade",
+      "seed": 2026210023,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108240.0,
+        92302.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210023-flex43_latest-1-care_trade",
+      "seed": 2026210023,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        92302.0,
+        108240.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-accepted_late-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116837.0,
+        116465.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-accepted_late-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116797.0,
+        116505.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105331.0,
+        94001.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94001.0,
+        105331.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        95609.0,
+        69001.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        69140.0,
+        95586.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        134649.0,
+        106961.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107169.0,
+        134191.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106767.0,
+        113296.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113296.0,
+        106767.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-harvest94-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        101602.0,
+        82797.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-harvest94-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        82797.0,
+        101602.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-flex43_latest-0-care_trade",
+      "seed": 2026210024,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102213.0,
+        82268.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210024-flex43_latest-1-care_trade",
+      "seed": 2026210024,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        82268.0,
+        102213.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-accepted_late-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        160528.0,
+        159624.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-accepted_late-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        159624.0,
+        160528.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        166325.0,
+        120842.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        120842.0,
+        166325.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        151334.0,
+        120313.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        120313.0,
+        151334.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        125029.0,
+        107251.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107251.0,
+        125029.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93906.0,
+        79464.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        79464.0,
+        93906.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-harvest94-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106147.0,
+        92668.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-harvest94-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        92668.0,
+        106147.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-flex43_latest-0-care_trade",
+      "seed": 2026210025,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115769.0,
+        96815.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210025-flex43_latest-1-care_trade",
+      "seed": 2026210025,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        96815.0,
+        115769.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-accepted_late-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113891.0,
+        115356.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-accepted_late-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115356.0,
+        113891.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        109271.0,
+        92406.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        92406.0,
+        109271.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108637.0,
+        63480.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        63480.0,
+        108637.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        86911.0,
+        70153.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70153.0,
+        86911.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        138775.0,
+        126163.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        126163.0,
+        138775.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-harvest94-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107650.0,
+        100195.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-harvest94-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        100195.0,
+        107650.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-flex43_latest-0-care_trade",
+      "seed": 2026210026,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        110576.0,
+        98340.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210026-flex43_latest-1-care_trade",
+      "seed": 2026210026,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        98340.0,
+        110576.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-accepted_late-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        93657.0,
+        90331.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-accepted_late-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        90331.0,
+        93657.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        104332.0,
+        91765.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        91765.0,
+        104332.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        103598.0,
+        75515.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        75515.0,
+        103598.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106314.0,
+        67159.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        67159.0,
+        106314.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        74094.0,
+        50280.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        50280.0,
+        74094.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-harvest94-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        97894.0,
+        88424.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-harvest94-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88424.0,
+        97894.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-flex43_latest-0-care_trade",
+      "seed": 2026210027,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        99531.0,
+        87797.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210027-flex43_latest-1-care_trade",
+      "seed": 2026210027,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        87797.0,
+        99531.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-accepted_late-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        90954.0,
+        79594.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-accepted_late-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        79594.0,
+        90954.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        87216.0,
+        70227.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70227.0,
+        87216.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88051.0,
+        43087.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        43087.0,
+        88051.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        96332.0,
+        80948.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        80948.0,
+        96332.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        100767.0,
+        77712.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        77712.0,
+        100767.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-harvest94-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        70927.0,
+        61962.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-harvest94-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        61962.0,
+        70927.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-flex43_latest-0-care_trade",
+      "seed": 2026210028,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        72217.0,
+        62040.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210028-flex43_latest-1-care_trade",
+      "seed": 2026210028,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        62040.0,
+        72217.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-accepted_late-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        143490.0,
+        143113.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-accepted_late-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        143113.0,
+        143490.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        165609.0,
+        124798.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        124798.0,
+        165609.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        137461.0,
+        108791.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108791.0,
+        137461.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        159958.0,
+        147890.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        147890.0,
+        159958.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        158498.0,
+        120107.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        120107.0,
+        158498.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-harvest94-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        128015.0,
+        113346.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-harvest94-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113346.0,
+        128015.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-flex43_latest-0-care_trade",
+      "seed": 2026210029,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        129560.0,
+        113616.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210029-flex43_latest-1-care_trade",
+      "seed": 2026210029,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113616.0,
+        129560.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-accepted_late-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88972.0,
+        88668.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-accepted_late-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88651.0,
+        89033.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        138169.0,
+        109146.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        109146.0,
+        138169.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        86195.0,
+        68404.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        68403.0,
+        86333.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        115598.0,
+        94890.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94882.0,
+        115605.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        164551.0,
+        148712.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        148712.0,
+        164551.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-harvest94-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        106474.0,
+        88738.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-harvest94-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88738.0,
+        106474.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-flex43_latest-0-care_trade",
+      "seed": 2026210030,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        108702.0,
+        89849.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210030-flex43_latest-1-care_trade",
+      "seed": 2026210030,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        89849.0,
+        108702.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-accepted_late-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        102838.0,
+        99272.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-accepted_late-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        99272.0,
+        102838.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        164495.0,
+        124211.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        124211.0,
+        164495.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        131782.0,
+        105993.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105993.0,
+        131782.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        120301.0,
+        94043.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        94043.0,
+        120301.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        136290.0,
+        129079.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        129079.0,
+        136290.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-harvest94-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        127520.0,
+        107912.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-harvest94-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        107912.0,
+        127520.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-flex43_latest-0-care_trade",
+      "seed": 2026210031,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        138424.0,
+        116866.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210031-flex43_latest-1-care_trade",
+      "seed": 2026210031,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        116866.0,
+        138424.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-accepted_late-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        88626.0,
+        87921.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-accepted_late-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        87921.0,
+        88626.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115806028-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        136270.0,
+        113238.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115806028-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115806028",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113238.0,
+        136270.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115793815-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        145654.0,
+        154990.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115793815-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115793815",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        154990.0,
+        145654.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115801436-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        113517.0,
+        105117.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115801436-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115801436",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        105117.0,
+        113517.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115792276-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        100561.0,
+        57343.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-field_flex_recent_115792276-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "field_flex_recent_115792276",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        57343.0,
+        100561.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-harvest94-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "harvest94",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        141258.0,
+        136001.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-harvest94-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "harvest94",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        136001.0,
+        141258.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-flex43_latest-0-care_trade",
+      "seed": 2026210032,
+      "opponent": "flex43_latest",
+      "seat": 0,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        146971.0,
+        134458.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026210032-flex43_latest-1-care_trade",
+      "seed": 2026210032,
+      "opponent": "flex43_latest",
+      "seat": 1,
+      "arm": "care_trade",
+      "valid": true,
+      "rewards": [
+        134458.0,
+        146971.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    }
+  ],
+  "scope": "Synthetic local comparison outcome rows, not original competition data or independent observations per seat. Methods changed after a panel was read require fresh worlds."
+}

@@ -1,0 +1,82 @@
+{
+  "flex_service": {
+    "official_parity": {
+      "status": "PASS",
+      "name": "flex_service",
+      "submission": 56705674,
+      "episode": 115743049,
+      "module_version": "1.32.7",
+      "archive_sha256": "20cff504fee6b78a539bf1bbdcaa90678e2e3db1de2e2ead2dfde8e205c2da87",
+      "checks": [
+        {
+          "seat": 0,
+          "actions": 719
+        },
+        {
+          "seat": 1,
+          "actions": 719
+        }
+      ],
+      "exact_actions": 1438,
+      "workers": 1,
+      "seconds": 5.827061905991286,
+      "scope": "Actual uploaded package on earliest official own validation, both seats. Own inventory order causally reconstructed and input values asserted. Deployment proof, not competitive/gold proof."
+    },
+    "runtime": {
+      "status": "PASS",
+      "loader_seconds": 0.0020773130090674385,
+      "max_call_seconds": 0.10500852498807944,
+      "max_stdio_seconds": 0.10143426099966746,
+      "peak_rss_kib": 358628,
+      "isolated": 1,
+      "site_disabled": 1,
+      "archive_sha256": "20cff504fee6b78a539bf1bbdcaa90678e2e3db1de2e2ead2dfde8e205c2da87",
+      "workers": 1,
+      "new_games": 0,
+      "seconds": 147.2415308799973,
+      "scope": "Isolated-I-S stdlib callback plus reused stdio process, full sequential paths and reset. No other project research compute during run. Measured callback/overage/RSS, not universal upper bound or official acceptance."
+    },
+    "tested_paths": 25,
+    "maximum_callback_overage": 0.0
+  },
+  "adaptive_milk": {
+    "official_parity": {
+      "status": "PASS",
+      "name": "adaptive_milk",
+      "submission": 56698261,
+      "episode": 115611747,
+      "module_version": "1.32.7",
+      "archive_sha256": "c532e7b11701929798a916ddf757411c74ccc256f076a78545bbfcf01b856722",
+      "checks": [
+        {
+          "seat": 0,
+          "actions": 719
+        },
+        {
+          "seat": 1,
+          "actions": 719
+        }
+      ],
+      "exact_actions": 1438,
+      "workers": 1,
+      "seconds": 4.853760005993536,
+      "scope": "Earliestownofficialvalidationbothseats, exactuploadedstdlibpackage. Owninventoryorder reconstructedcausallyfrompriorownactions;inputvaluesasserted. Deploymentparity,notcompetitive/goldproof."
+    },
+    "runtime": {
+      "status": "PASS",
+      "loader_seconds": 0.002065918000880629,
+      "max_call_seconds": 0.049016454999218695,
+      "max_stdio_seconds": 0.03178641000704374,
+      "peak_rss_kib": 354032,
+      "isolated": 1,
+      "site_disabled": 1,
+      "archive_sha256": "c532e7b11701929798a916ddf757411c74ccc256f076a78545bbfcf01b856722",
+      "workers": 1,
+      "new_games": 0,
+      "seconds": 118.84659200400347,
+      "scope": "Same isolated-I-S stdlib exact-path callback/stdio/fullinstance reset checker, currentAdaptiveMilk package and prospectivepaths. Sequential, nootherresearchcompute duringrun. Newinstance eachstep0 includes bothdecisionstates; exactwholepath actions verified. Measuredtiming, not universalupperbound orofficialacceptance."
+    },
+    "tested_paths": 26,
+    "maximum_callback_overage": 0.0
+  }
+}

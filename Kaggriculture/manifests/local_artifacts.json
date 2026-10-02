@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "name": "native_deadlines",
+      "submitted": false,
+      "local_relative_path": "artifacts/candidates/native_deadlines_20260930",
+      "archive_sha256": "d77cb393aa222da471c48dddd9812be7ffb0d593d6a7dd4b6d85fd49b636cf99",
+      "archive_bytes": 130669,
+      "manifest_sha256": "f17bc7abd594f4fd0ac8c38ce09ba32804710a78f6311f4fbd2e5ac8003449e6",
+      "availability": "Preserved locally; not included in this final-pair public source package; obtain from repository owner subject to source permissions."
+    },
+    {
+      "name": "native_committed",
+      "submitted": false,
+      "local_relative_path": "artifacts/candidates/native_committed_20260930",
+      "archive_sha256": "3befe3dd7c801451730e9f03a2e40edfdf15ce44949489c8f19f2201f1523be6",
+      "archive_bytes": 131419,
+      "manifest_sha256": "194afa8e675efd842c66733168e93e1df3e6ed56ede538cc2efa10358d3a3be0",
+      "availability": "Preserved locally; not included in this final-pair public source package; obtain from repository owner subject to source permissions."
+    }
+  ],
+  "raw_data_distributed": false
+}

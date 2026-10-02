@@ -1,0 +1,142 @@
+{
+  "evidence_kind": "Normalized transcription of actual official public read responses; not a raw API dump",
+  "competition": "biohub-cell-tracking-during-development",
+  "competition_id": 136605,
+  "access_utc_window": {
+    "leaderboard": "2026-10-01T15:54:53Z/2026-10-01T15:54:55Z",
+    "competition_metadata": "2026-10-01 approximately 15:59 UTC"
+  },
+  "official_sources": [
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/leaderboard",
+      "read_endpoint": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+      "method": "POST",
+      "request": {
+        "competitionId": 136605
+      },
+      "http_status": 200,
+      "mutation": false,
+      "ranked_rows_public": 4020,
+      "ranked_rows_private": 4020,
+      "team_identity_join": "teamId joined to returned teams and their members; solutionWriteUpUrl from the same response"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+      "read_endpoint": "https://www.kaggle.com/api/i/competitions.CompetitionService/GetCompetition",
+      "method": "POST",
+      "request": {
+        "competitionName": "biohub-cell-tracking-during-development"
+      },
+      "http_status": 200,
+      "mutation": false,
+      "showPrivateLeaderboard": true,
+      "medalsAllowed": true,
+      "hasSolution": true,
+      "forum_id": 10656304,
+      "submission_deadline_utc": "2026-09-29T23:59:00Z"
+    }
+  ],
+  "private_top_five": [
+    {
+      "rank": 1,
+      "team": "Sergio Alvarez",
+      "team_id": 16454292,
+      "members": [
+        "sersasj"
+      ],
+      "score": 0.977,
+      "medal": "gold",
+      "submission_id": 56675088,
+      "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/1st-place-solution",
+      "writeup_author": "/sersasj",
+      "writeup_competition_ranking": 1,
+      "published_at_utc": "2026-10-01T01:28:11.873Z",
+      "read_result": "complete technical writeup read; own source code marked To be released"
+    },
+    {
+      "rank": 2,
+      "team": "Soheil Ayati",
+      "team_id": 16531860,
+      "members": [
+        "soheilayati"
+      ],
+      "score": 0.97,
+      "medal": "gold",
+      "submission_id": 56529754,
+      "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/2nd-place-solution",
+      "writeup_author": "/soheilayati",
+      "writeup_competition_ranking": 2,
+      "published_at_utc": "2026-09-30T21:21:32.207Z",
+      "read_result": "complete technical writeup read; complete own code not located"
+    },
+    {
+      "rank": 3,
+      "team": "yu4u",
+      "team_id": 16454395,
+      "members": [
+        "ren4yu"
+      ],
+      "score": 0.967,
+      "medal": "gold",
+      "submission_id": 56672051,
+      "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/3rd-place-solution",
+      "writeup_author": "/ren4yu",
+      "writeup_competition_ranking": 3,
+      "published_at_utc": "2026-09-30T00:30:09.793Z",
+      "read_result": "complete technical writeup read; X-to-Kaggle author identity chain also checked; complete Biohub code not located"
+    },
+    {
+      "rank": 4,
+      "team": "Barry",
+      "team_id": 16494792,
+      "members": [
+        "songqizhou"
+      ],
+      "score": 0.962,
+      "medal": "gold",
+      "submission_id": 56672827,
+      "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/4th-place-solution",
+      "writeup_author": "/songqizhou",
+      "writeup_competition_ranking": 4,
+      "published_at_utc": "2026-09-30T18:45:26.513Z",
+      "read_result": "complete technical writeup; public inference notebook and dataset file inventory; README/ilp_solve.py fully read and division_pair.py relevant functions inspected",
+      "public_notebook": "https://www.kaggle.com/code/songqizhou/biohub-4th-place-solution",
+      "public_artifacts": "https://www.kaggle.com/datasets/songqizhou/biohub-4th-place-artifacts"
+    },
+    {
+      "rank": 5,
+      "team": "Tang",
+      "team_id": 16455316,
+      "members": [
+        "hirotetsu"
+      ],
+      "score": 0.954,
+      "medal": "gold",
+      "submission_id": 56659964,
+      "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/5th-place-3d-u-net-transformer-linker-multi-s",
+      "writeup_author": "/hirotetsu",
+      "writeup_competition_ranking": 5,
+      "published_at_utc": "2026-09-30T08:41:31.117Z",
+      "read_result": "complete technical writeup read; complete own code not located"
+    }
+  ],
+  "own_official_private_outcome": {
+    "team": "Efnutrrionpy",
+    "team_id": 16612971,
+    "private_rank": 1714,
+    "ranked_rows": 4020,
+    "private_score": 0.91,
+    "private_submission_id": 55998516,
+    "medal_field": "none in returned row",
+    "public_rank": 1714,
+    "public_score": 0.942,
+    "public_best_submission_id": 56181805,
+    "gold_target": "unmet according to the published official Private leaderboard and award metadata",
+    "native_goal_state": "paused, preserved; no status or objective mutation"
+  },
+  "notes": [
+    "Normalized saved-response transcription, not a new query or a raw API dump.",
+    "Published leaderboard uses three-decimal display; selected submission precision comes from the saved 2026-10-02 readback.",
+    "No medals for our team; gold target unmet."
+  ]
+}

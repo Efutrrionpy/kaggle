@@ -1,0 +1,66 @@
+{
+  "observed_at_utc": "2026-10-02T04:26:58.456140+00:00",
+  "status": "FINALIZATION_PENDING",
+  "competition": {
+    "competitionName": "kaggriculture",
+    "deadline": "2026-10-14T23:59:00Z",
+    "disableSubmissions": true,
+    "finalLeaderboardHasBeenVerified": null,
+    "id": 147734,
+    "locked": null,
+    "medalsAllowed": true,
+    "showPrivateLeaderboard": null,
+    "simulation": true,
+    "title": "Kaggriculture",
+    "totalTeams": 10246
+  },
+  "pair": {
+    "active_submission_ids": [
+      56705674,
+      56698261
+    ],
+    "alerts": [],
+    "expected_submissions": [
+      {
+        "description": "gold sprint complete paid service 20cff504; frozen validated 20260930",
+        "file_name": "submission.tar.gz",
+        "public_score": "2409.8",
+        "status": "SubmissionStatus.COMPLETE",
+        "submission_id": 56705674
+      },
+      {
+        "description": "gold sprint adaptive milk pair adaptive_milk c532e7b1; frozen validated 20260930",
+        "file_name": "submission.tar.gz",
+        "public_score": "2163.7",
+        "status": "SubmissionStatus.COMPLETE",
+        "submission_id": 56698261
+      }
+    ],
+    "latest_complete_submission_ids": [
+      56705674,
+      56698261
+    ],
+    "quota": {
+      "limited_by_total": false,
+      "num_allowed_now": 5,
+      "num_today": 0,
+      "num_total": 118
+    }
+  },
+  "gold_confirmed": false,
+  "sources": {
+    "competition": {
+      "bytes": 2099,
+      "endpoint": "/api/i/competitions.CompetitionService/GetCompetition",
+      "http_status": 200,
+      "raw_file": "official-competition-response.json",
+      "request_payload": {
+        "competitionName": "kaggriculture"
+      },
+      "retrieved_at_utc": "2026-10-02T04:27:00.940531+00:00",
+      "sha256": "b4bd4693a7dfb4fa38d92f637dc04fe81b76ccf6cdbdf07f36426f4d88c29e90"
+    }
+  },
+  "source": "https://www.kaggle.com/competitions/kaggriculture",
+  "scope": "Static official observation; current Public scores are not final medals. No live monitor or credentials included."
+}

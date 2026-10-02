@@ -1,0 +1,472 @@
+{
+  "arm": {
+    "care_trade": {
+      "games": 448,
+      "valid_games": 448,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 427,
+      "draws": 0,
+      "losses": 21,
+      "points": 427,
+      "mean_margin": 17077.796875
+    }
+  },
+  "seed": {
+    "care_trade | 2026210001": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 17820.571428571428
+    },
+    "care_trade | 2026210002": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 18227.85714285714
+    },
+    "care_trade | 2026210003": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 10,
+      "draws": 0,
+      "losses": 4,
+      "points": 10,
+      "mean_margin": 13731.42857142857
+    },
+    "care_trade | 2026210004": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 13618.285714285714
+    },
+    "care_trade | 2026210005": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 14632.42857142857
+    },
+    "care_trade | 2026210006": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 10516.857142857143
+    },
+    "care_trade | 2026210007": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 10297.714285714286
+    },
+    "care_trade | 2026210008": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 40191.42857142857
+    },
+    "care_trade | 2026210009": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 13485.5
+    },
+    "care_trade | 2026210010": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 16885.5
+    },
+    "care_trade | 2026210011": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 14692.285714285714
+    },
+    "care_trade | 2026210012": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 15099.285714285714
+    },
+    "care_trade | 2026210013": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 21921.214285714286
+    },
+    "care_trade | 2026210014": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 16053.285714285714
+    },
+    "care_trade | 2026210015": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 17062.714285714286
+    },
+    "care_trade | 2026210016": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 12963.285714285714
+    },
+    "care_trade | 2026210017": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 18891.928571428572
+    },
+    "care_trade | 2026210018": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 15899.714285714286
+    },
+    "care_trade | 2026210019": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 17022.85714285714
+    },
+    "care_trade | 2026210020": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 11213.5
+    },
+    "care_trade | 2026210021": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 17295.85714285714
+    },
+    "care_trade | 2026210022": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 22418.85714285714
+    },
+    "care_trade | 2026210023": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 18324.571428571428
+    },
+    "care_trade | 2026210024": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 11,
+      "draws": 0,
+      "losses": 3,
+      "points": 11,
+      "mean_margin": 13924.714285714286
+    },
+    "care_trade | 2026210025": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 20294.428571428572
+    },
+    "care_trade | 2026210026": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 15659.714285714286
+    },
+    "care_trade | 2026210027": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 18307.0
+    },
+    "care_trade | 2026210028": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 18699.14285714286
+    },
+    "care_trade | 2026210029": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 21561.428571428572
+    },
+    "care_trade | 2026210030": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 17195.714285714286
+    },
+    "care_trade | 2026210031": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 0,
+      "points": 14,
+      "mean_margin": 20610.571428571428
+    },
+    "care_trade | 2026210032": {
+      "games": 14,
+      "valid_games": 14,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 12,
+      "draws": 0,
+      "losses": 2,
+      "points": 12,
+      "mean_margin": 11969.857142857143
+    }
+  },
+  "opponent": {
+    "care_trade | accepted_late": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 61,
+      "draws": 0,
+      "losses": 3,
+      "points": 61,
+      "mean_margin": 3851.0
+    },
+    "care_trade | field_flex_recent_115792276": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 60,
+      "draws": 0,
+      "losses": 4,
+      "points": 60,
+      "mean_margin": 24493.4375
+    },
+    "care_trade | field_flex_recent_115793815": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 60,
+      "draws": 0,
+      "losses": 4,
+      "points": 60,
+      "mean_margin": 27374.1875
+    },
+    "care_trade | field_flex_recent_115801436": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 64,
+      "draws": 0,
+      "losses": 0,
+      "points": 64,
+      "mean_margin": 17918.046875
+    },
+    "care_trade | field_flex_recent_115806028": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 58,
+      "draws": 0,
+      "losses": 6,
+      "points": 58,
+      "mean_margin": 21095.03125
+    },
+    "care_trade | flex43_latest": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 62,
+      "draws": 0,
+      "losses": 2,
+      "points": 62,
+      "mean_margin": 13570.5625
+    },
+    "care_trade | harvest94": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 62,
+      "draws": 0,
+      "losses": 2,
+      "points": 62,
+      "mean_margin": 11242.3125
+    }
+  },
+  "seat": {
+    "care_trade | 0": {
+      "games": 224,
+      "valid_games": 224,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 214,
+      "draws": 0,
+      "losses": 10,
+      "points": 214,
+      "mean_margin": 17082.410714285714
+    },
+    "care_trade | 1": {
+      "games": 224,
+      "valid_games": 224,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 213,
+      "draws": 0,
+      "losses": 11,
+      "points": 213,
+      "mean_margin": 17073.183035714286
+    }
+  }
+}

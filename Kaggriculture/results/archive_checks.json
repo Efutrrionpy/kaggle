@@ -1,0 +1,72 @@
+{
+  "checked_at_utc": "2026-10-02T09:45:57.996519+00:00",
+  "rebuild": {
+    "status": "PASS",
+    "python": "3.11.15",
+    "zlib": "1.3.1",
+    "results": [
+      {
+        "name": "flex_service",
+        "submission_id": 56705674,
+        "archive_sha256": "20cff504fee6b78a539bf1bbdcaa90678e2e3db1de2e2ead2dfde8e205c2da87",
+        "expected_sha256": "20cff504fee6b78a539bf1bbdcaa90678e2e3db1de2e2ead2dfde8e205c2da87",
+        "exact_match": true,
+        "bytes": 118424
+      },
+      {
+        "name": "adaptive_milk",
+        "submission_id": 56698261,
+        "archive_sha256": "c532e7b11701929798a916ddf757411c74ccc256f076a78545bbfcf01b856722",
+        "expected_sha256": "c532e7b11701929798a916ddf757411c74ccc256f076a78545bbfcf01b856722",
+        "exact_match": true,
+        "bytes": 112372
+      }
+    ]
+  },
+  "result_arithmetic": {
+    "status": "PASS",
+    "checked": [
+      {
+        "experiment": "adaptive_milk_confirmation_20260930",
+        "cells": 2112
+      },
+      {
+        "experiment": "care_trade_confirmation_20260930",
+        "cells": 1344
+      },
+      {
+        "experiment": "committed_funding_confirmation_20260930",
+        "cells": 1344
+      },
+      {
+        "experiment": "flex_care_trade_20260930",
+        "cells": 448
+      },
+      {
+        "experiment": "flex_confirmation_20260930",
+        "cells": 2304
+      },
+      {
+        "experiment": "flex_native_reorder_deadlines_20260930",
+        "cells": 512
+      },
+      {
+        "experiment": "flex_native_reorder_feed_20260930",
+        "cells": 512
+      },
+      {
+        "experiment": "flex_native_reorder_funded_20260930",
+        "cells": 512
+      },
+      {
+        "experiment": "native_deadlines_confirmation_20260930",
+        "cells": 2176
+      }
+    ],
+    "scope": "Arithmetic reconstruction only; no new simulations and no claim of gold calibration."
+  },
+  "new_games": 0,
+  "training_runs": 0,
+  "uploads": 0,
+  "scope": "Exact source+archive reconstruction and score-table arithmetic, not a rerun of original competitions."
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "compiled_at_utc": "2026-10-02T09:32:03Z",
+  "verification_recorded_at_utc": "2026-10-02T09:32:03Z",
+  "competition": "biohub-cell-tracking-during-development",
+  "competition_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development",
+  "verification_scope": "Final selected artifacts were actually SHA256 checked during this manual archive preparation; no inference, training, resubmission or new score query was performed.",
+  "selected_submissions": [
+    {
+      "reference_label": "final_selected_exact_replay",
+      "submission_ref": 55998516,
+      "version": 1,
+      "upstream_source_url": "https://www.kaggle.com/code/nusrati/0-940",
+      "public_score": "0.94094",
+      "private_score": "0.91051",
+      "status": "COMPLETE",
+      "visible_prediction": {
+        "reference_label": "local_only_visible_prediction_55998516",
+        "sha256": "4e02ba499d50ed808c5684ab9762a059b008515dfb0362b1c586c51e6f264e93",
+        "bytes": 12205559
+      },
+      "official_downloaded_notebook": {
+        "reference_label": "local_only_official_notebook_55998516",
+        "sha256": "68b961aaa0057b0bad048dbfaa0f359109e8119adc0e46d2787b16abb1cf59a7",
+        "bytes": 195079
+      },
+      "local_build_notebook": {
+        "reference_label": "local_only_build_notebook_55998516",
+        "sha256": "0f5b2a754fe4796f4ccc99f1fd21e1e7d5a25139b4e035e76f37f5e34674ba87",
+        "bytes": 196124
+      },
+      "strategy": "精確動態推論 replay；不是固定 visible CSV 回填。雙 temporal UNet/node-transformer、DeepCenter 輔助先驗、bidirectional/harmonic association、ILP 與圖修補。"
+    },
+    {
+      "reference_label": "final_selected_fixed_collective_motion",
+      "submission_ref": 56071433,
+      "version": 1,
+      "upstream_source_url": "https://www.kaggle.com/code/nusrati/0-940",
+      "threshold_evidence_url": "https://www.kaggle.com/code/anvithpothula/biohub-x52",
+      "public_score": "0.94218",
+      "private_score": "0.90743",
+      "status": "COMPLETE",
+      "visible_prediction": {
+        "reference_label": "local_only_visible_prediction_56071433",
+        "sha256": "aa500dfd644e22e44d1d45728a3e9197b89dad71e9f788241cde283388f670fb",
+        "bytes": 11963303
+      },
+      "official_downloaded_notebook": {
+        "reference_label": "local_only_official_notebook_56071433",
+        "sha256": "ba163219716231c22f68401596a176e5733e883a8ab3bfe36b2c250549ce4b71",
+        "bytes": 219826
+      },
+      "local_build_notebook": {
+        "reference_label": "local_only_build_notebook_56071433",
+        "sha256": "9287427d60a59a7dfe4186b90c409897d653e25b499a031a827f506b34d4ee66",
+        "bytes": 220785
+      },
+      "pre_overlay_prediction": {
+        "reference_label": "local_only_pre_motion_prediction",
+        "sha256": "052ebbb0c2f582f9bcb94fd914e994a6afa255acaa1ccef422df9c7b025656fe",
+        "bytes": 12197672
+      },
+      "strategy": "0.26 DeepCenter safe-division threshold baseline，追加固定 collective-motion overlay；只更改既有 ordinary continuation 的 source_id，保護 division、node、row 與 edge count。"
+    }
+  ],
+  "model_references": [
+    {
+      "reference_label": "primary_temporal_unet_node_transformer",
+      "bytes": 8363159,
+      "sha256": "12f6881ee3620a831697ca098ff8f48e687a24225f4e048b538deec3562fe771",
+      "source_url": "https://www.kaggle.com/datasets/pilkwang/biohub-tracking-support-pack-50ep-v1",
+      "retained_dataset_license": "CC0-1.0",
+      "distribution": "Large model weights remain local; obtain the authorized public dataset and verify this hash."
+    },
+    {
+      "reference_label": "secondary_seed314159",
+      "bytes": 8363159,
+      "sha256": "9bac2fa0dadc4a6fc1899e0caf187f4b553e0a7cd90ba1261a68b35ffe9e305f",
+      "source_url": "https://www.kaggle.com/datasets/pilkwang/biohub-temporal-unet3d-seed314159-v1",
+      "retained_dataset_license": "CC0-1.0",
+      "distribution": "Large model weights remain local; obtain the authorized public dataset and verify this hash."
+    },
+    {
+      "reference_label": "deepcenter_auxiliary_center_prior",
+      "bytes": 37876911,
+      "sha256": "8040999a92f6b7bbd98fa8cf458141e045c0f9ad7c936bdb3b18e1f7edafe2a0",
+      "source_url": "https://www.kaggle.com/datasets/pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+      "retained_dataset_license": "CC0-1.0",
+      "distribution": "Large model weights remain local; obtain the authorized public dataset and verify this hash."
+    }
+  ],
+  "original_source_references": [
+    {
+      "archive_reference": "src/csv_overlay.py",
+      "bytes": 12103,
+      "sha256": "ddc0f1e080f2a37be6e4060ab925598ab433fd59167eb1c0fd4a48637d591b08",
+      "origin": "Original Biohub frozen motion core and CSV I/O; exact selected source bytes, not third-party winner code."
+    },
+    {
+      "archive_reference": "tests/synthetic.py",
+      "origin": "Original Biohub deterministic, competition-data-free synthetic fixtures.",
+      "record_scope": "Actual packaged hash and bytes recorded in manifest.json."
+    },
+    {
+      "archive_reference": "tests/test_csv_overlay.py",
+      "origin": "Original Biohub publication/graph safeguard tests, adapted only for archive source import.",
+      "record_scope": "Actual packaged hash and bytes recorded in manifest.json; no claim of unchanged original test hash."
+    },
+    {
+      "archive_reference": "tests/test_numerical_invariants.py",
+      "origin": "Original archive label-free support/degree/no-GT regression checks.",
+      "record_scope": "Actual packaged hash and bytes recorded in manifest.json."
+    }
+  ],
+  "upstream_repository": {
+    "source_url": "https://github.com/royerlab/kaggle-cell-tracking-competition",
+    "license": "BSD-3-Clause",
+    "license_notice_sha256": "3910a8b578783928cbbf981c1b204591ab3368e70017dc695d6536f71d272796"
+  },
+  "result": {
+    "private_rank": 1714,
+    "ranked_rows": 4020,
+    "private_leaderboard_display_score": "0.910",
+    "selected_best_private_score": "0.91051",
+    "gold_target_met": false,
+    "evidence_scope": "Published official Private leaderboard snapshot from 2026-10-01 and retained selected-submission receipt from 2026-10-02."
+  },
+  "actual_runtime": {
+    "python": "3.12.13",
+    "numpy": "2.0.2",
+    "scipy": "1.16.3",
+    "polars": "1.42.0",
+    "notebook_elapsed_seconds": 1454.31844023,
+    "overlay_elapsed_seconds": 44.381340722999994,
+    "changed_visible_edges": 20
+  },
+  "exclusions": [
+    "原始受限比賽影像、標籤、visible prediction CSV 及大型權重不放入 GitHub。",
+    "完整第三方 Notebook 與 writeup 不重發；未在保存 metadata 證實 Notebook code license，僅給公開來源、hash 和取得/重建說明。",
+    "不包含憑證、cookie、個人 session、機器絕對路徑或外部服務私有執行識別碼。",
+    "三模型 dataset 的 CC0 宣告與 upstream repo 的 BSD-3-Clause 不自動涵蓋整本衍生 Notebook。"
+  ],
+  "limitations": [
+    "visible CSV checksum 不是 hidden rerun CSV checksum；官方分數以 submission ref 的 COMPLETE 記錄獨立核對。",
+    "未保存完整 Torch/CUDA 或 Kaggle base-image imported-version inventory；列出的 overlay versions 為實際 runtime evidence。",
+    "wheel 授權 metadata 不等於完整 transitive legal closure；沒有宣稱法律審查全部完成。"
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "arm": {
+    "native_reorder_deadlines": {
+      "games": 512,
+      "valid_games": 512,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 483,
+      "draws": 0,
+      "losses": 29,
+      "points": 483,
+      "mean_margin": 15851.2890625
+    }
+  },
+  "seed": {
+    "native_reorder_deadlines | 2026165001": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 20211.125
+    },
+    "native_reorder_deadlines | 2026165002": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 20817.25
+    },
+    "native_reorder_deadlines | 2026165003": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 15852.625
+    },
+    "native_reorder_deadlines | 2026165004": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 18704.875
+    },
+    "native_reorder_deadlines | 2026165005": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 16472.875
+    },
+    "native_reorder_deadlines | 2026165006": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 10780.5
+    },
+    "native_reorder_deadlines | 2026165007": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 6481.5
+    },
+    "native_reorder_deadlines | 2026165008": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 6,
+      "draws": 0,
+      "losses": 10,
+      "points": 6,
+      "mean_margin": 6954.625
+    },
+    "native_reorder_deadlines | 2026165009": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 13398.8125
+    },
+    "native_reorder_deadlines | 2026165010": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 24668.875
+    },
+    "native_reorder_deadlines | 2026165011": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 25889.0
+    },
+    "native_reorder_deadlines | 2026165012": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 19949.625
+    },
+    "native_reorder_deadlines | 2026165013": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 15526.5
+    },
+    "native_reorder_deadlines | 2026165014": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 21774.75
+    },
+    "native_reorder_deadlines | 2026165015": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 19953.25
+    },
+    "native_reorder_deadlines | 2026165016": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 17185.875
+    },
+    "native_reorder_deadlines | 2026165017": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 18157.875
+    },
+    "native_reorder_deadlines | 2026165018": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 4491.25
+    },
+    "native_reorder_deadlines | 2026165019": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 15143.25
+    },
+    "native_reorder_deadlines | 2026165020": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 16164.25
+    },
+    "native_reorder_deadlines | 2026165021": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 5753.5
+    },
+    "native_reorder_deadlines | 2026165022": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 10003.125
+    },
+    "native_reorder_deadlines | 2026165023": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 13825.125
+    },
+    "native_reorder_deadlines | 2026165024": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 13218.625
+    },
+    "native_reorder_deadlines | 2026165025": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 18530.0625
+    },
+    "native_reorder_deadlines | 2026165026": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 15,
+      "draws": 0,
+      "losses": 1,
+      "points": 15,
+      "mean_margin": 25880.625
+    },
+    "native_reorder_deadlines | 2026165027": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 17608.75
+    },
+    "native_reorder_deadlines | 2026165028": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 16879.75
+    },
+    "native_reorder_deadlines | 2026165029": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 10428.75
+    },
+    "native_reorder_deadlines | 2026165030": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 8349.875
+    },
+    "native_reorder_deadlines | 2026165031": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 14,
+      "draws": 0,
+      "losses": 2,
+      "points": 14,
+      "mean_margin": 17626.75
+    },
+    "native_reorder_deadlines | 2026165032": {
+      "games": 16,
+      "valid_games": 16,
+      "invalid_games": 0,
+      "independent_worlds": 1,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16,
+      "mean_margin": 20557.625
+    }
+  },
+  "opponent": {
+    "native_reorder_deadlines | accepted_feed": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 60,
+      "draws": 0,
+      "losses": 4,
+      "points": 60,
+      "mean_margin": 11724.03125
+    },
+    "native_reorder_deadlines | accepted_late": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 55,
+      "draws": 0,
+      "losses": 9,
+      "points": 55,
+      "mean_margin": 2670.5625
+    },
+    "native_reorder_deadlines | evgen31": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 62,
+      "draws": 0,
+      "losses": 2,
+      "points": 62,
+      "mean_margin": 16057.34375
+    },
+    "native_reorder_deadlines | field_115141499": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 56,
+      "draws": 0,
+      "losses": 8,
+      "points": 56,
+      "mean_margin": 34832.96875
+    },
+    "native_reorder_deadlines | field_115160737": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 64,
+      "draws": 0,
+      "losses": 0,
+      "points": 64,
+      "mean_margin": 24216.265625
+    },
+    "native_reorder_deadlines | harvest79": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 62,
+      "draws": 0,
+      "losses": 2,
+      "points": 62,
+      "mean_margin": 11692.421875
+    },
+    "native_reorder_deadlines | master49": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 62,
+      "draws": 0,
+      "losses": 2,
+      "points": 62,
+      "mean_margin": 13333.53125
+    },
+    "native_reorder_deadlines | shepherd": {
+      "games": 64,
+      "valid_games": 64,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 62,
+      "draws": 0,
+      "losses": 2,
+      "points": 62,
+      "mean_margin": 12283.1875
+    }
+  },
+  "seat": {
+    "native_reorder_deadlines | 0": {
+      "games": 256,
+      "valid_games": 256,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 241,
+      "draws": 0,
+      "losses": 15,
+      "points": 241,
+      "mean_margin": 15831.66796875
+    },
+    "native_reorder_deadlines | 1": {
+      "games": 256,
+      "valid_games": 256,
+      "invalid_games": 0,
+      "independent_worlds": 32,
+      "wins": 242,
+      "draws": 0,
+      "losses": 14,
+      "points": 242,
+      "mean_margin": 15870.91015625
+    }
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.repro-venv/
+.pytest_cache/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.zarr/
+*.geff/
+baseline.csv
+replay.csv
+replay_receipt.json
+.env
+cookies*

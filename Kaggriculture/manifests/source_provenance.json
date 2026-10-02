@@ -1,0 +1,45 @@
+{
+  "engine": {
+    "package": "kaggle-environments",
+    "version": "1.32.7",
+    "original_source_sha256": "bc8a54879ef02c7ea64b8b333d6a976f0ea65c4949149d01f463f23bccee653e",
+    "repository": "https://github.com/Kaggle/kaggle-environments",
+    "license": "Apache-2.0",
+    "scope": "Selected engine primitives bundled; full upstream license and attribution retained"
+  },
+  "demonstration_sources": [
+    {
+      "submission": 56614976,
+      "episode": 114453315,
+      "seat": 0,
+      "sha256": "074e7aa8cf74467a90f6119714580bdc686bc1ee81eb4296a2d45a37fb4828a6"
+    },
+    {
+      "submission": 56614976,
+      "episode": 114441518,
+      "seat": 0,
+      "sha256": "d2580f09478517b50e6220ec5b4e7a80c9c71968d11138bd2baa86a4b9c6d8fa"
+    },
+    {
+      "submission": 56614976,
+      "episode": 114432896,
+      "seat": 1,
+      "sha256": "f55c9cfba14eb0ff8ae0781a9df0f2c999cec6c819bd7ebad34ff078fe278dc7"
+    },
+    {
+      "submission": 56614976,
+      "episode": 114417825,
+      "seat": 0,
+      "sha256": "14fb5535d56b93f7ec012db095f144bc7d45aeea05c2662418fdb330921ca805"
+    },
+    {
+      "submission": 56614976,
+      "episode": 114472248,
+      "seat": 0,
+      "sha256": "5da1a2699d2a512234a1d7bc4a6aee11c6cbe7db7d0ed6e1c230887bbdf51e9d",
+      "role": "common opening"
+    }
+  ],
+  "parameter_scope": "Compiled action/resource/entry-contract parameters from legal public demonstration observations; not raw complete replays or private opponent code",
+  "excluded": "All third-party notebooks/writeups without explicit redistribution clearance, raw replay corpus, credentials, sessions and operational paths"
+}

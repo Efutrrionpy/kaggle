@@ -1,0 +1,4 @@
+# Original accepted T4 overlay imports only; not the complete neural runtime.
+numpy==2.0.2
+scipy==1.16.3
+polars==1.42.0

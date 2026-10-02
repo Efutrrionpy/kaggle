@@ -1,0 +1,111 @@
+{
+  "experiments": [
+    {
+      "experiment": "adaptive_milk_confirmation_20260930",
+      "source_result": "validation/adaptive_milk_confirmation_20260930_result.json",
+      "result_sha256": "2eea751705b1cc93ee73443c5440e573d86c19e5db96f7e0878332d6e054b31b",
+      "summary_sha256": "2d7f584dbb056ab6545c8f871a636a541973e4806b6d6c1f232a4abbb8ceee4f",
+      "plan_sha256": "a21649c870b558c5813050decaf00c20be24b2c5b6a119b2cccdbdb290d2cf73",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "flex_confirmation_20260930",
+      "source_result": "validation/flex_confirmation_20260930_result.json",
+      "result_sha256": "f2db71dd174f3df944840f3c0d8590e6beffab21a6c7bb9be8e65fc39c35cff9",
+      "summary_sha256": "ce6b5c1848fc3cfcbeae698a37004226a1185df8e4574b2655d16f5426da01b5",
+      "plan_sha256": "28b1fef4389c3305d39d6e1e8d187515385042094a15d6f0d38cd35577aaff6a",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "flex_native_reorder_feed_20260930",
+      "source_result": "validation/flex_native_reorder_feed_20260930_result.json",
+      "result_sha256": "7ea514ef9b0507795025c006745253cce36e8d3f0527d1c020b761fe9c86654a",
+      "summary_sha256": "ac8b4366fb889934634b01a3cc19352d24be3e453bb783cf2ebabb2319b77ffa",
+      "plan_sha256": "aff04cde942ce57df53b2860422ca5a00ffe561413db3524ab21c7928cd1146d",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "flex_native_reorder_funded_20260930",
+      "source_result": "validation/flex_native_reorder_funded_20260930_result.json",
+      "result_sha256": "fe2547ce94bf235d36d502c291a9025fbab1981ef48e4a8e84c592cd0009ca55",
+      "summary_sha256": "693b0d12c7fe7ed4ccdfda707d64f89524ebfef39df0c445dab125eb84b92f3c",
+      "plan_sha256": "8bf6bf4983e132e940d8ba2e19e81d59e749d733c05bc0c28c63052109996001",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "flex_native_reorder_deadlines_20260930",
+      "source_result": "validation/flex_native_reorder_deadlines_20260930_result.json",
+      "result_sha256": "92487101ce1ecd47097d8dced590f40e8fe40dcd7525d1452903efa48a1ebeeb",
+      "summary_sha256": "946d9ede9376a54a74aa8e4d48e78f06526db3a5b36520ec2d32d673bbce7e98",
+      "plan_sha256": "9894a76b923ee5518e857947d711329cd9f31b679a22943ff810dc2675fccf95",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "native_deadlines_confirmation_20260930",
+      "source_result": "validation/native_deadlines_confirmation_20260930_result.json",
+      "result_sha256": "588c255aae7b6ad1dbdc60e93c68589b3b0db3b3000667bad438eeb82932eeb1",
+      "summary_sha256": "a3ed1ed07b2ade07471c54a6f2ad3afa38c014f16b391523e2ce2c233d44ab98",
+      "plan_sha256": "eda07f132fe294b6a58857fea9007b194b4ce7e2aa51b375c22b5549fd3f1851",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "committed_funding_confirmation_20260930",
+      "source_result": "validation/committed_funding_confirmation_20260930_result.json",
+      "result_sha256": "e946ff4dd70a32f5d0c4c220917a17e891162b5dbf9b0b88b8caee7495874a9f",
+      "summary_sha256": "ea940d4560feb2351e7438ddf2f0fd1f2c5206bbad27c58b3da610cd05b61f8e",
+      "plan_sha256": "5d11a2f621f2fd3dc550d9c87709747ce8003bac11fcecab3254e9802dde2969",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "flex_care_trade_20260930",
+      "source_result": "validation/flex_care_trade_20260930_result.json",
+      "result_sha256": "26d74fbc6117e810ba283e0dfdef8be8a56fdf909351742945062146e9ca42b7",
+      "summary_sha256": "403c107590b503f640882dda1bbee847f6edd84bab5cad25f784c22f48a9db97",
+      "plan_sha256": "77cc5ece509ce5dde283934c499818188de6d70f14cddd97d0b58e30becf651d",
+      "source_status": "COMPLETE"
+    },
+    {
+      "experiment": "care_trade_confirmation_20260930",
+      "source_result": "validation/care_trade_confirmation_20260930_result.json",
+      "result_sha256": "8a94fbcc92ec7b725a4f4b117d6cd3dd6595e992b11ccf06a488683e7e3c2e15",
+      "summary_sha256": "8d177858df87d7dfc7372556e87787692febf850b8d11923909e55d2b5699b4d",
+      "plan_sha256": "8c0eabba025de79c2f53d91bfd35307cb1681eb3e3eac05d2c0edd73c8671443",
+      "source_status": "COMPLETE"
+    }
+  ],
+  "narrative_sources": [
+    {
+      "relative_path": "docs/FARM96_CONTINUATION_RESEARCH_20260919.md",
+      "sha256": "bebfcb824d80a3a0c6ce75b3a0e52e0813ea8ddb48b323a9be475f08ef1aa408"
+    },
+    {
+      "relative_path": "docs/JOINT_MARKET_RESEARCH_20260920_HANDOFF.md",
+      "sha256": "6168c58e071048ef29fb11432de3f37a43bdcc9a4649218651cef68d83fe3b41"
+    },
+    {
+      "relative_path": "docs/CURRENT_STATE_SERVICE_20260924_HANDOFF.md",
+      "sha256": "fccfef601b90297859f4295e010763814373225c0dc28d80fbc95b7309d5c08f"
+    },
+    {
+      "relative_path": "docs/FINALIST_CHOICE_20260925_HANDOFF.md",
+      "sha256": "70d0c3124042684b957316c27239a838c2dcb23f8652050aaf340d96ddfc42ab"
+    },
+    {
+      "relative_path": "docs/DEMO_RESOURCE_FEEDBACK_20260928_HANDOFF.md",
+      "sha256": "873009f52b2a4c23fcae95fec82f313a93a15205237c1233c60fa00e60b08142"
+    },
+    {
+      "relative_path": "docs/FINAL_DAY_REVIEW_20260930_HANDOFF.md",
+      "sha256": "ae58747aa8f2051b07aafe4da1896bdc7c4447872af4477e6e18dc5da758d224"
+    },
+    {
+      "relative_path": "docs/FINAL_SPRINT_RESEARCH_REPORT_20260930.md",
+      "sha256": "bd085b9aab725c06305dba6a97d5436628cad156a306219a1538da17a0f51e5f"
+    },
+    {
+      "relative_path": "goals.md",
+      "sha256": "324c3436f56e79bf11624941a370109946c8f245e44f556e7585db8af4528472"
+    }
+  ],
+  "narrative_scope": "Original agent-written synthesis from saved evidence; no complete third-party writeup or Oracle transcript copied"
+}

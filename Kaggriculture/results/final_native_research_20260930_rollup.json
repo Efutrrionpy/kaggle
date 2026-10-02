@@ -1,0 +1,153 @@
+{
+  "status": "COMPLETE",
+  "source_experiments": [
+    "committed_funding_confirmation_20260930",
+    "care_trade_confirmation_20260930"
+  ],
+  "new_games": 0,
+  "scores": {
+    "accepted_flex": {
+      "games": 896,
+      "points": 832.0,
+      "wins": 832,
+      "draws": 0,
+      "losses": 64
+    },
+    "native_reorder_committed": {
+      "games": 896,
+      "points": 843.0,
+      "wins": 843,
+      "draws": 0,
+      "losses": 53
+    }
+  },
+  "all": {
+    "games": 896,
+    "worlds": 64,
+    "points": 843.0,
+    "baseline_points": 832.0,
+    "world_point_delta": 0.012276785714285712,
+    "world_cluster_interval_95": [
+      0.004464285714285714,
+      0.02232142857142857
+    ],
+    "rescues": 11,
+    "regressions": 0,
+    "mean_cash_margin_delta": 205.97991071428572
+  },
+  "without_own_old_late": {
+    "games": 768,
+    "worlds": 64,
+    "points": 733.0,
+    "baseline_points": 733.0,
+    "world_point_delta": 0.0,
+    "world_cluster_interval_95": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "regressions": 0,
+    "mean_cash_margin_delta": 152.24609375
+  },
+  "by_peer": {
+    "accepted_late": {
+      "games": 128,
+      "worlds": 64,
+      "points": 110.0,
+      "baseline_points": 99.0,
+      "world_point_delta": 0.0859375,
+      "world_cluster_interval_95": [
+        0.03125,
+        0.15625
+      ],
+      "rescues": 11,
+      "regressions": 0,
+      "mean_cash_margin_delta": 528.3828125
+    },
+    "field_flex_recent_115806028": {
+      "games": 128,
+      "worlds": 64,
+      "points": 116.0,
+      "baseline_points": 116.0,
+      "world_point_delta": 0.0,
+      "world_cluster_interval_95": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "regressions": 0,
+      "mean_cash_margin_delta": 44.2890625
+    },
+    "field_flex_recent_115793815": {
+      "games": 128,
+      "worlds": 64,
+      "points": 121.0,
+      "baseline_points": 121.0,
+      "world_point_delta": 0.0,
+      "world_cluster_interval_95": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "regressions": 0,
+      "mean_cash_margin_delta": 60.1171875
+    },
+    "field_flex_recent_115801436": {
+      "games": 128,
+      "worlds": 64,
+      "points": 122.0,
+      "baseline_points": 122.0,
+      "world_point_delta": 0.0,
+      "world_cluster_interval_95": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "regressions": 0,
+      "mean_cash_margin_delta": 477.75
+    },
+    "field_flex_recent_115792276": {
+      "games": 128,
+      "worlds": 64,
+      "points": 124.0,
+      "baseline_points": 124.0,
+      "world_point_delta": 0.0,
+      "world_cluster_interval_95": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "regressions": 0,
+      "mean_cash_margin_delta": 125.6484375
+    },
+    "harvest94": {
+      "games": 128,
+      "worlds": 64,
+      "points": 126.0,
+      "baseline_points": 126.0,
+      "world_point_delta": 0.0,
+      "world_cluster_interval_95": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "regressions": 0,
+      "mean_cash_margin_delta": 105.375
+    },
+    "flex43_latest": {
+      "games": 128,
+      "worlds": 64,
+      "points": 124.0,
+      "baseline_points": 124.0,
+      "world_point_delta": 0.0,
+      "world_cluster_interval_95": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "regressions": 0,
+      "mean_cash_margin_delta": 100.296875
+    }
+  },
+  "limitations": "64 independent first-use worlds for the same frozen committed-horizon candidate, same seven peers and bothseats. Adaptive accumulated method selection and shared peer ancestry remain. All pooled win improvements are examined separately from our own old LateFlock; this is not a Private medal calibration. CareTrade itself failed to improve prospective matchpoints over this candidate and is not pooled as if the same policy."
+}

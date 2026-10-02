@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "captured_at_utc": "2026-10-02T09:34:29.798028+00:00",
+  "scope": "CPU-only reproducibility verification; no training, neural inference, ground truth, cloud submission or GPU access",
+  "source_code_sha256": "ddc0f1e080f2a37be6e4060ab925598ab433fd59167eb1c0fd4a48637d591b08",
+  "synthetic_tests": {
+    "framework": "pytest",
+    "passed": 19,
+    "elapsed_seconds": 0.37,
+    "covered": [
+      "schema/row IDs",
+      "node uniqueness",
+      "dangling and non-adjacent edges",
+      "in/out degree",
+      "no overwrite",
+      "source preservation",
+      "arbitrary dataset names",
+      "division preservation",
+      "32-support boundary",
+      "occupied parents",
+      "ties and determinism",
+      "no ground-truth API argument"
+    ]
+  },
+  "selected_submission_replay": {
+    "submission_id": 56071433,
+    "input_sha256": "052ebbb0c2f582f9bcb94fd914e994a6afa255acaa1ccef422df9c7b025656fe",
+    "input_bytes": 12197672,
+    "expected_output_sha256": "aa500dfd644e22e44d1d45728a3e9197b89dad71e9f788241cde283388f670fb",
+    "output_sha256": "aa500dfd644e22e44d1d45728a3e9197b89dad71e9f788241cde283388f670fb",
+    "output_bytes": 11963303,
+    "output_matches_selected": true,
+    "source_unchanged": true,
+    "dataset_count": 4,
+    "nodes": 119315,
+    "edges": 115053,
+    "rows": 234368,
+    "changed_edges": 20,
+    "elapsed_seconds": 13.716542523005046,
+    "process_peak_rss_kib": 375256,
+    "ground_truth_accessed": false,
+    "configuration": {
+      "candidate_radius_um": 12,
+      "max_candidates": 8,
+      "scale_zyx_um": [
+        1.625,
+        0.40625,
+        0.40625
+      ]
+    }
+  },
+  "environment": {
+    "numpy": "2.4.6",
+    "polars": "1.43.1",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "limitations": [
+    "Replays the final fixed motion overlay from its preserved pre-motion prediction CSV; does not establish full upstream neural training reproducibility.",
+    "Hash equality validates the visible accepted output, not hidden-test rerun output or competition rank."
+  ]
+}

@@ -1,0 +1,8199 @@
+{
+  "experiment": "flex_native_reorder_funded_20260930",
+  "source_result_sha256": "fe2547ce94bf235d36d502c291a9025fbab1981ef48e4a8e84c592cd0009ca55",
+  "rows": [
+    {
+      "key": "2026165001-harvest79-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87428.0,
+        72309.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-harvest79-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72309.0,
+        87428.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-evgen31-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87906.0,
+        67697.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-evgen31-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        67697.0,
+        87906.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-shepherd-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87664.0,
+        71577.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-shepherd-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71577.0,
+        87664.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-master49-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87831.0,
+        71018.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-master49-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71018.0,
+        87831.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88906.0,
+        71073.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71073.0,
+        88906.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-accepted_late-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92527.0,
+        90305.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-accepted_late-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90305.0,
+        92527.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-field_115141499-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        146429.0,
+        89265.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-field_115141499-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89265.0,
+        146429.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-field_115160737-0-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        119240.0,
+        102998.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165001-field_115160737-1-native_reorder_funded",
+      "seed": 2026165001,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102998.0,
+        119240.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-harvest79-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78905.0,
+        64746.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-harvest79-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        64746.0,
+        78905.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-evgen31-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79649.0,
+        60914.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-evgen31-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60914.0,
+        79649.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-shepherd-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79089.0,
+        64046.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-shepherd-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        64046.0,
+        79089.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-master49-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78804.0,
+        64347.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-master49-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        64347.0,
+        78804.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79363.0,
+        64861.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        64861.0,
+        79363.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-accepted_late-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91143.0,
+        89743.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-accepted_late-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89743.0,
+        91143.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-field_115141499-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135116.0,
+        79227.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-field_115141499-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79227.0,
+        135116.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-field_115160737-0-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111264.0,
+        78911.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165002-field_115160737-1-native_reorder_funded",
+      "seed": 2026165002,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78911.0,
+        111264.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-harvest79-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        138542.0,
+        130282.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-harvest79-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        130282.0,
+        138542.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-evgen31-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        149247.0,
+        139333.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-evgen31-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        139333.0,
+        149247.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-shepherd-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        138946.0,
+        129239.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-shepherd-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        129239.0,
+        138946.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-master49-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        138680.0,
+        131035.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-master49-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        131035.0,
+        138680.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        124946.0,
+        112268.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112268.0,
+        124946.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-accepted_late-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        100762.0,
+        101613.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-accepted_late-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101613.0,
+        100762.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-field_115141499-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        146392.0,
+        97284.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-field_115141499-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97284.0,
+        146392.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-field_115160737-0-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        132637.0,
+        108686.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165003-field_115160737-1-native_reorder_funded",
+      "seed": 2026165003,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        108686.0,
+        132637.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-harvest79-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110467.0,
+        97488.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-harvest79-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97488.0,
+        110467.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-evgen31-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112090.0,
+        96545.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-evgen31-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96545.0,
+        112090.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-shepherd-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111051.0,
+        96881.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-shepherd-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96881.0,
+        111051.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-master49-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111313.0,
+        97133.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-master49-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97133.0,
+        111313.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110905.0,
+        98217.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        98217.0,
+        110905.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-accepted_late-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        125117.0,
+        122658.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-accepted_late-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        122658.0,
+        125117.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-field_115141499-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        143759.0,
+        76818.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-field_115141499-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        76818.0,
+        143759.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-field_115160737-0-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107483.0,
+        96806.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165004-field_115160737-1-native_reorder_funded",
+      "seed": 2026165004,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96806.0,
+        107483.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-harvest79-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92386.0,
+        75196.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-harvest79-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75196.0,
+        92386.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-evgen31-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93181.0,
+        75017.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-evgen31-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75017.0,
+        93181.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-shepherd-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93134.0,
+        74907.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-shepherd-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74907.0,
+        93134.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-master49-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92697.0,
+        74585.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-master49-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74585.0,
+        92697.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        104252.0,
+        91271.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91271.0,
+        104252.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-accepted_late-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93519.0,
+        94695.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-accepted_late-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94695.0,
+        93519.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-field_115141499-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111332.0,
+        96918.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-field_115141499-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96918.0,
+        111332.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-field_115160737-0-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107244.0,
+        79253.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165005-field_115160737-1-native_reorder_funded",
+      "seed": 2026165005,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79253.0,
+        107244.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-harvest79-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        122164.0,
+        116038.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-harvest79-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        116038.0,
+        122164.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-evgen31-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        123441.0,
+        113143.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-evgen31-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        113143.0,
+        123441.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-shepherd-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        124877.0,
+        116302.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-shepherd-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        116302.0,
+        124877.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-master49-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        125159.0,
+        116887.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-master49-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        116887.0,
+        125159.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        118574.0,
+        112734.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112734.0,
+        118574.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-accepted_late-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        103488.0,
+        102028.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-accepted_late-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102028.0,
+        103488.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-field_115141499-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        105680.0,
+        81370.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-field_115141499-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81370.0,
+        105680.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-field_115160737-0-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97418.0,
+        82464.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165006-field_115160737-1-native_reorder_funded",
+      "seed": 2026165006,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82464.0,
+        97418.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-harvest79-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75087.0,
+        69856.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-harvest79-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69856.0,
+        75087.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-evgen31-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        77266.0,
+        63624.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-evgen31-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        63624.0,
+        77266.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-shepherd-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75097.0,
+        68918.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-shepherd-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        68918.0,
+        75097.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-master49-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74913.0,
+        69190.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-master49-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69190.0,
+        74913.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74997.0,
+        69770.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69770.0,
+        74997.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-accepted_late-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        67453.0,
+        66115.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-accepted_late-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        66115.0,
+        67453.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-field_115141499-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90625.0,
+        94759.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-field_115141499-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94759.0,
+        90625.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-field_115160737-0-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        86847.0,
+        68436.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165007-field_115160737-1-native_reorder_funded",
+      "seed": 2026165007,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        68436.0,
+        86847.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-harvest79-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101595.0,
+        107797.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-harvest79-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107797.0,
+        101595.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-evgen31-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106701.0,
+        107194.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-evgen31-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107194.0,
+        106701.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-shepherd-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102097.0,
+        108037.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-shepherd-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        108037.0,
+        102097.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-master49-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106532.0,
+        107471.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-master49-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107471.0,
+        106532.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102384.0,
+        108764.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        108764.0,
+        102384.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-accepted_late-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101763.0,
+        99649.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-accepted_late-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99649.0,
+        101763.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-field_115141499-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        134304.0,
+        95086.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-field_115141499-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95086.0,
+        134304.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-field_115160737-0-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        161318.0,
+        127059.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165008-field_115160737-1-native_reorder_funded",
+      "seed": 2026165008,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        127059.0,
+        161318.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-harvest79-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        109772.0,
+        99215.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-harvest79-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99215.0,
+        109772.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-evgen31-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111565.0,
+        95948.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-evgen31-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95948.0,
+        111565.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-shepherd-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        109997.0,
+        99041.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-shepherd-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99041.0,
+        109997.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-master49-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110463.0,
+        99259.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-master49-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99259.0,
+        110463.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110314.0,
+        99264.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99264.0,
+        110314.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-accepted_late-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107508.0,
+        105803.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-accepted_late-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        105803.0,
+        107508.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-field_115141499-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        109230.0,
+        90037.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-field_115141499-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90037.0,
+        109230.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-field_115160737-0-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        121490.0,
+        93853.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165009-field_115160737-1-native_reorder_funded",
+      "seed": 2026165009,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94735.0,
+        120915.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-harvest79-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        104942.0,
+        90254.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-harvest79-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90254.0,
+        104942.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-evgen31-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110073.0,
+        80548.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-evgen31-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80548.0,
+        110073.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-shepherd-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107207.0,
+        93566.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-shepherd-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93566.0,
+        107207.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-master49-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        109498.0,
+        81924.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-master49-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81924.0,
+        109498.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107181.0,
+        92138.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92138.0,
+        107181.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-accepted_late-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89596.0,
+        89096.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-accepted_late-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89096.0,
+        89596.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-field_115141499-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        133814.0,
+        97413.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-field_115141499-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97413.0,
+        133814.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-field_115160737-0-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        119858.0,
+        59879.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165010-field_115160737-1-native_reorder_funded",
+      "seed": 2026165010,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        59879.0,
+        119858.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-harvest79-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        105947.0,
+        80679.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-harvest79-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80679.0,
+        105947.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-evgen31-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        113155.0,
+        88947.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-evgen31-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88947.0,
+        113155.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-shepherd-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106392.0,
+        81118.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-shepherd-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81118.0,
+        106392.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-master49-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106409.0,
+        80771.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-master49-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80771.0,
+        106409.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106015.0,
+        80995.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80995.0,
+        106015.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-accepted_late-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        104202.0,
+        102680.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-accepted_late-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102680.0,
+        104202.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-field_115141499-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        131897.0,
+        80122.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-field_115141499-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80122.0,
+        131897.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-field_115160737-0-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        149988.0,
+        127304.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165011-field_115160737-1-native_reorder_funded",
+      "seed": 2026165011,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        127304.0,
+        149988.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-harvest79-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        157535.0,
+        148252.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-harvest79-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        148252.0,
+        157535.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-evgen31-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        162200.0,
+        142331.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-evgen31-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        142331.0,
+        162200.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-shepherd-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        158461.0,
+        147521.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-shepherd-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        147521.0,
+        158461.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-master49-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        159386.0,
+        148231.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-master49-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        148231.0,
+        159386.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        159734.0,
+        150640.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        150640.0,
+        159734.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-accepted_late-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        118826.0,
+        118760.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-accepted_late-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        118760.0,
+        118826.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-field_115141499-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        146431.0,
+        81105.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-field_115141499-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81105.0,
+        146431.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-field_115160737-0-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        167413.0,
+        135189.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165012-field_115160737-1-native_reorder_funded",
+      "seed": 2026165012,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135189.0,
+        167413.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-harvest79-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        109701.0,
+        97958.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-harvest79-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97958.0,
+        109701.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-evgen31-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112065.0,
+        96688.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-evgen31-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96688.0,
+        112065.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-shepherd-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110651.0,
+        97491.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-shepherd-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97491.0,
+        110651.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-master49-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111096.0,
+        97873.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-master49-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97873.0,
+        111096.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        109132.0,
+        93914.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93914.0,
+        109132.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-accepted_late-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        77656.0,
+        76767.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-accepted_late-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        76767.0,
+        77656.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-field_115141499-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        118886.0,
+        77027.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-field_115141499-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        77027.0,
+        118886.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-field_115160737-0-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        136451.0,
+        123737.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165013-field_115160737-1-native_reorder_funded",
+      "seed": 2026165013,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        123737.0,
+        136451.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-harvest79-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        83779.0,
+        60376.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-harvest79-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60376.0,
+        83779.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-evgen31-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        85924.0,
+        56059.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-evgen31-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        56059.0,
+        85924.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-shepherd-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        84444.0,
+        59275.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-shepherd-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        59275.0,
+        84444.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-master49-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        84526.0,
+        59250.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-master49-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        59250.0,
+        84526.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        83548.0,
+        60610.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60610.0,
+        83548.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-accepted_late-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91008.0,
+        91535.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-accepted_late-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91535.0,
+        91008.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-field_115141499-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111605.0,
+        75403.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-field_115141499-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75403.0,
+        111605.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-field_115160737-0-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        105642.0,
+        93640.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165014-field_115160737-1-native_reorder_funded",
+      "seed": 2026165014,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93640.0,
+        105642.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-harvest79-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        141387.0,
+        126999.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-harvest79-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        126999.0,
+        141387.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-evgen31-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        154147.0,
+        135644.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-evgen31-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135644.0,
+        154147.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-shepherd-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        142140.0,
+        127538.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-shepherd-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        127538.0,
+        142140.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-master49-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        143357.0,
+        128422.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-master49-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        128422.0,
+        143357.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        148881.0,
+        135255.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135255.0,
+        148881.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-accepted_late-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107389.0,
+        106877.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-accepted_late-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106877.0,
+        107389.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-field_115141499-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        170375.0,
+        108038.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-field_115141499-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        108038.0,
+        170375.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-field_115160737-0-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        120801.0,
+        101589.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165015-field_115160737-1-native_reorder_funded",
+      "seed": 2026165015,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101589.0,
+        120801.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-harvest79-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90284.0,
+        78453.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-harvest79-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78453.0,
+        90284.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-evgen31-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91927.0,
+        78912.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-evgen31-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78912.0,
+        91927.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-shepherd-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90651.0,
+        78716.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-shepherd-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78716.0,
+        90651.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-master49-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91354.0,
+        79194.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-master49-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79194.0,
+        91354.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        86947.0,
+        71053.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71053.0,
+        86947.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-accepted_late-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        113663.0,
+        108971.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-accepted_late-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        108971.0,
+        113663.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-field_115141499-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        150044.0,
+        104836.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-field_115141499-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        104836.0,
+        150044.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-field_115160737-0-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        122177.0,
+        100825.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165016-field_115160737-1-native_reorder_funded",
+      "seed": 2026165016,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        100825.0,
+        122177.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-harvest79-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99817.0,
+        88338.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-harvest79-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88338.0,
+        99817.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-evgen31-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102991.0,
+        88387.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-evgen31-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88387.0,
+        102991.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-shepherd-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101132.0,
+        88130.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-shepherd-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88130.0,
+        101132.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-master49-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101218.0,
+        87870.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-master49-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87870.0,
+        101218.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        123982.0,
+        111877.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111877.0,
+        123982.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-accepted_late-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106475.0,
+        104612.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-accepted_late-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        104612.0,
+        106475.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-field_115141499-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        148579.0,
+        84917.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-field_115141499-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        84917.0,
+        148579.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-field_115160737-0-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        150251.0,
+        135344.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165017-field_115160737-1-native_reorder_funded",
+      "seed": 2026165017,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135344.0,
+        150251.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-harvest79-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71400.0,
+        63057.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-harvest79-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        63057.0,
+        71400.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-evgen31-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82275.0,
+        65138.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-evgen31-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        65138.0,
+        82275.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-shepherd-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72440.0,
+        62769.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-shepherd-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        62769.0,
+        72440.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-master49-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72063.0,
+        63104.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-master49-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        63104.0,
+        72063.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        85472.0,
+        83854.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        83854.0,
+        85472.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-accepted_late-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        70902.0,
+        68662.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-accepted_late-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        68662.0,
+        70902.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-field_115141499-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        77374.0,
+        93077.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-field_115141499-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93077.0,
+        77374.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-field_115160737-0-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74537.0,
+        72171.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165018-field_115160737-1-native_reorder_funded",
+      "seed": 2026165018,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72171.0,
+        74537.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-harvest79-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96707.0,
+        89898.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-harvest79-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89898.0,
+        96707.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-evgen31-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        98079.0,
+        88026.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-evgen31-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88026.0,
+        98079.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-shepherd-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97067.0,
+        89865.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-shepherd-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89865.0,
+        97067.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-master49-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97174.0,
+        89867.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-master49-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89867.0,
+        97174.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95042.0,
+        83064.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        83064.0,
+        95042.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-accepted_late-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        121650.0,
+        114875.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-accepted_late-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114875.0,
+        121650.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-field_115141499-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        143440.0,
+        97221.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-field_115141499-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97221.0,
+        143440.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-field_115160737-0-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        129918.0,
+        105115.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165019-field_115160737-1-native_reorder_funded",
+      "seed": 2026165019,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        105115.0,
+        129918.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-harvest79-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95359.0,
+        87558.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-harvest79-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87558.0,
+        95359.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-evgen31-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99903.0,
+        88413.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-evgen31-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88413.0,
+        99903.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-shepherd-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95714.0,
+        89108.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-shepherd-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89108.0,
+        95714.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-master49-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99328.0,
+        88474.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-master49-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88474.0,
+        99328.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110069.0,
+        99932.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99932.0,
+        110069.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-accepted_late-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        121073.0,
+        110793.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-accepted_late-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110793.0,
+        121073.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-field_115141499-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135468.0,
+        101577.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-field_115141499-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101577.0,
+        135468.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-field_115160737-0-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        122926.0,
+        84671.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165020-field_115160737-1-native_reorder_funded",
+      "seed": 2026165020,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        84671.0,
+        122926.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-harvest79-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91115.0,
+        88294.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-harvest79-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88294.0,
+        91115.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-evgen31-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93183.0,
+        89189.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-evgen31-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89189.0,
+        93183.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-shepherd-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91498.0,
+        88074.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-shepherd-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88074.0,
+        91498.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-master49-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92710.0,
+        90131.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-master49-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90131.0,
+        92710.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95616.0,
+        93398.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93398.0,
+        95616.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-accepted_late-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82609.0,
+        71384.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-accepted_late-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71384.0,
+        82609.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-field_115141499-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        85435.0,
+        95112.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-field_115141499-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95112.0,
+        85435.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-field_115160737-0-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93430.0,
+        63986.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165021-field_115160737-1-native_reorder_funded",
+      "seed": 2026165021,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        63986.0,
+        93430.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-harvest79-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92999.0,
+        91706.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-harvest79-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91706.0,
+        92999.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-evgen31-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102616.0,
+        90602.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-evgen31-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90602.0,
+        102616.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-shepherd-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95510.0,
+        94850.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-shepherd-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94850.0,
+        95510.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-master49-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101193.0,
+        93594.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-master49-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93594.0,
+        101193.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        104263.0,
+        111302.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111302.0,
+        104263.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-accepted_late-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101969.0,
+        101751.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-accepted_late-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        101751.0,
+        101969.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-field_115141499-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110682.0,
+        92402.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-field_115141499-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92402.0,
+        110682.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-field_115160737-0-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        136106.0,
+        89106.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165022-field_115160737-1-native_reorder_funded",
+      "seed": 2026165022,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89106.0,
+        136106.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-harvest79-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112918.0,
+        107819.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-harvest79-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107819.0,
+        112918.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-evgen31-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114738.0,
+        103583.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-evgen31-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        103583.0,
+        114738.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-shepherd-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114290.0,
+        106292.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-shepherd-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106292.0,
+        114290.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-master49-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114450.0,
+        107037.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-master49-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107037.0,
+        114450.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        111227.0,
+        106001.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106001.0,
+        111227.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-accepted_late-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        124198.0,
+        123700.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-accepted_late-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        123700.0,
+        124198.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-field_115141499-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        132179.0,
+        86635.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-field_115141499-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        86635.0,
+        132179.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-field_115160737-0-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        138342.0,
+        116859.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165023-field_115160737-1-native_reorder_funded",
+      "seed": 2026165023,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        116859.0,
+        138342.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-harvest79-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96388.0,
+        80729.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-harvest79-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80729.0,
+        96388.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-evgen31-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        98842.0,
+        81613.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-evgen31-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81613.0,
+        98842.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-shepherd-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97420.0,
+        82314.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-shepherd-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82314.0,
+        97420.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-master49-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        97514.0,
+        82171.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-master49-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82171.0,
+        97514.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        86477.0,
+        68725.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        68725.0,
+        86477.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-accepted_late-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74122.0,
+        74880.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-accepted_late-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        74880.0,
+        74122.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-field_115141499-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91213.0,
+        73145.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-field_115141499-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        73145.0,
+        91213.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-field_115160737-0-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81122.0,
+        73772.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165024-field_115160737-1-native_reorder_funded",
+      "seed": 2026165024,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        73772.0,
+        81122.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-harvest79-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        113542.0,
+        98003.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-harvest79-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        98003.0,
+        113542.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-evgen31-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        115713.0,
+        99779.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-evgen31-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99779.0,
+        115713.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-shepherd-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114129.0,
+        99191.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-shepherd-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99191.0,
+        114129.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-master49-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114597.0,
+        99030.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-master49-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99030.0,
+        114597.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114021.0,
+        99314.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99314.0,
+        114021.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-accepted_late-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94408.0,
+        92424.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-accepted_late-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92331.0,
+        94561.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-field_115141499-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        144631.0,
+        93403.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-field_115141499-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93300.0,
+        145967.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-field_115160737-0-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        135277.0,
+        118629.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165025-field_115160737-1-native_reorder_funded",
+      "seed": 2026165025,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        118629.0,
+        135277.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-harvest79-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106343.0,
+        93014.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-harvest79-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92882.0,
+        107520.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-evgen31-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        132096.0,
+        112618.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-evgen31-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112454.0,
+        132700.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-shepherd-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        106474.0,
+        91955.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-shepherd-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91784.0,
+        107635.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-master49-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        131932.0,
+        114135.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-master49-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        114058.0,
+        132509.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        112068.0,
+        96820.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96689.0,
+        113263.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-accepted_late-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        139586.0,
+        140624.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-accepted_late-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        139187.0,
+        141023.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-field_115141499-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        162934.0,
+        103988.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-field_115141499-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        103218.0,
+        163719.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-field_115160737-0-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        140602.0,
+        76745.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165026-field_115160737-1-native_reorder_funded",
+      "seed": 2026165026,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        76745.0,
+        140602.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-harvest79-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        84360.0,
+        70830.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-harvest79-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        70830.0,
+        84360.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-evgen31-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80165.0,
+        64538.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-evgen31-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        64538.0,
+        80165.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-shepherd-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        77631.0,
+        66892.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-shepherd-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        66892.0,
+        77631.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-master49-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79781.0,
+        65957.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-master49-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        65957.0,
+        79781.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80982.0,
+        72849.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72849.0,
+        80982.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-accepted_late-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99490.0,
+        89487.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-accepted_late-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89487.0,
+        99490.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-field_115141499-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        138130.0,
+        102309.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-field_115141499-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        102309.0,
+        138130.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-field_115160737-0-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        99304.0,
+        66903.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165027-field_115160737-1-native_reorder_funded",
+      "seed": 2026165027,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        66903.0,
+        99304.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-harvest79-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88922.0,
+        69539.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-harvest79-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69539.0,
+        88922.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-evgen31-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89866.0,
+        68822.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-evgen31-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        68822.0,
+        89866.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-shepherd-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90443.0,
+        71026.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-shepherd-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71026.0,
+        90443.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-master49-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89869.0,
+        70673.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-master49-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        70673.0,
+        89869.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        96767.0,
+        80162.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80162.0,
+        96767.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-accepted_late-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        85708.0,
+        87274.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-accepted_late-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87274.0,
+        85708.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-field_115141499-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        110660.0,
+        89152.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-field_115141499-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89152.0,
+        110660.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-field_115160737-0-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        126620.0,
+        107499.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165028-field_115160737-1-native_reorder_funded",
+      "seed": 2026165028,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        107499.0,
+        126620.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-harvest79-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69600.0,
+        60040.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-harvest79-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60040.0,
+        69600.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-evgen31-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71979.0,
+        60185.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-evgen31-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60185.0,
+        71979.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-shepherd-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69496.0,
+        59961.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-shepherd-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        59961.0,
+        69496.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-master49-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        71454.0,
+        60939.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-master49-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60939.0,
+        71454.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75860.0,
+        64798.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        64798.0,
+        75860.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-accepted_late-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        85130.0,
+        75177.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-accepted_late-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        75177.0,
+        85130.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-field_115141499-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        85118.0,
+        95103.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-field_115141499-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95103.0,
+        85118.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-field_115160737-0-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90137.0,
+        59141.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165029-field_115160737-1-native_reorder_funded",
+      "seed": 2026165029,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        59141.0,
+        90137.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-harvest79-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91221.0,
+        81699.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-harvest79-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81699.0,
+        91221.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-evgen31-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94026.0,
+        78220.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-evgen31-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        78220.0,
+        94026.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-shepherd-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93186.0,
+        82101.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-shepherd-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82101.0,
+        93186.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-master49-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        92965.0,
+        82210.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-master49-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82210.0,
+        92965.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        94610.0,
+        81615.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81615.0,
+        94610.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-accepted_late-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        63430.0,
+        61767.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-accepted_late-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        61767.0,
+        63430.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-field_115141499-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72873.0,
+        72132.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-field_115141499-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        72132.0,
+        72873.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-field_115160737-0-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        83059.0,
+        84775.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165030-field_115160737-1-native_reorder_funded",
+      "seed": 2026165030,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        84775.0,
+        83059.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-harvest79-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80328.0,
+        60800.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-harvest79-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60800.0,
+        80328.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-evgen31-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        80664.0,
+        58822.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-evgen31-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        58822.0,
+        80664.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-shepherd-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81269.0,
+        60878.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-shepherd-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        60878.0,
+        81269.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-master49-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        81271.0,
+        61060.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-master49-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        61060.0,
+        81271.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82222.0,
+        62080.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        62080.0,
+        82222.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-accepted_late-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93958.0,
+        95307.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-accepted_late-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        95307.0,
+        93958.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-field_115141499-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        121175.0,
+        82998.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-field_115141499-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        82998.0,
+        121175.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-field_115160737-0-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        93775.0,
+        91665.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165031-field_115160737-1-native_reorder_funded",
+      "seed": 2026165031,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        91665.0,
+        93775.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-harvest79-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "harvest79",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        86531.0,
+        69130.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-harvest79-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "harvest79",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69130.0,
+        86531.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-evgen31-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "evgen31",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        90449.0,
+        69488.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-evgen31-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "evgen31",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69488.0,
+        90449.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-shepherd-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "shepherd",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88295.0,
+        69584.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-shepherd-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "shepherd",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69584.0,
+        88295.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-master49-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "master49",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        88006.0,
+        69714.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-master49-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "master49",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        69714.0,
+        88006.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-accepted_feed-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "accepted_feed",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89870.0,
+        73174.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-accepted_feed-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "accepted_feed",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        73174.0,
+        89870.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-accepted_late-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "accepted_late",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        87409.0,
+        86483.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-accepted_late-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "accepted_late",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        86483.0,
+        87409.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-field_115141499-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "field_115141499",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        123096.0,
+        79122.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-field_115141499-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "field_115141499",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        79122.0,
+        123096.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-field_115160737-0-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "field_115160737",
+      "seat": 0,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        89556.0,
+        62056.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    },
+    {
+      "key": "2026165032-field_115160737-1-native_reorder_funded",
+      "seed": 2026165032,
+      "opponent": "field_115160737",
+      "seat": 1,
+      "arm": "native_reorder_funded",
+      "valid": true,
+      "rewards": [
+        62056.0,
+        89556.0
+      ],
+      "statuses": [
+        "DONE",
+        "DONE"
+      ]
+    }
+  ],
+  "scope": "Synthetic local comparison outcome rows, not original competition data or independent observations per seat. Methods changed after a panel was read require fresh worlds."
+}

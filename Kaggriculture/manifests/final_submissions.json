@@ -1,0 +1,24 @@
+{
+  "submissions": [
+    {
+      "name": "flex_service",
+      "submission_id": 56705674,
+      "source_directory": "strategies/flex_service",
+      "archive_sha256": "20cff504fee6b78a539bf1bbdcaa90678e2e3db1de2e2ead2dfde8e205c2da87",
+      "archive_bytes": 118424,
+      "manifest_sha256": "9385cd36b2bf8271e80d9934561939ef9b0318dd9754ebcbc3339861a41b47e5",
+      "inference": "stdlib-only callback and JSON lines",
+      "status": "Official COMPLETE; final Private result pending"
+    },
+    {
+      "name": "adaptive_milk",
+      "submission_id": 56698261,
+      "source_directory": "strategies/adaptive_milk",
+      "archive_sha256": "c532e7b11701929798a916ddf757411c74ccc256f076a78545bbfcf01b856722",
+      "archive_bytes": 112372,
+      "manifest_sha256": "cb4a639b337fc1e90b2c8e9a07efb6f29efcd9a053aad12f97b169582731cbc0",
+      "inference": "stdlib-only callback and JSON lines",
+      "status": "Official COMPLETE; final Private result pending"
+    }
+  ]
+}

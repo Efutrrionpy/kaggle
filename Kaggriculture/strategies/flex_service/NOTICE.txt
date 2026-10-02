@@ -1,0 +1,14 @@
+Local2026-09-28 complete-programme router. Includes selected worker primitives from Kaggle Environments, see accompanying license. Offline action/resource targets derived from publicly downloadable Kaggriculture episodes of submission56614976. No private datasets, opponent-private inference, source outcomes, hidden world seeds, future observations or episode-ID lookup. Policy choices fixed before prospective validation.
+Local entry-only v2: allow differing animal consecutive_unfed/pending_care_bonus at otherwise identical entry. No runtime state or money reset; actual consequences retained. Selected programme and all market/worker logic unchanged.
+
+Local Sep28 population-value router: fixed shop-to-programme selection fitted on40development worlds. Controller, current-state guard, material feedback and own-worker primitives unchanged. No opponent-name/world-seed feature; no inference-time future observations.
+
+Local Sep28 initial-grain-priority correction: only initial WHEAT purchase is moved to first order slot; quantities, other relative ordering, full policy, actual entry guard and all later calls are unchanged.
+
+Local Sep28 late YARN flock: preserve first goose tranche and later crop/feed/service routes; convert later goose commissioning to sheep with actual mixed-cargo deposits. Exact research class, no free assets or hidden data.
+
+Local20260930: legal-public-state unfitted economic choice at198; preserve original opening/router, alter only first later animal, existingYarn unchanged. Expected unrevealed shops, never hidden seeds/factual future. Forecast explicitly approximate; full source/attribution retained.
+
+Local20260930: unfitted legal219root lateCOW exposure selection, full frozen economics, earlieracceptedEconomic preserved. Existinganimals/routes retained; forecast conditional, no hiddenfuture. Original attribution retained.
+
+Local20260930: complete paid service tours with actual marginal wage, grain reservation, incremental animal biology and conditional nonlinear market valuation. Frozen legal current-state policy; preserve accepted early choices. Original attribution retained.
