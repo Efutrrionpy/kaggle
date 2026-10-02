@@ -1,15 +1,25 @@
-# Biohub — Cell Tracking during Development
+[← All studies](../README.md) &nbsp; / &nbsp; Study 02
 
-## Abstract
+# Biohub
+### Cell Tracking during Development
 
-We investigated cell detection and lineage tracking in volumetric developmental
-microscopy. The submitted pipeline combined temporal 3D U-Nets, node
+| Final rank | Best selected Private score ↑ | Task |
+|:---|:---|:---|
+| **1,714th / 4,020 teams** | **0.91051** | **3D cell lineages** |
+
+Detecting cells and reconstructing their lineages in volumetric developmental
+microscopy. The submitted pipeline combines temporal 3D U-Nets, node
 Transformers, an auxiliary DeepCenter model, and graph optimization.
-The best selected submission achieved **0.91051 Private**. The team's final
-Private leaderboard rank was **1,714th out of 4,020 teams**. A collective-motion variant achieved
-**0.94218 Public** and **0.90743 Private**.
 
-## Models and methods
+**Key finding.** Better local association scores did not reliably improve the
+complete tracking graph. Collective-motion refinement raised the Public score
+but reduced Private performance.
+
+[Method](#method) · [Results](#results) · [Experiments](#experiments) · [Code and reproduction](#code-and-reproduction)
+
+## Method
+
+![Biohub method: temporal 3D features and DeepCenter localization feed association scores, then ILP and graph repair assemble cell lineages](../assets/biohub-method.svg)
 
 | Component | Model or method | Function |
 |---|---|---|
@@ -24,7 +34,7 @@ sources documented in [reproducibility](REPRODUCIBILITY.md). Our research focuse
 on association, division modeling, temporal features, and the translation of
 learned scores into complete tracking graphs.
 
-## Submitted results
+## Results
 
 | Pipeline | Public | Private |
 |---|---:|---:|
@@ -35,7 +45,7 @@ learned scores into complete tracking graphs.
 The higher-Public motion variant did not improve Private performance.
 Official submission details are in [results](FINAL_RESULTS.md).
 
-## Experimental findings
+## Experiments
 
 | Experiment | Measured result | Interpretation |
 |---|---|---|
@@ -50,7 +60,7 @@ comparisons, not interchangeable estimates of unseen performance. In particular,
 cross-fitting a residual head does not remove exposure in the upstream detector,
 crops, or model selection.
 
-## Report and code
+## Code and reproduction
 
 - [Research report](RESEARCH_HISTORY.md): experimental progression and model analysis
 - [Results](FINAL_RESULTS.md) and [experiment table](results/research_results.csv)

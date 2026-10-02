@@ -1,18 +1,28 @@
-# Kaggriculture — Resource-Constrained Competitive Planning
+[← All studies](../README.md) &nbsp; / &nbsp; Study 03
 
-## Abstract
+# Kaggriculture
+### Resource-Constrained Competitive Planning
 
-We studied competitive control in a 720-turn farming simulation with shared
-markets, limited labor, and coupled production and transport constraints.
-The final policies combined demonstration-derived production programs with
-current-state economic decisions and explicit cash-flow feasibility.
-**FlexService scored 677 / 768 local evaluation points**, against 622 for
-AdaptiveMilk on the same panel. Their saved official Public ratings were
-**2409.8 and 2163.7**, respectively. **Final competition rank: pending official
-finalization** at the 2026-10-02 observation. The two values are skill ratings,
-not leaderboard positions.
+| Final rank | FlexService Public rating | AdaptiveMilk Public rating |
+|:---|:---|:---|
+| **Not yet confirmed¹** | **2409.8** | **2163.7** |
 
-## Models and methods
+Competitive control in a 720-turn farming simulation with shared markets,
+limited labor, and coupled production and transport constraints. The submitted
+policies combine demonstration-derived programs with current-state economics
+and explicit cash-flow feasibility.
+
+**Key finding.** Planning complete production and service programs performed
+better locally than narrow market selectors. FlexService scored **677 / 768**
+points against **622 / 768** for AdaptiveMilk on the same prospective panel.
+
+<sub>¹ No final rank was confirmed in the saved official observation of 2 October 2026, 04:26 UTC. Public skill ratings are not leaderboard positions.</sub>
+
+[Method](#method) · [Results](#results) · [Validation](#validation) · [Code and reproduction](#code-and-reproduction)
+
+## Method
+
+![Kaggriculture method: visible market and farm state feed economic planning and state-responsive production, feed, delivery, and service decisions](../assets/kaggriculture-method.svg)
 
 | Model or method | Application | Outcome |
 |---|---|---|
@@ -29,11 +39,18 @@ offline policy parameters; our modules added material feedback, investment
 selection, and service planning. Attribution is documented in
 [sources](SOURCES_AND_LICENSES.md).
 
-## Evaluation and results
+## Results
 
-Policies were compared in the same worlds against fixed opponents in both
-seats. A win contributes 1 point and a draw 0.5. Uncertainty was evaluated
-at the world level because seats and related opponent policies are dependent.
+The submitted policies were compared on a **shared panel of 32 new worlds,
+12 opponents, and both seats**:
+
+| Policy | Local points / 768 | Comparison |
+|:---|---:|:---|
+| **FlexService** | **677** | Constrained service planning |
+| AdaptiveMilk | 622 | State-conditioned animal investment |
+
+<details>
+<summary><strong>Additional confirmation panels</strong></summary>
 
 | Policy | Confirmation panel | Points | Status |
 |---|---|---:|---|
@@ -46,7 +63,15 @@ The panels differ, so their rates do not directly rank every method.
 Committed's 11 additional wins over Flex were all against the earlier
 LateFlock policy, exposing a coverage limitation despite its favorable total.
 
-## Report and implementation
+</details>
+
+## Validation
+
+Policies were compared in the same worlds against fixed opponents in both
+seats. A win contributes 1 point and a draw 0.5. Uncertainty was evaluated
+at the world level because seats and related opponent policies are dependent.
+
+## Code and reproduction
 
 - [Research report](RESEARCH.md): model progression, mechanisms, and negative results
 - [Results](RESULTS.md): matched comparisons and official observations

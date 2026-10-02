@@ -1,16 +1,25 @@
-# ROGII — Wellbore Geology Prediction
+[← All studies](../README.md) &nbsp; / &nbsp; Study 01
 
-## Abstract
+# ROGII
+### Wellbore Geology Prediction
 
-We studied prediction of the hidden True Vertical Thickness (TVT) tail of
-horizontal wells using trajectory coordinates, Gamma Ray logs, a known TVT
-prefix, and a paired typewell. The final system combined query-local CatBoost
-regression, robust stratigraphic projection, and HMM alignment. It achieved
-**8.889 Private RMSE**, placing **444th out of 6,191 teams on the final
-Private leaderboard** and earning a
-**Bronze medal**.
+| Final rank | Private RMSE ↓ | Award |
+|:---|:---|:---|
+| **444th / 6,191 teams** | **8.889** | **Bronze medal** |
 
-## Models and methods
+Predicting the unseen True Vertical Thickness (TVT) tail of a horizontal well
+from its trajectory, Gamma Ray log, known TVT prefix, and paired typewell.
+The final system combines query-local CatBoost regression with geological
+projection and sequence alignment.
+
+**Key finding.** The ensemble selected through novel-well validation achieved a
+better Private result than the candidate with the stronger Public score.
+
+[Method](#method) · [Results](#results) · [Validation](#validation) · [Code and reproduction](#code-and-reproduction)
+
+## Method
+
+![ROGII method: well inputs feed CatBoost, geological projection, and HMM estimates, combined in a fixed ensemble](../assets/rogii-method.svg)
 
 | Component | Method | Role |
 |---|---|---|
@@ -28,18 +37,20 @@ The final prediction was:
 F57 = 0.50 × CatBoost V71 + 0.45 × U projection + 0.05 × raw HMM path
 ```
 
-## Evaluation
-
-The training data contained **773 horizontal wells and 5.09 million rows**.
-Evaluation held out complete wells and scored their native hidden tails using
-pooled row-level RMSE. Learned preprocessing, neighboring-well structures, and
-residual models were fitted within their respective training folds.
-
-The final 8.5186 internal estimate used a **hybrid cross-fit**: the V71 leg was
-cluster-excluded, while the U/HMM leg used complete-well OOF. It is not a
-fully leave-cluster-out evaluation of the entire ensemble.
-
 ## Results
+
+| Submission | Public RMSE ↓ | Private RMSE ↓ |
+|:---|---:|---:|
+| **F57 · final ensemble** | 7.502 | **8.889** |
+| Alternative account submission | **6.449** | 9.565 |
+
+A competing account submission scored 6.449 Public but 9.565 Private. The
+visible Public fixture consisted of three wells whose legal input sequences
+overlapped training, limiting its usefulness for model selection. F57 was
+selected using novel-well validation evidence and achieved the better Private result.
+
+<details>
+<summary><strong>Experimental progression · seven research stages</strong></summary>
 
 | Research stage | Representative method | Internal RMSE |
 |---|---|---:|
@@ -54,19 +65,20 @@ fully leave-cluster-out evaluation of the entire ensemble.
 These stages used evolving exploratory protocols; the table summarizes the
 recorded progression rather than a controlled ablation across every row.
 
-| Official result | F57 |
-|---|---:|
-| Public RMSE | 7.502 |
-| Private RMSE | **8.889** |
-| Final Private leaderboard rank | **444th out of 6,191 teams** |
-| Medal | **Bronze** |
+</details>
 
-A competing account submission scored 6.449 Public but 9.565 Private. The
-visible Public fixture consisted of three wells whose legal input sequences
-overlapped training, limiting its usefulness for model selection. F57 was
-selected using novel-well validation evidence and achieved the better Private result.
+## Validation
 
-## Implementation and further reading
+The training data contained **773 horizontal wells and 5.09 million rows**.
+Evaluation held out complete wells and scored their native hidden tails using
+pooled row-level RMSE. Learned preprocessing, neighboring-well structures, and
+residual models were fitted within their respective training folds.
+
+The final 8.5186 internal estimate used a **hybrid cross-fit**: the V71 leg was
+cluster-excluded, while the U/HMM leg used complete-well OOF. It is not a
+fully leave-cluster-out evaluation of the entire ensemble.
+
+## Code and reproduction
 
 The published reference code covers [alignment](src/rogii/alignment.py),
 [physical projection](src/rogii/projection.py), [validation](src/rogii/validation.py),

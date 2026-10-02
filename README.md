@@ -1,34 +1,52 @@
-# Kaggle Research Reports
+![Kaggle Research Studies — geology, cell tracking, and competitive planning](assets/research-cover.svg)
 
-Three applied research studies in geological sequence prediction, cell tracking,
-and competitive resource management.
+Three competition studies, from model design to measured outcomes. Each report
+connects the final system to the experiments that shaped it.
 
-| Competition | Principal models and methods | Final Private leaderboard rank | Official score |
-|---|---|---|---|
-| [ROGII — Wellbore Geology Prediction](ROGII/README.md) | CatBoost, Particle Filter / HMM alignment, robust stratigraphic projection | **444th out of 6,191 teams — Bronze medal** | Private RMSE **8.889** |
-| [Biohub — Cell Tracking during Development](Biohub/README.md) | Temporal 3D U-Nets, node Transformers, DeepCenter, ILP tracking, collective-motion refinement | **1,714th out of 4,020 teams** | Best selected Private score **0.91051** |
-| [Kaggriculture](Kaggriculture/README.md) | Demonstration-derived policies, state-conditioned economic routing, resource-constrained service planning | **Pending official finalization**¹ | Public ratings: FlexService **2409.8**; AdaptiveMilk **2163.7**¹ |
+[Geology](ROGII/README.md) · [Cell tracking](Biohub/README.md) · [Competitive planning](Kaggriculture/README.md)
 
-## Research findings
+---
 
-**ROGII:** Combining a 290-feature CatBoost model with physical path smoothing
-and HMM alignment reduced the final internal estimate to 8.5186 RMSE. The
-Private result favored this ensemble over a candidate with a better Public score.
+### 01 &nbsp; ROGII · Wellbore Geology Prediction
 
-**Biohub:** Learned spatiotemporal features supported a deployable tracking
-pipeline. NCC, learned division residuals, five-frame encoders, and
-self-supervised features were evaluated; improvements in local objectives did
-not consistently improve complete tracking graphs or official scores.
+**444th of 6,191 teams · Bronze medal**<br>
+**8.889** Private RMSE · **7.502** Public RMSE
 
-**Kaggriculture:** Full production programs with current-state material and
-cash-flow feedback outperformed narrower market selectors in local comparisons.
-The submitted FlexService policy scored 677 / 768 points on a prospective
-world/opponent/seat panel, against 622 for AdaptiveMilk on that same panel.
+**CatBoost + geological projection + HMM alignment.** A 290-feature regressor
+combined with physical path estimates to predict unseen well tails. The final
+ensemble beat a stronger Public-scoring candidate on the Private leaderboard,
+highlighting the importance of novel-well validation.
 
-Each report describes the models, evaluation protocol, experimental results,
-and reproducibility scope. Official results and local estimates are reported
-separately; scores from different competitions or validation panels are not
-directly comparable.
+[Read the study →](ROGII/README.md) &nbsp; · &nbsp; [Methodology](ROGII/docs/methodology.md) &nbsp; · &nbsp; [Code](ROGII/src/rogii/)
 
-¹ Kaggriculture had no confirmed final rank in the saved official observation on
-**2026-10-02 04:26 UTC**. The reported values are Public skill ratings, not ranks.
+---
+
+### 02 &nbsp; Biohub · Cell Tracking during Development
+
+**1,714th of 4,020 teams · Final Private leaderboard**<br>
+**0.91051** best selected Private score
+
+**Temporal 3D U-Nets + node Transformers + graph optimization.** Experiments
+investigated cell associations, division modeling, and collective motion.
+Improvements in intermediate learning objectives did not consistently improve
+complete lineage graphs; the motion variant improved Public but reduced Private performance.
+
+[Read the study →](Biohub/README.md) &nbsp; · &nbsp; [Experiments](Biohub/RESEARCH_HISTORY.md) &nbsp; · &nbsp; [Code](Biohub/src/csv_overlay.py)
+
+---
+
+### 03 &nbsp; Kaggriculture · Competitive Resource Planning
+
+**Final rank not yet confirmed in the archived evidence**<br>
+**2409.8** FlexService Public rating · **2163.7** AdaptiveMilk Public rating
+
+**Demonstration-derived policies + state-responsive economic planning.**
+Controllers explicitly accounted for labor, cash flow, feed, and delivery.
+On the same prospective local panel, FlexService scored **677 / 768** points
+versus **622 / 768** for AdaptiveMilk.
+
+[Read the study →](Kaggriculture/README.md) &nbsp; · &nbsp; [Results](Kaggriculture/RESULTS.md) &nbsp; · &nbsp; [Code](Kaggriculture/strategies/)
+
+---
+
+<sub>Results are from the archived competition evidence. Kaggriculture's latest saved official observation is 2 October 2026, 04:26 UTC; its Public ratings are not ranks. Official scores and local validation estimates are distinguished within each study.</sub>
