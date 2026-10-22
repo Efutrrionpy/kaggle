@@ -122,7 +122,7 @@
     "ranked_rows": 4020,
     "private_leaderboard_display_score": "0.910",
     "selected_best_private_score": "0.91051",
-    "gold_target_met": false,
+    "medal": "none",
     "evidence_scope": "Published official Private leaderboard snapshot from 2026-10-01 and retained selected-submission receipt from 2026-10-02."
   },
   "actual_runtime": {

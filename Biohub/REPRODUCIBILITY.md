@@ -40,11 +40,10 @@ recorded versions rather than whichever version a dataset currently serves.
 The neural pipeline was adapted from
 [nusrati/0-940](https://www.kaggle.com/code/nusrati/0-940).
 
-The accepted notebook versions were
-`efnutrrionpy/biohub-nusrati0940-private-replay-v1/1` and
-`efnutrrionpy/biohub-fixed-collective-motion-v1/1`.
-These notebooks were private, so downloading them requires the owner's access.
-Their full source and external components are not reproduced in this repository.
+The accepted version-1 notebooks for submissions 55998516 and 56071433
+are identified by hashes in the artifact table. Their retained copies are
+private, so this repository does not claim that a reader can download them.
+Full notebook source and external components are not redistributed here.
 
 ## Environment and scope
 
@@ -56,6 +55,9 @@ environment, not a complete specification of Torch, CUDA, and the neural noteboo
 Full notebook inference took 1,454.3 seconds on the visible run, including
 44.4 seconds for the overlay. It produced 234,368 rows and changed 20 edges.
 Visible-output parity and runtime do not reproduce the official hidden-data score.
+
+[Recorded resource use and costs](COSTS.md) separates these execution-wall
+measurements from tool waits, incomplete compute totals and untracked payments.
 
 The published code reproduces the motion component and synthetic checks.
 Complete training and inference also require the original neural source,

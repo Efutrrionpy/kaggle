@@ -1,148 +1,83 @@
-# Biohub Research Report
+# Biohub: models, results and measured resources
 
-## 1. Problem and model architecture
+**Final Private rank: 1,714 / 4,020 teams. Best selected Private score:
+0.91051. Medal: none.** [Official result evidence](FINAL_RESULTS.md).
 
-The task was to reconstruct cell trajectories and divisions from volumetric
-microscopy, with performance determined by the complete tracking graph.
-We started from a public temporal 3D U-Net / node-Transformer pipeline,
-combined two checkpoint variants, incorporated a DeepCenter localization prior,
-and assembled associations through bidirectional score fusion, ILP, and graph repair.
+## Approach and contribution
 
-The study examined whether motion evidence, learned division configurations,
-longer temporal context, and self-supervised representations could improve
-this pipeline. The final selected baseline achieved **0.91051 Private**;
-the motion variant achieved **0.90743 Private**. The account placed
-**1,714th out of 4,020 teams** on the final Private leaderboard.
+The deployed baseline combined two public temporal 3D U-Net / node-Transformer
+checkpoint variants, a DeepCenter localization prior, bidirectional/harmonic
+association fusion, ILP, and graph repair. It adapted
+[nusrati/0-940](https://www.kaggle.com/code/nusrati/0-940); checkpoint origins
+and sharing limits are in [source attribution](THIRD_PARTY_NOTICES.md).
 
-## 2. Threshold and collective-motion refinement
+The original fixed collective-motion component estimated local displacement
+from up to 32 neighboring support pairs and reconsidered ordinary continuation
+edges within a 12 μm radius, using up to eight predecessor candidates.
+It retained nodes and protected division edges.
+The [implementation](src/csv_overlay.py) and synthetic tests are published;
+external notebook source and weights are not redistributed.
 
-The initial experiments kept the neural predictions fixed and changed graph
-post-processing. On a 32-movie development panel, reducing a division threshold
-from 0.26 to 0.12 improved the released-reference graph score from
-**0.92125669 to 0.92210655**. The improvement was concentrated in one additional
-division true positive; removing that movie reversed the comparison.
+| Submitted pipeline | Public | Private | Outcome |
+|---|---:|---:|---|
+| Baseline replay / threshold hedge | 0.94094 | **0.91051** | Selected; best Private |
+| Fixed collective-motion variant | **0.94218** | 0.90743 | Selected; higher Public did not transfer |
+| Later native / learned-division / dense route | 0.938 | 0.904 | Not selected; three-decimal saved scores |
 
-Collective-motion refinement estimated local motion using a robust median of
-neighboring support pairs, then reconsidered ordinary continuation edges.
-The implementation used a 12 μm search radius, up to eight predecessor
-candidates, and 32 neighboring support pairs. It preserved the nodes and
-protected division edges. The same development panel scored **0.92209576**.
+## Scientific comparisons
 
-The motion submission completed inference on a Kaggle T4 in approximately
-24.2 minutes. The refinement itself took 44.4 seconds and changed 20 edges
-in the visible output. Its **0.94218 Public / 0.90743 Private** result was
-weaker on Private than the baseline replay's **0.94094 / 0.91051**.
+| Method | Existing measurement | What it established |
+|---|---|---|
+| Threshold / collective motion | On 32 development movies, threshold 0.26→0.12 changed graph score 0.921257→0.922107; fixed motion scored 0.922096 | Small, panel-sensitive postprocessing gains; not hidden-data proof |
+| NCC continuation | Same 32-movie comparison: 0.922096→0.924246, with lost division events | Direct image evidence helped continuation, but topology and division recall also mattered |
+| Native temporal training | On 12 checkpoint-unfitted movies, epoch-5 native/fork-NCC/no-fork NCC: 0.645376/0.679688/0.690039; epoch 20: 0.654290/0.686770/0.696590 | NCC consistently helped this recipe; longer training added limited gain |
+| Learned pair residual | Fitting NLL 2.107995→1.225944, but graph score 0.933228→0.919667 and division FP 12→121 | Better local scores changed child ownership and could hurt the final graph |
+| Joint ownership model | Four fitting movies improved 0.921203→0.937003; 15 head-training-excluded movies fell 0.970864→0.927121 | Fitting improvement did not establish transfer |
+| Five-frame encoder / masked-change self-supervision | Regularized two-fold AUC 0.966829→0.968346; one SSL fold NLL 0.358785→0.353003 | Learned temporal signals, with mixed low-FP behavior; not official graph gains |
+| Full learned / dense route | Exposed 199-movie graph readout 0.914208→0.918756→0.922988 | Dense stage improved on H, but the official submission was weaker than the selected baseline |
+| K500→K1000 candidate expansion | Added 8,988 H roots / 8,260 dense roots; score remained 0.920656263046, TP5/FP9/FN38 | Extra coverage changed some edges but recovered no additional scored events |
 
-## 3. NCC and native temporal training
+The [31-row result table](results/research_results.csv) preserves evaluation
+populations and recorded source identifiers. The central observation is a gap
+between learning a useful signal and changing the right globally selected
+events. Node populations, supervision coverage, ownership and lineage topology
+all affect that conversion; these comparisons do not isolate a single cause.
 
-Normalized cross-correlation (NCC) supplied direct image evidence for
-continuation links. On 32 previously used movies, a continuation-focused
-configuration increased graph score from **0.92209576 to 0.92424554**, while
-losing division events. This motivated separate tests of native links,
-fork-preserving NCC, and NCC without forks.
+## Context and validation limits
 
-We trained a native temporal U-Net / Transformer recipe and evaluated 12
-movies excluded from that checkpoint's fitting:
+Published final leading solutions used expanded division supervision and
+related-cell occupancy/identity
+([1st](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/1st-place-solution)),
+joint detection/motion/uncertainty/descriptors
+([2nd](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/2nd-place-solution)),
+separate detection/flow/matching/division models
+([3rd](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/3rd-place-solution)),
+learned division-aware ILP costs
+([4th](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/4th-place-solution)),
+and multitask linking/pretraining/confidence-aware ILP
+([5th](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/5th-place-3d-u-net-transformer-linker-multi-s)).
+Their reported Private scores were 0.954–0.977. These are saved author-reported
+comparisons, not independently reproduced improvements or an additive recipe.
 
-| Training checkpoint | Native graph | Fork-preserving NCC | NCC without forks |
-|---|---:|---:|---:|
-| Epoch 5 | 0.645376 | 0.679688 | 0.690039 |
-| Epoch 20 | 0.654290 | 0.686770 | 0.696590 |
+Many local movies had upstream detector, crop or model-selection exposure.
+Excluding a movie from residual-head fitting did not make the whole pipeline
+clean OOF. Panels and detector nodes differed, so scores across rows cannot be
+ranked as if measured on one untouched test set. Visible CSV parity and runtime
+do not reproduce the hidden Private evaluation.
 
-NCC consistently improved this recipe, but longer training produced limited
-additional benefit and division precision remained weak. These results
-characterize the tested recipe, not the ceiling of temporal neural models.
-A fork-preserving NCC variant of the stronger deployment pipeline scored
-0.942 Public at the saved three-decimal precision, without a visible gain.
+## Resources and costs
 
-## 4. Learned division configurations and ownership
+Existing records show a **1,454.32 s visible notebook execution on a Kaggle T4**,
+including **44.38 s** motion refinement. A separate preserved CPU replay took
+**13.72 s** and matched the selected visible output exactly. These are specific
+execution-wall measurements, not total GPU-active time or training expenditure.
 
-The next models learned division configurations using partial supervision,
-pair residuals, and ownership-aware decoding. A pair-residual model reduced
-conditional weighted NLL from **2.107995 to 1.225944** on 30 fitting movies.
-However, graph score fell from **0.93322792 to 0.91966697**: division true
-positives increased from 4 to 7, while false positives increased from 12 to 121.
+The fixed main-thread accounting snapshot contains **5,317,789,093 model
+interaction tokens**, including **5,212,252,288 cached-input tokens**, from
+July 29 through October 22, 2026 UTC. It includes later analysis/reporting.
+Recorded terminal-turn wall time and tool waits are not compute-time estimates.
+Actual project-attributable payments, full training compute and electricity
+remain **untracked**, not zero. [Cost scope, model breakdown and limitations](COSTS.md).
 
-The mechanism was a mismatch between local scoring and global ownership.
-Keeping single-edge potentials fixed did not keep selected edges fixed:
-additional division pairs competed for the same children and altered the graph.
-
-A separate ownership experiment improved four fitting movies from
-**0.921203 to 0.937003** with joint decoding. On 15 movies excluded from
-residual-head training, it instead reduced score from **0.970864 to 0.927121**;
-factorized decoding scored **0.932039**. Limited positive examples and a shift
-between the training and inference populations remained plausible explanations.
-
-## 5. Five-frame encoders and self-supervision
-
-We evaluated a trainable five-frame encoder against frozen visual features,
-then added masked appearance/change self-supervision. The unregularized
-encoder overfit its training data. With residual regularization, the pooled
-two-fold comparison improved conditional NLL from **0.330700 to 0.327215**
-and weighted AUC from **0.966829 to 0.968346**.
-
-This correction changed one scalar per root while leaving intrinsic pair
-ordering unchanged, limiting which final decisions it could affect.
-Masked-change self-supervision improved one matched fold from
-**0.358785 to 0.353003 NLL** and **0.972037 to 0.972670 AUC**, but low-false-positive
-performance was mixed. These were intermediate-objective gains rather than
-demonstrated improvements in complete tracking graphs.
-
-## 6. Complete-graph evaluation
-
-A later pipeline combined learned division scoring, dense temporal evidence,
-and center information. Its saved 199-movie comparison was:
-
-| Stage | Graph score | Division TP | Division FP |
-|---|---:|---:|---:|
-| Baseline route | 0.91420834 | 24 | — |
-| Learned division stage (H) | 0.91875606 | 17 | 41 |
-| H + dense / center stage | **0.92298783** | 24 | 33 |
-
-The dense stage improved both score and division precision relative to H.
-Relative to the baseline, however, the final route recovered eight different
-division events and lost eight existing ones. Detector nodes, coordinates,
-averaging, and candidate coverage also changed, so this was not an isolated
-representation ablation. The submitted route scored **0.938 Public / 0.904 Private**.
-
-A fixed residual-strength adjustment reached **0.92401391** descriptively on
-all 199 movies. Selecting its strength across opposite source/fold groups
-instead reduced a 120-movie comparison from **0.93060631 to 0.93015715**.
-The full-panel improvement did not establish selection transfer.
-
-Finally, expanding candidate roots from K500 to K1000 on 18 selected failure
-movies added 8,988 H roots and 8,260 dense roots. Graph score remained
-**0.920656263046**, with division counts unchanged at TP 5, FP 9, FN 38.
-Some edges changed, but the added coverage did not recover scored events.
-
-## 7. Comparison with leading solutions
-
-The published top-five Private solutions highlight several alternative ways
-to connect supervision and learned representations to graph decisions:
-
-| Private rank / score | Reported approach |
-|---|---|
-| [Sergio, 1st / 0.977](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/1st-place-solution) | Expanded division supervision; learned related-cell occupancy and identity; greedy decoding |
-| [Soheil, 2nd / 0.970](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/2nd-place-solution) | Joint detection, motion, uncertainty, and descriptors; retention of weak candidates |
-| [yu4u, 3rd / 0.967](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/3rd-place-solution) | Separate detection, flow, matching, and division models; calibrated support and correctness |
-| [Barry, 4th / 0.962](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/4th-place-solution) | Learned division confidence controlling node-level ILP costs and weak-daughter recovery |
-| [Tang, 5th / 0.954](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/5th-place-3d-u-net-transformer-linker-multi-s) | Multitask linking, public-data pretraining, and confidence-aware ILP |
-
-These are author-reported methods, not independently reproduced ablations.
-The differences suggest that supervision coverage, candidate retention, and
-the learned-score/decoder interface mattered more than the choice of solver alone.
-
-## 8. Interpretation and validation limits
-
-The experiments demonstrated useful motion, NCC, and dense-stage signals,
-but also repeated gaps between local loss, graph quality, and official transfer.
-Many development movies had upstream detector, crop, or model-selection exposure.
-Residual-head exclusion therefore did not provide clean whole-pipeline OOF.
-Different panels and node populations also prevent direct ranking of all
-experimental scores in one table.
-
-The main research finding is that stronger local association or division
-scores must change the right globally selected events to improve tracking.
-The [experiment table](results/research_results.csv) records the measured
-comparisons and their evaluation scope. [Reproducibility](REPRODUCIBILITY.md)
-identifies the public models and the implementation available here.
+[Reproduction](REPRODUCIBILITY.md) documents what is runnable from this public
+package and which neural assets/data must be obtained separately.

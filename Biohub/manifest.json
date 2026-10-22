@@ -1,12 +1,17 @@
 {
   "schema": "biohub-public-archive-v1",
   "created_date": "2026-10-02",
-  "scope": "Small public package only; excludes manifest self-hash and all local-only artifacts",
+  "scope": "Public portfolio: models, official results, measured resource use, source attribution and reproducible original code; manifest self-hash excluded.",
   "files": [
     {
       "path": ".gitignore",
       "bytes": 145,
       "sha256": "50b983e5c9a1faa79e765409463a79e137fb45e645cf95fa96be8b77ea43bdf9"
+    },
+    {
+      "path": "COSTS.md",
+      "bytes": 3756,
+      "sha256": "b058f88e234e5660dc97984dcf552eae05258d4fd954760c7b227627bd06bdfa"
     },
     {
       "path": "FINAL_RESULTS.md",
@@ -20,38 +25,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3888,
-      "sha256": "26c614c12c866b8b34067ddd6ac3771209770a7fbdfa0e06ecbbec3ec307c969"
+      "bytes": 4579,
+      "sha256": "42ca8cd41fb2507bd86b78679885774e16cf81e24316c6d0fa2da63867925c3e"
     },
     {
       "path": "REPRODUCIBILITY.md",
-      "bytes": 2985,
-      "sha256": "c3a12a83a7206081ab66013e4a2b07dbc0fee84abe684579d831462fbefcebc2"
+      "bytes": 3129,
+      "sha256": "f889f9c253e8f85c603dabd64a5ee4c524b79ee85a556004feb72a24cf6e4cbf"
     },
     {
       "path": "RESEARCH_HISTORY.md",
-      "bytes": 8621,
-      "sha256": "f04907d26fa3afc505a2a67bd003d63ee6d42894c3bd363917a3ee3e4c979a19"
+      "bytes": 5906,
+      "sha256": "d7dadc343aa013e8a2237732c884ba3805005662374a1cfb6b7a6a93811815b7"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "bytes": 1343,
       "sha256": "9293dddad49edb220962587a47ae8e2f683b37ea5973d682cfca654a87c41713"
-    },
-    {
-      "path": "docs/PROMPT_REVIEW.md",
-      "bytes": 1760,
-      "sha256": "0da773a0464ece11c2c9cc7cd50e3992f9b64699d02ba7d05d9a4c01012d27c7"
-    },
-    {
-      "path": "prompts/CURRENT_DESIGN.md",
-      "bytes": 21596,
-      "sha256": "e721c5240114b8cffb66394269d287368c6da5e1a69c3b77c97e02c11ea75672"
-    },
-    {
-      "path": "prompts/ORIGINAL_DESIGN.md",
-      "bytes": 17675,
-      "sha256": "47006877a27e43f17543cf5a0332ca87d9b4a0e4f74a3edfb3aaa00bb9bd24ac"
     },
     {
       "path": "requirements-overlay.txt",
@@ -65,13 +55,13 @@
     },
     {
       "path": "results/final_artifacts.json",
-      "bytes": 7357,
-      "sha256": "f6a508fb5075c9fc2d7f5305483711d1a269163295de97a7642c62dc511276d4"
+      "bytes": 7348,
+      "sha256": "f045f91331ee44d182815a85c1177a17b604afe2ebe68185b5d2f8fa12a349dd"
     },
     {
       "path": "results/official_evidence.json",
-      "bytes": 5478,
-      "sha256": "3b621d2be10acd7c1e4e87ad1379fa8a7f657af13cbd20512dcb1c6b4c397ab9"
+      "bytes": 4694,
+      "sha256": "a5c6387a6e604059255625ed323b75add7b2cfaa72977eae9bd1174da9b8117d"
     },
     {
       "path": "results/reproduction_checks.json",
@@ -82,6 +72,11 @@
       "path": "results/research_results.csv",
       "bytes": 8402,
       "sha256": "361da5a7fb066d9f1504937649d41a06c7804fdd9e056c649fc7e7ab3678aa95"
+    },
+    {
+      "path": "results/resource_usage.json",
+      "bytes": 5914,
+      "sha256": "e29a5d76c6bb3db6f9c1cc138938c1a3912a792c8ff9ba9405e95f0d29ea34e8"
     },
     {
       "path": "src/csv_overlay.py",
@@ -108,5 +103,6 @@
       "bytes": 1250,
       "sha256": "adf5cef271341918a4e8ee54d18c889d7bdcb69f0fe543ac68949e240af8156b"
     }
-  ]
+  ],
+  "updated_date": "2026-10-22"
 }

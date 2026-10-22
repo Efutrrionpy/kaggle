@@ -1,0 +1,152 @@
+{
+  "schema": "biohub-recorded-resource-use-v1",
+  "publication_date": "2026-10-22",
+  "source": {
+    "kind": "Sanitized export of the project's private local controller usage index",
+    "accounting": "native-request-v2",
+    "scope": "Main/root thread only; not a complete subordinate-agent or advisor account",
+    "coverage_start_utc": "2026-07-29T09:50:43Z",
+    "fixed_token_cutoff_utc": "2026-10-22T11:16:07.687Z",
+    "recorder_established_at_utc": "2026-10-02T11:50:33.852Z",
+    "backfill": "Recorder retrospectively indexed earlier main-thread history",
+    "source_is_vendor_invoice": false,
+    "includes": "Research, repeated cached context, subsequent analysis and reporting through the fixed cutoff",
+    "excludes": "Later open/current work and any subordinate/advisor usage not captured in this main-thread index"
+  },
+  "token_semantics": {
+    "input_includes_cached": true,
+    "output_includes_reasoning": true,
+    "total_equals_input_plus_output_plus_unattributed": true,
+    "counts_are_request_token_volume_not_distinct_text_or_training_examples": true,
+    "per_request_capture": "Native last_token_usage captured once when cumulative totals change",
+    "cumulative_fallback_events": 0,
+    "unattributed_note": "Two initial July 29 events report total only; 14,819 + 12,708 = 27,527 tokens have no input/output attribution"
+  },
+  "model_token_totals": [
+    {
+      "model": "gpt-5.6-sol",
+      "events": 25175,
+      "input": 4326404554,
+      "cached_input": 4262205568,
+      "uncached_input": 64198986,
+      "output": 6902781,
+      "reasoning_output": 2106091,
+      "total": 4333334862,
+      "unattributed_total_only": 27527
+    },
+    {
+      "model": "gpt-6-astra",
+      "events": 4716,
+      "input": 736751313,
+      "cached_input": 714758016,
+      "uncached_input": 21993297,
+      "output": 3737181,
+      "reasoning_output": 1040533,
+      "total": 740488494,
+      "unattributed_total_only": 0
+    },
+    {
+      "model": "gpt-6-sol",
+      "events": 1497,
+      "input": 212111588,
+      "cached_input": 206895872,
+      "uncached_input": 5215716,
+      "output": 1226624,
+      "reasoning_output": 504215,
+      "total": 213338212,
+      "unattributed_total_only": 0
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "events": 253,
+      "input": 30400412,
+      "cached_input": 28392832,
+      "uncached_input": 2007580,
+      "output": 227113,
+      "reasoning_output": 88683,
+      "total": 30627525,
+      "unattributed_total_only": 0
+    }
+  ],
+  "totals": {
+    "events": 31641,
+    "input": 5305667867,
+    "cached_input": 5212252288,
+    "uncached_input": 93415579,
+    "output": 12093699,
+    "reasoning_output": 3739522,
+    "total": 5317789093,
+    "unattributed_total_only": 27527
+  },
+  "recorded_elapsed_time": {
+    "scope": "Completed main-thread turns only; open/unclosed turns excluded",
+    "completed_turn_wall_hours": 399.28326,
+    "tool_call_wait_hours": 295.648212,
+    "remaining_unclassified_wall_hours": 103.635048,
+    "precision": "Hours rounded to six decimals in the saved aggregate",
+    "remaining_wall_is_verified_model_compute": false,
+    "tool_wait_is_gpu_or_cpu_compute": false,
+    "note": "Tool waits include awaited operations; these are not a separate independent duration to add to turn wall time, and do not identify how much awaited time was compute versus queue/idle."
+  },
+  "recorded_execution_examples": [
+    {
+      "workload": "Selected fixed-motion notebook, one visible run",
+      "hardware": "NVIDIA Tesla T4, Kaggle",
+      "execution_wall_seconds": 1454.31844023,
+      "nested_overlay_wall_seconds": 44.381340722999994,
+      "source": "results/final_artifacts.json#actual_runtime",
+      "measurement_scope": "Notebook execution including neural inference, I/O and motion refinement; not GPU-active time, training total or hidden-test runtime",
+      "paid_charge": null
+    },
+    {
+      "workload": "Preserved selected motion-component CPU replay",
+      "cpu_allocation": 1,
+      "execution_wall_seconds": 13.716542523005046,
+      "peak_rss_kib": 375256,
+      "source": "results/reproduction_checks.json#selected_submission_replay",
+      "measurement_scope": "Existing October 2 visible-prediction replay; excludes upstream inference/training and accesses no ground-truth labels",
+      "paid_charge": null
+    }
+  ],
+  "partial_scheduler_history": {
+    "coverage": "2026-10-02 CPU closeout jobs only",
+    "cpu_jobs": 99,
+    "allocated_cpu_core_seconds": 1098.048,
+    "queue_wait_seconds": 0.153,
+    "allocation_is_measured_cpu_utilization": false,
+    "complete_research_compute": false,
+    "note": "This narrow historical allocation subset cannot be substituted for the competition's training/inference compute total."
+  },
+  "untracked_totals": {
+    "total_research_gpu_active_hours": null,
+    "total_research_cpu_busy_or_core_hours": null,
+    "total_training_wall_hours": null,
+    "total_project_queue_or_idle_wait_hours": null,
+    "project_electricity_kwh": null,
+    "complete_advisor_or_subordinate_model_tokens": null
+  },
+  "money": {
+    "actual_project_payments": {
+      "amount": null,
+      "currency": null,
+      "status": "untracked"
+    },
+    "subscription_cost_allocation": {
+      "amount": null,
+      "currency": null,
+      "status": "untracked"
+    },
+    "project_cloud_charges": {
+      "amount": null,
+      "currency": null,
+      "status": "untracked"
+    },
+    "api_list_price_equivalent_estimate": {
+      "amount": null,
+      "currency": null,
+      "status": "not calculated"
+    },
+    "note": "Unknown is not zero. Model interaction tokens or API list prices do not establish subscription payments, project invoices or cloud charges."
+  },
+  "publication_boundary": "Only sanitized aggregates are public. Raw transcripts, request identifiers, machine paths, usage databases, billing/account records and internal instructions are not included."
+}

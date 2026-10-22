@@ -50,8 +50,7 @@
       "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/1st-place-solution",
       "writeup_author": "/sersasj",
       "writeup_competition_ranking": 1,
-      "published_at_utc": "2026-10-01T01:28:11.873Z",
-      "read_result": "complete technical writeup read; own source code marked To be released"
+      "published_at_utc": "2026-10-01T01:28:11.873Z"
     },
     {
       "rank": 2,
@@ -66,8 +65,7 @@
       "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/2nd-place-solution",
       "writeup_author": "/soheilayati",
       "writeup_competition_ranking": 2,
-      "published_at_utc": "2026-09-30T21:21:32.207Z",
-      "read_result": "complete technical writeup read; complete own code not located"
+      "published_at_utc": "2026-09-30T21:21:32.207Z"
     },
     {
       "rank": 3,
@@ -82,8 +80,7 @@
       "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/3rd-place-solution",
       "writeup_author": "/ren4yu",
       "writeup_competition_ranking": 3,
-      "published_at_utc": "2026-09-30T00:30:09.793Z",
-      "read_result": "complete technical writeup read; X-to-Kaggle author identity chain also checked; complete Biohub code not located"
+      "published_at_utc": "2026-09-30T00:30:09.793Z"
     },
     {
       "rank": 4,
@@ -99,7 +96,6 @@
       "writeup_author": "/songqizhou",
       "writeup_competition_ranking": 4,
       "published_at_utc": "2026-09-30T18:45:26.513Z",
-      "read_result": "complete technical writeup; public inference notebook and dataset file inventory; README/ilp_solve.py fully read and division_pair.py relevant functions inspected",
       "public_notebook": "https://www.kaggle.com/code/songqizhou/biohub-4th-place-solution",
       "public_artifacts": "https://www.kaggle.com/datasets/songqizhou/biohub-4th-place-artifacts"
     },
@@ -116,8 +112,7 @@
       "solution_url": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/writeups/5th-place-3d-u-net-transformer-linker-multi-s",
       "writeup_author": "/hirotetsu",
       "writeup_competition_ranking": 5,
-      "published_at_utc": "2026-09-30T08:41:31.117Z",
-      "read_result": "complete technical writeup read; complete own code not located"
+      "published_at_utc": "2026-09-30T08:41:31.117Z"
     }
   ],
   "own_official_private_outcome": {
@@ -130,13 +125,11 @@
     "medal_field": "none in returned row",
     "public_rank": 1714,
     "public_score": 0.942,
-    "public_best_submission_id": 56181805,
-    "gold_target": "unmet according to the published official Private leaderboard and award metadata",
-    "native_goal_state": "paused, preserved; no status or objective mutation"
+    "public_best_submission_id": 56181805
   },
   "notes": [
     "Normalized saved-response transcription, not a new query or a raw API dump.",
     "Published leaderboard uses three-decimal display; selected submission precision comes from the saved 2026-10-02 readback.",
-    "No medals for our team; gold target unmet."
+    "No medal was awarded to this team."
   ]
 }
