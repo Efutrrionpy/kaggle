@@ -1,0 +1,142 @@
+{
+  "observed_at_utc": "2026-10-22T08:48:36.623962+00:00",
+  "leaderboard": "FINAL_PRIVATE_VERIFIED",
+  "source": "https://www.kaggle.com/competitions/kaggriculture/leaderboard",
+  "teams": [
+    {
+      "rank": 1,
+      "teamName": "M & M & P & Q",
+      "members": [
+        "morimo",
+        "qistripute",
+        "piiiiiiiii",
+        "msd0110"
+      ],
+      "displayScore": "5890.3",
+      "submissionId": 56711476,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/discussion/745073",
+      "repository_url": "https://github.com/msdsm/kaggriculture-1st-solution"
+    },
+    {
+      "rank": 2,
+      "teamName": "Victor @ Tufa Labs",
+      "members": [
+        "vmerckle"
+      ],
+      "displayScore": "5823.4",
+      "submissionId": 56722220,
+      "method_status": "NOT_LOCATED_AS_OF_2026_10_22",
+      "method_url": null,
+      "repository_url": null,
+      "search_scope": "Official solution field empty; competition forum title/name/rank searches; all39 solution-search results; exact web queries; official competition notebook search for all team handles; GitHub repository queries for known/same handles. No matching method located; not proof of nonpublication."
+    },
+    {
+      "rank": 3,
+      "teamName": "DSM",
+      "members": [
+        "denden12",
+        "shimishige",
+        "masspeaks"
+      ],
+      "displayScore": "5580.3",
+      "submissionId": 56720722,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/writeups/kaggriculture-3rd-place-dsm-solution",
+      "repository_url": "https://github.com/seven320/kaggriculture-3rd-place-solution"
+    },
+    {
+      "rank": 4,
+      "teamName": "Farmcore",
+      "members": [
+        "doifgoox",
+        "garifullintimur",
+        "naviniklag",
+        "betmyex"
+      ],
+      "displayScore": "5487.4",
+      "submissionId": 56721212,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/writeups/farmcore-a-one-pass-transformer-trained-on-what-t",
+      "repository_url": "https://github.com/B3tMy3x/farmcore-kaggriculture"
+    },
+    {
+      "rank": 5,
+      "teamName": "有辣条有权",
+      "members": [
+        "russcore"
+      ],
+      "displayScore": "5473.7",
+      "submissionId": 56721478,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/writeups/its-sft-all-the-way-down",
+      "repository_url": "https://github.com/definitelynotrussellkirk-bit/kaggriculture-sft"
+    },
+    {
+      "rank": 6,
+      "teamName": "CDE",
+      "members": [
+        "christofhenkel",
+        "arc144",
+        "crodoc"
+      ],
+      "displayScore": "5465.0",
+      "submissionId": 56721686,
+      "method_status": "NOT_LOCATED_AS_OF_2026_10_22",
+      "method_url": null,
+      "repository_url": null,
+      "search_scope": "Official solution field empty; competition forum title/name/rank searches; all39 solution-search results; exact web queries; official competition notebook search for all team handles; GitHub repository queries for known/same handles. No matching method located; not proof of nonpublication."
+    },
+    {
+      "rank": 7,
+      "teamName": "DECEM",
+      "members": [
+        "zy1343930734"
+      ],
+      "displayScore": "5459.9",
+      "submissionId": 56716576,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/discussion/745367",
+      "repository_url": "https://github.com/Decem-Y/kaggriculture-bc"
+    },
+    {
+      "rank": 8,
+      "teamName": "itwastony",
+      "members": [
+        "itwastony"
+      ],
+      "displayScore": "5395.7",
+      "submissionId": 56718362,
+      "method_status": "NOT_LOCATED_AS_OF_2026_10_22",
+      "method_url": null,
+      "repository_url": null,
+      "search_scope": "Official solution field empty; competition forum title/name/rank searches; all39 solution-search results; exact web queries; official competition notebook search for all team handles; GitHub repository queries for known/same handles. No matching method located; not proof of nonpublication."
+    },
+    {
+      "rank": 9,
+      "teamName": "tetsuya & yuanzhe & guoqin",
+      "members": [
+        "tetsuya3510",
+        "yuanzhezhou",
+        "guoqingu"
+      ],
+      "displayScore": "5338.7",
+      "submissionId": 56719821,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/writeups/from-reinforcement-learning-to-a-final-bc-agent",
+      "repository_url": null
+    },
+    {
+      "rank": 10,
+      "teamName": "KawattaTaido",
+      "members": [
+        "kawattataido"
+      ],
+      "displayScore": "5334.0",
+      "submissionId": 56721382,
+      "method_status": "PRIMARY_METHOD_READ",
+      "method_url": "https://www.kaggle.com/competitions/kaggriculture/writeups/10th-place-bc-ppo-on-a-single-rtx-5090",
+      "repository_url": "https://github.com/KawattaTaido/kaggriculture-release"
+    }
+  ]
+}

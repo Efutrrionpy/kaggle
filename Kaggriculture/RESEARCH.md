@@ -1,5 +1,15 @@
 # Kaggriculture Research Report
 
+**Final result: Silver, 246 / 10,148 teams, Private Bradley–Terry score 4644.3.**
+FlexService was the best of our final two submissions; AdaptiveMilk scored
+4628.8. The original Gold objective was unmet. [Official evidence and dates](RESULTS.md)
+replace the earlier provisional observations without changing the submitted code.
+
+The final system was a demonstration-derived production program with our own
+state-responsive resource and service planning, not a trained end-to-end model.
+The main research limitation was how far that representation and the available
+opponent panel could support generalization to the final field.
+
 ## 1. Problem formulation
 
 The simulation compares bank balances after 720 turns. Players share market
@@ -8,14 +18,40 @@ create coupled timing constraints. Increasing production can benefit the
 opponent more than the acting player; estimated profit is useful only when
 the associated work, funding, and deliveries are feasible.
 
-We compared policies in matched world/opponent/seat cells and examined complete
+We compared policies in matched initial-seed/opponent/seat cells and examined complete
 game outcomes alongside worker actions, material flows, and both players'
 cash balances. A new world block was used for confirmation after development.
-The world was the primary grouping unit for uncertainty analysis.
+The initial seed was the primary grouping unit for uncertainty analysis.
 
 ## 2. Learned selectors and market optimization
 
-Early models selected among branches of an existing production policy.
+### August: restricted learners and a real representation limit
+
+An August 20 NumPy MLP selected between two fixed routes using 209 current-state
+features. Its 48 held-out decisions produced **29/48 match points**, versus
+**36/48** for the existing selector. Rejecting that trained selector was
+supported; it did not test whether learning a complete controller was viable.
+
+The August 23 market-only BC correction recovered its teacher almost perfectly:
+held-out exact-row accuracy **99.71%**, and rollout money **99.85%** of the
+teacher against a pass opponent. Yet both clone and exact teacher lost **0–8**
+to the mirror opponent. Only six SELL heads were trainable; worker logistics
+and the route were fixed. The retained diagnosis correctly said full-action
+redesign was needed. More PPO on that interface was not justified. An incomplete
+external BC packet was also reasonably rejected because it lacked a usable
+observation encoder and decoder—not because imitation had been disproved.
+
+A separate conservative imitation router abstained everywhere after a
+1,232-game study and a 1,744-game calibration correction. Fresh paired outcomes
+were exactly unchanged. That yielded a useful diagnosis of this gated recipe,
+but also consumed substantial evaluation without testing a policy that acted
+differently. These [decision records](results/early_research_decisions.json)
+are compact historical evidence; some early raw prototypes lived in temporary
+directories, so they do not establish clean-clone reproduction of every trial.
+
+### September: branch selection and market search
+
+Later models selected among branches of an existing production policy.
 A **Ridge regression** selector learned compatible branch choices from
 development games. In a new 32-world, 128-cell comparison, the fixed policy
 scored **95 points**, while early and late selection scored **83 and 95**.
@@ -57,9 +93,14 @@ runtime decisions used the player's currently visible state.
 
 We extended this representation with common openings, state-dependent entry
 conditions, shop-to-program routing, and later animal-investment choices.
-The demonstrations came from public episodes of submission 56614976; they
-were not the author's private controller code. Related descendants were
-treated as correlated opponents rather than independent strong policies.
+The demonstrations came from four public donor episodes of submission
+56614976 plus a common-opening episode. They were compiled action/resource
+parameters, not the author's private controller code. We implemented the
+feedback, investment routing and payable service planning; selected official
+engine primitives were reused with Apache-2.0 attribution. Earlier research
+also evaluated or adapted public controllers. Neither those baselines nor the
+public demonstrations are claimed as original inventions. See
+[source provenance and licenses](SOURCES_AND_LICENSES.md).
 
 ## 5. Submitted controllers
 
@@ -119,18 +160,53 @@ higher than the submitted controllers, adding a deployment cost to its narrow ga
 
 ## 7. Results and limitations
 
-The saved official observation on **2026-10-02 04:26 UTC** reported Public
-ratings of **2409.8 for FlexService** and **2163.7 for AdaptiveMilk**.
-Final ranking remained pending during post-submission evaluation.
+The final Private result was **4644.3 / rank 246 / Silver** for FlexService.
+AdaptiveMilk's **4628.8** was slightly lower. Their final stored Public skill
+ratings were **2341.9** and **2250.9**; the Public team rank was 211.
+The official Gold cutoff was rank 30 at 5099.6. The old October 2 pending snapshot is
+retained as historical evidence, not used to describe the current result.
 
-The study collected 6,297 complete official replays spanning 2,782 opponent
-teams and 5,543 submissions. These counts do not represent that many
+The September 28 inventory recorded 6,297 complete official replays spanning 2,782
+opponent teams and 5,543 submissions. These counts do not represent that many
 independent worlds or executable opponent controllers. Local panels contained
 related policies and lacked sufficient coverage of recent leading responsive
-opponents. High local scores therefore did not establish equivalent field strength.
+opponents. The shared feature index covered only 3,031 replays and was last
+updated September 11; later targeted analyses did use additional records. The gap is
+not proof those records were ignored, but collection volume was not evidence
+of current executable-opponent coverage. High local scores did not establish
+equivalent field strength.
 
-The strongest measured progression came from expanding narrow selectors into
+Same-seed pairing also needs precise interpretation. The native 1.32.7 engine
+draws weeds only for empty tiles before drawing shops from the same per-day
+RNG. Different actions can therefore change later shops even with the same
+initial seed. Our full-game runner used the native engine, not an independent
+shop stream. The measured game outcomes remain actual native-engine outcomes;
+they do not guarantee identical shop realizations for causal attribution.
+Changing the RNG would be a separate variance-reduction diagnostic, not an
+automatic replacement for deployment-faithful evaluation.
+
+## 8. What the leading solutions change in the interpretation
+
+The [final top-ten review](LEADING_SOLUTIONS.md) found substantive methods for
+seven teams. They used learned full-action policies, with different balances
+of replay imitation, RL and rules. Several relied primarily on imitation and
+fresh demonstrations rather than enormous self-play budgets. This undermines
+any claim that our restricted market/route learners fairly exhausted learning
+as a family. It does **not** prove that adopting a Transformer within our
+remaining time and implementation constraints would have delivered Gold.
+
+The useful contrast is the update mechanism. Our few compiled programs gained
+reliable local feedback and scheduling repairs; leading systems could ingest
+new complete behaviors as the field changed. Our last Committed gain was real
+but entirely against an older internal ancestor, so a larger local win total
+did not address the demonstrated competitive gap. Retaining tested finalists
+instead of making an unsupported last-minute replacement was defensible;
+staying within a narrow representation for so long deserves a separate review.
+
+The strongest measured progression in our work came from expanding narrow selectors into
 complete production programs with actual material, labor, and funding feedback.
 The remaining limitation was generalization across changing opponents and
-markets. [Results](RESULTS.md) preserves matched comparisons;
-[reproduction](REPRODUCE.md) explains which submitted policies can be rebuilt.
+markets. [Transferable lessons](DESIGN_REVIEW.md) distinguish measured process
+limitations from hindsight hypotheses. [Prompt recommendations](PROMPT_RECOMMENDATIONS.md)
+are proposed edits, not changes to the original Goal or shared policy.
+[Reproduction](REPRODUCE.md) explains which exact policies can be rebuilt.

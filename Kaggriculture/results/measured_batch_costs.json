@@ -1,0 +1,38 @@
+[
+  {
+    "experiment": "adaptive_milk_confirmation_20260930",
+    "all_arms_cells": 2112,
+    "workers": 18,
+    "numerical_threads": 1,
+    "wall_seconds": 3375.423139364997,
+    "resumed_cells": 0,
+    "source_sha256": "2eea751705b1cc93ee73443c5440e573d86c19e5db96f7e0878332d6e054b31b"
+  },
+  {
+    "experiment": "flex_confirmation_20260930",
+    "all_arms_cells": 2304,
+    "workers": 18,
+    "numerical_threads": 1,
+    "wall_seconds": 3735.7762033140025,
+    "resumed_cells": 0,
+    "source_sha256": "f2db71dd174f3df944840f3c0d8590e6beffab21a6c7bb9be8e65fc39c35cff9"
+  },
+  {
+    "experiment": "native_deadlines_confirmation_20260930",
+    "all_arms_cells": 2176,
+    "workers": 18,
+    "numerical_threads": 1,
+    "wall_seconds": 3616.354415233989,
+    "resumed_cells": 0,
+    "source_sha256": "588c255aae7b6ad1dbdc60e93c68589b3b0db3b3000667bad438eeb82932eeb1"
+  },
+  {
+    "experiment": "committed_funding_confirmation_20260930",
+    "all_arms_cells": 1344,
+    "workers": 18,
+    "numerical_threads": 1,
+    "wall_seconds": 2646.400122366991,
+    "resumed_cells": 0,
+    "source_sha256": "e946ff4dd70a32f5d0c4c220917a17e891162b5dbf9b0b88b8caee7495874a9f"
+  }
+]

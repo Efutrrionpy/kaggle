@@ -1,0 +1,101 @@
+{
+  "observed_at_utc": "2026-10-22T08:48:36.623962+00:00",
+  "status": "FINAL_VERIFIED_SILVER_GOLD_OBJECTIVE_UNMET",
+  "objective": "Official final Private GOLD",
+  "objective_met": false,
+  "competition": {
+    "competitionName": "kaggriculture",
+    "deadline": "2026-10-14T23:59:00Z",
+    "disableSubmissions": true,
+    "finalLeaderboardHasBeenVerified": true,
+    "id": 147734,
+    "locked": true,
+    "medalsAllowed": true,
+    "showPrivateLeaderboard": true,
+    "simulation": true,
+    "title": "Kaggriculture",
+    "totalTeams": 10148
+  },
+  "public_team_row": {
+    "teamId": 16709176,
+    "submissionId": 56705674,
+    "rank": 211,
+    "displayScore": "2341.9",
+    "medal": "SILVER"
+  },
+  "private_team_row": {
+    "teamId": 16709176,
+    "submissionId": 56705674,
+    "rank": 246,
+    "displayScore": "4644.3",
+    "medal": "SILVER"
+  },
+  "certificate_confirmation": {
+    "competitionName": "kaggriculture",
+    "rank": 246,
+    "totalTeams": 10148,
+    "medal": "SILVER",
+    "deadline": "2026-10-14T23:59:00Z"
+  },
+  "selected_submissions": [
+    {
+      "ref": "56705674",
+      "date": "2026-09-30 11:08:58.920000",
+      "description": "gold sprint complete paid service 20cff504; frozen validated 20260930",
+      "file_name": "submission.tar.gz",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "2341.9",
+      "private_score": "4644.3",
+      "total_bytes": "118424"
+    },
+    {
+      "ref": "56698261",
+      "date": "2026-09-30 05:29:02.853000",
+      "description": "gold sprint adaptive milk pair adaptive_milk c532e7b1; frozen validated 20260930",
+      "file_name": "submission.tar.gz",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "2250.9",
+      "private_score": "4628.8",
+      "total_bytes": "112372"
+    }
+  ],
+  "last_gold": {
+    "teamId": 16657750,
+    "submissionId": 56722024,
+    "rank": 30,
+    "displayScore": "5099.6",
+    "medal": "GOLD"
+  },
+  "gap_to_last_gold_score": 455.3,
+  "submission_deadline_utc": "2026-09-30T23:59:00Z",
+  "organizer_conclusion_post_utc": "2026-10-21T15:00:06.571767400Z",
+  "evaluation": "Final Bradley-Terry fit uses episodes between finally active submissions across the competition; team score is the better of its last two agents. Ties count as half wins. Public skill and final Private BT scores are different scales.",
+  "sources": {
+    "leaderboard": "https://www.kaggle.com/competitions/kaggriculture/leaderboard",
+    "conclusion": "https://www.kaggle.com/competitions/kaggriculture/discussion/751368",
+    "episode_scope": "https://www.kaggle.com/competitions/kaggriculture/discussion/732931",
+    "team_and_ties": "https://www.kaggle.com/competitions/kaggriculture/discussion/739410"
+  },
+  "raw_response_fingerprints": {
+    "certificate": {
+      "endpoint": "/api/i/competitions.CompetitionService/GetCompetitionCertificate",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-22T08:48:41.790761+00:00",
+      "sha256": "9fce499970d8be75bcb00e91f3ec66ccff7eff6d6099ad722b05e17dc3f38c7f"
+    },
+    "competition": {
+      "endpoint": "/api/i/competitions.CompetitionService/GetCompetition",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-22T08:48:38.691727+00:00",
+      "sha256": "61956c9cdeaeece1f2190351b9ed6ba356fe2030a41e35250d4450e2aee6793f"
+    },
+    "leaderboard": {
+      "endpoint": "/api/i/competitions.LeaderboardService/GetLeaderboard",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-10-22T08:48:41.498030+00:00",
+      "sha256": "929619dea9d18fe153842cba77f712720be55d781a28376b13c6dd616d8a0378"
+    }
+  },
+  "legacy_probe_status_note": "Existing monitor status MEDAL_CONFIRMED includes SILVER and is not the current GOLD objective predicate. No Goal completion was issued.",
+  "privacy": "Certificate image, account display name, numeric account identity and full leaderboard directory are not included."
+}

@@ -55,3 +55,14 @@ Rebuilding the submitted policies and recalculating result tables are supported
 by this repository. Re-running every original opponent comparison requires
 the original assets. Sources and licenses are described
 [here](SOURCES_AND_LICENSES.md).
+
+## Closeout verification and limits
+
+The final-result and top-ten JSON records are sanitized observations from
+2026-10-22. [Results](RESULTS.md) distinguishes final Private scores from Public
+skill ratings; [assets](ASSETS.md) records the new rebuild/entry-point checks and
+the actual cleanup. No leader model was trained or re-evaluated during closeout.
+Historical early-decision extracts preserve measured negative findings but do
+not reconstruct missing temporary prototypes. The original Goal is preserved
+for review; its old instructions are historical text, not an instruction to
+resume experiments or alter a user's pause.

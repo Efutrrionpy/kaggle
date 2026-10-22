@@ -37,16 +37,18 @@ complete lineage graphs; the motion variant improved Public but reduced Private 
 
 ### 03 &nbsp; Kaggriculture · Competitive Resource Planning
 
-**Final rank not yet confirmed in the archived evidence**<br>
-**2409.8** FlexService Public rating · **2163.7** AdaptiveMilk Public rating
+**246th of 10,148 teams · Silver medal**<br>
+**4644.3** final Private Bradley–Terry score · **2341.9** Public skill rating
 
 **Demonstration-derived policies + state-responsive economic planning.**
 Controllers explicitly accounted for labor, cash flow, feed, and delivery.
 On the same prospective local panel, FlexService scored **677 / 768** points
 versus **622 / 768** for AdaptiveMilk.
+The original Gold target was not met; the closeout compares the final top ten
+and extracts research-decision lessons without claiming local wins equal field strength.
 
 [Read the study →](Kaggriculture/README.md) &nbsp; · &nbsp; [Results](Kaggriculture/RESULTS.md) &nbsp; · &nbsp; [Code](Kaggriculture/strategies/)
 
 ---
 
-<sub>Results are from the archived competition evidence. Kaggriculture's latest saved official observation is 2 October 2026, 04:26 UTC; its Public ratings are not ranks. Official scores and local validation estimates are distinguished within each study.</sub>
+<sub>Results are from official competition evidence. Kaggriculture's locked final result was verified on 22 October 2026; its Public skill and Private Bradley–Terry scores use different scales. Official outcomes and local validation estimates are distinguished within each study.</sub>

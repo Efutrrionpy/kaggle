@@ -22,3 +22,13 @@ Competition access and replay use are governed by the
 [Kaggriculture rules](https://www.kaggle.com/competitions/kaggriculture/rules).
 Full opponent source, raw replay collections, and account credentials are
 outside this published research subset.
+
+## Closeout references
+
+The [final top-ten comparison](LEADING_SOLUTIONS.md) links directly to author
+writeups, code repositories and official standings. Its summaries are our own
+analysis; no complete third-party writeup, weights, or new third-party source
+files were copied into this update. Public profile handles are used only for
+attribution and recording unresolved method searches. Certificate images,
+account display names and full account/leaderboard directories are omitted
+from the sanitized result extract.

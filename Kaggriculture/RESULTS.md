@@ -2,18 +2,41 @@
 
 ## Official submissions
 
-**Final competition rank: pending official finalization** in the saved
-2026-10-02 04:26 UTC observation. The scores below are Public skill ratings,
-not ranks; both controllers belong to the same team.
+**Final Private: 246th of 10,148 teams, Silver, score 4644.3.** The original
+target was Gold and was **not met**. The official API reports a locked,
+verified final leaderboard; its medal certificate agrees on rank, medal and
+team count. Evidence was retrieved on **2026-10-22 at 08:48 UTC**.
 
-| Controller | Submission | Public rating¹ | Measured maximum callback |
-|---|---:|---:|---:|
-| FlexService | 56705674 | **2409.8** | ≤ 0.1051 s |
-| AdaptiveMilk | 56698261 | **2163.7** | ≤ 0.0491 s |
+| Controller | Submission | Submitted UTC | Public skill | Final Private BT | Measured maximum callback |
+|---|---:|---|---:|---:|---:|
+| **FlexService** | **56705674** | 2026-09-30 11:08:58 | **2341.9** | **4644.3** | ≤ 0.1051 s |
+| AdaptiveMilk | 56698261 | 2026-09-30 05:29:02 | 2250.9 | 4628.8 | ≤ 0.0491 s |
 
-¹ Saved official observation: **2026-10-02 04:26 UTC**. Both submissions were
-complete; final ranking remained pending. Submission closed on
-2026-09-30 23:59 UTC, followed by further official games and ranking evaluation.
+These are the latest two complete, active submissions and the exact pair used
+for final evaluation. FlexService is the better final submission and determines
+the team's rank. Its **Public rank is 211**, distinct from the **Private rank
+246**. No separate team rank is assigned here to AdaptiveMilk.
+
+The last Gold row is rank **30**, score **5099.6**: our gap was **455.3 Private
+score points**. This difference is not a calibrated win-probability or medal
+confidence estimate. Full sanitized evidence: [final result](results/final_result_20261022.json).
+
+Across all **118** submission records, the highest *currently stored* historical
+Public value is **2879.8**, for inactive submission **55446189** on August 12
+(a public Suda replay/terminal adaptation). That is neither an all-time peak
+claim nor evidence that it would beat the finalists: the field and scoring
+phase changed. It was not selected for the final tournament.
+
+Submission closed on **2026-09-30 23:59 UTC**. The published timeline scheduled
+further games from October 1 to approximately October 15, with API deadline
+October 14 at 23:59 UTC. The organizer announced the conclusion on **October 21**.
+The final BT fit uses games between finally active agents **across the whole
+competition**, not only post-deadline games; games against deactivated agents
+are excluded. A team's score is its better active agent and ties count as half
+wins. These points follow the [organizer recap](https://www.kaggle.com/competitions/kaggriculture/discussion/751368)
+and staff clarifications on [eligible episodes](https://www.kaggle.com/competitions/kaggriculture/discussion/732931)
+and [team score/ties](https://www.kaggle.com/competitions/kaggriculture/discussion/739410).
+Public skill and Private BT numbers must not be compared as one scale.
 
 The callback figures are measured deployment results, not worst-case guarantees.
 Each submitted version reproduced 1,438 actions across both seats of its own
@@ -41,13 +64,28 @@ Committed's maximum measured callback was 6.878 seconds, with maximum
 per-game cumulative overage of 24.267 seconds in its retained-path checks.
 Those measurements cannot be inferred from its faster FlexService parent.
 
-Uncertainty was grouped by world rather than treating both seats and related
+Uncertainty was grouped by initial seed rather than treating both seats and related
 opponents as independent. Gains concentrated against one policy ancestor are
 reported as such. The [research report](RESEARCH.md) details the mechanisms.
 
+## Cost of selected final comparisons
+
+These are measured completed batch wall times, including all comparison arms,
+not cumulative project cost or isolated inference latency. Each used 18 spawned
+workers with one numerical thread per worker; no completed games were rerun for
+this retrospective. [Exact records](results/measured_batch_costs.json).
+
+| Batch | All-arm games | Wall time |
+|---|---:|---:|
+| AdaptiveMilk confirmation | 2,112 | 56.3 min |
+| FlexService confirmation | 2,304 | 62.3 min |
+| NativeDeadlines confirmation | 2,176 | 60.3 min |
+| Committed first confirmation | 1,344 | 44.1 min |
+
 ## Supporting data
 
-- [Official observation](results/official_status.json)
+- [Verified final result](results/final_result_20261022.json)
+- [Historical October 2 observation](results/official_status.json), retained as history rather than current status
 - [Deployment measurements](results/deployment_checks.json)
 - [Grouped and per-cell experiment results](results/)
 - [Submitted-policy manifests](manifests/final_submissions.json)
