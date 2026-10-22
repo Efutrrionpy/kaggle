@@ -1,212 +1,122 @@
-# Kaggriculture Research Report
+# Kaggriculture: methods and experiments
 
-**Final result: Silver, 246 / 10,148 teams, Private Bradley–Terry score 4644.3.**
-FlexService was the best of our final two submissions; AdaptiveMilk scored
-4628.8. The original Gold objective was unmet. [Official evidence and dates](RESULTS.md)
-replace the earlier provisional observations without changing the submitted code.
+**Silver · 246 / 10,148 teams · final Private score 4644.3.**
+The best submitted controller, **FlexService**, combines demonstration-derived
+production programs with state-responsive economic and service planning.
+**AdaptiveMilk**, the second final controller, scored 4628.8.
+[Official results](RESULTS.md) · [Resource use](COSTS.md) · [Reproduction](REPRODUCE.md).
 
-The final system was a demonstration-derived production program with our own
-state-responsive resource and service planning, not a trained end-to-end model.
-The main research limitation was how far that representation and the available
-opponent panel could support generalization to the final field.
+## Final system
 
-## 1. Problem formulation
+Kaggriculture is a 720-turn farming simulation scored by end-game bank balance.
+Players interact through shared markets and shops. Labor, feeding, crops,
+storage and transport create coupled timing and cash-flow constraints.
 
-The simulation compares bank balances after 720 turns. Players share market
-and shop effects, while workers, crops, animals, feed, storage, and transport
-create coupled timing constraints. Increasing production can benefit the
-opponent more than the acting player; estimated profit is useful only when
-the associated work, funding, and deliveries are feasible.
+The final controllers are deterministic Python programs, not end-to-end neural
+models. Complete physical programs were compiled from four public demonstration
+episodes of submission 56614976, plus a common-opening episode. These supply
+offline action/resource parameters, not the donor's private controller code.
+At inference, our own feedback modules project worker effects from visible
+state, supply materials, fund labor and land, and sell available surpluses.
+Routing and investment logic adapt the program to the current farm and market.
 
-We compared policies in matched initial-seed/opponent/seat cells and examined complete
-game outcomes alongside worker actions, material flows, and both players'
-cash balances. A new world block was used for confirmation after development.
-The initial seed was the primary grouping unit for uncertainty analysis.
+**AdaptiveMilk** evaluates later animal investments using visible prices,
+inventory and farm state, with approximate expectations for unrevealed shops.
+It does not access hidden world seeds or future observations.
 
-## 2. Learned selectors and market optimization
+**FlexService** adds complete paid service tours: marginal wages, feed reserves,
+incremental production, transport/delivery and nonlinear market value. A tour
+must remain compatible with existing crop and retirement commitments.
 
-### August: restricted learners and a real representation limit
+Both archives include all inference dependencies and run using the Python
+standard library. Selected official-engine primitives retain Apache-2.0
+attribution. Our contribution is the feedback, investment routing, policy
+composition and payable service planner—not the underlying public demonstrations
+or engine. [Sources and licenses](SOURCES_AND_LICENSES.md).
 
-An August 20 NumPy MLP selected between two fixed routes using 209 current-state
-features. Its 48 held-out decisions produced **29/48 match points**, versus
-**36/48** for the existing selector. Rejecting that trained selector was
-supported; it did not test whether learning a complete controller was viable.
+## Measured comparisons
 
-The August 23 market-only BC correction recovered its teacher almost perfectly:
-held-out exact-row accuracy **99.71%**, and rollout money **99.85%** of the
-teacher against a pass opponent. Yet both clone and exact teacher lost **0–8**
-to the mirror opponent. Only six SELL heads were trainable; worker logistics
-and the route were fixed. The retained diagnosis correctly said full-action
-redesign was needed. More PPO on that interface was not justified. An incomplete
-external BC packet was also reasonably rejected because it lacked a usable
-observation encoder and decoder—not because imitation had been disproved.
+Candidate and control share the same initial-seed/opponent/seat panel within
+each row. A win is 1 point and a draw 0.5; rows with different panels are not
+directly comparable.
 
-A separate conservative imitation router abstained everywhere after a
-1,232-game study and a 1,744-game calibration correction. Fresh paired outcomes
-were exactly unchanged. That yielded a useful diagnosis of this gated recipe,
-but also consumed substantial evaluation without testing a policy that acted
-differently. These [decision records](results/early_research_decisions.json)
-are compact historical evidence; some early raw prototypes lived in temporary
-directories, so they do not establish clean-clone reproduction of every trial.
+| Candidate | Panel | Candidate points | Matched control |
+|---|---|---:|---:|
+| AdaptiveMilk | 32 new seeds × 11 opponents × 2 seats | **636 / 704** | EconomicFirst 595; FeedDebt 501 |
+| FlexService | 32 new seeds × 12 opponents × 2 seats | **677 / 768** | AdaptiveMilk 622; FeedDebt 548 |
+| NativeDeadlines | 32 new seeds × 17 opponents × 2 seats | **1055 / 1088** | FlexService 1037 |
+| Committed funding horizon | 64 new seeds × 7 opponents × 2 seats | **843 / 896** | FlexService 832 |
+| CareTrade | 32 new seeds × 7 opponents × 2 seats | 418 / 448 | Committed 418 |
 
-### September: branch selection and market search
+Only AdaptiveMilk and FlexService were submitted as the final pair.
+An after-the-fact per-game best-of-two diagnostic favored Flex + Feed
+(728 / 768) over Flex + Adaptive (683 / 768), but this is an unattainable selection
+upper bound. Official team rating uses the better active agent, not a per-game
+oracle. [Per-cell and grouped evidence](results/) accompanies the summaries.
 
-Later models selected among branches of an existing production policy.
-A **Ridge regression** selector learned compatible branch choices from
-development games. In a new 32-world, 128-cell comparison, the fixed policy
-scored **95 points**, while early and late selection scored **83 and 95**.
-The late selector gained two outcomes and lost two, providing no net advantage.
+### Scheduling and funding experiments
 
-We also tested **Ridge and ExtraTrees** at the first divergence between strong
-policies, using 92 legal current-state features. World-OOF scores were
-**120 / 152 and 122 / 152**. Holding out an entire cohort reduced them to
-**113 and 115**, below the fixed candidate's **118**. Selection performance
-was sensitive to how the evaluation distribution was separated.
+NativeDeadlines reorders already-paid workers within bounded windows. It
+recovered 20 outcomes and introduced two losses in one world. Extra feeding at
+turn 115 removed a wheat sale at turn 120; the forecast ended at 143 and missed
+a turn 168 hire requiring 33 cash when only 32 remained, versus 62 for the
+baseline. [Saved causal trace](results/native_deadlines_confirmation_20260930_regression_mechanism.json).
 
-Market-control experiments used **CEM** to search parameters through complete
-games. Initial candidates sold feed that was needed later or created inventory
-that displaced incoming milk. Correcting these constraints improved the
-implementation, but did not establish a strong policy. A later J_3 candidate
-scored **93 / 128**, against **89 / 128** for the control; the world-grouped
-interval crossed zero and performance against Yarn5 decreased from 43 to 39
-points out of 64.
+Committed extends the funding horizon to the next unresolved investment.
+Its 11 additional wins all occurred against the earlier LateFlock policy;
+against the other six opponents, candidate and control both scored 733 / 768.
+CareTrade, which exchanges a scheduled care action for feeding, added no
+prospective wins. Committed's maximum measured callback was 6.878 seconds,
+considerably slower than the submitted policies.
 
-## 3. Current-state service and competitive effects
+## Alternative models and negative results
 
-We next modeled service decisions from actual inventory and animal state.
-A small development comparison improved from **26 / 32 to 27 / 32**, but
-confirmation on eight new worlds scored **46 / 64**, against **47 / 64**
-for the original policy.
+| Approach | Observed result | Scope of the finding |
+|---|---|---|
+| 209-feature NumPy MLP; two-route selection | 29 / 48 held-out points vs 36 / 48 for the existing selector | Only two fixed routes were available |
+| Market-only behavior cloning; six SELL heads | 99.71% held-out row accuracy; both clone and exact teacher lost 0–8 to the mirror | Fixed worker logistics limit what learning can improve |
+| Conservative three-gate imitation router | All gates abstained; paired outcomes unchanged after initial and expanded-calibration studies | No active intervention was evaluated |
+| Ridge branch selector | 83 / 128 early or 95 / 128 late vs 95 / 128 baseline | Late selection gained two outcomes and lost two |
+| Ridge / ExtraTrees at first policy divergence | World-OOF 120 / 152 and 122 / 152; cohort-held-out 113 and 115 vs fixed 118 | Performance depended on the held-out distribution |
+| Cross-entropy method market search | J_3 scored 93 / 128 vs 89 / 128; grouped interval crossed zero | Gain was uncertain and opponent-dependent |
+| Current-state extra service | Confirmation 46 / 64 vs 47 / 64 despite increased production | Shared-market effects can benefit the opponent more |
 
-The added service generated more eggs, yet in activated cases the acting
-player's income increased by roughly 20–25 while the opponent gained 53–59.
-This demonstrated why local production gains must be evaluated through shared
-markets and relative end-game wealth.
+In activated extra-service cases, the acting player's income rose by roughly
+20–25 while the opponent gained 53–59. Production is therefore not a sufficient
+proxy for competitive outcome. The [early model summaries](results/early_model_comparisons.json)
+retain measurements and limitations; some early temporary prototypes are not
+available as complete executable closures.
 
-## 4. Demonstration-derived programs and resource feedback
+## Validation and field comparison
 
-The later policy family used complete physical programs compiled from
-publicly downloadable demonstrations. At each turn, it projected the acting
-player's worker effects, supplied required materials, labor, and land, and
-sold available surpluses. Historical actions became offline policy parameters;
-runtime decisions used the player's currently visible state.
+Full games used responsive local opponents and both seats. Uncertainty was
+grouped by initial seed; related policy lineages and the two seats are not
+independent observations. Confirmation blocks used previously unused seeds.
 
-We extended this representation with common openings, state-dependent entry
-conditions, shop-to-program routing, and later animal-investment choices.
-The demonstrations came from four public donor episodes of submission
-56614976 plus a common-opening episode. They were compiled action/resource
-parameters, not the author's private controller code. We implemented the
-feedback, investment routing and payable service planning; selected official
-engine primitives were reused with Apache-2.0 attribution. Earlier research
-also evaluated or adapted public controllers. Neither those baselines nor the
-public demonstrations are claimed as original inventions. See
-[source provenance and licenses](SOURCES_AND_LICENSES.md).
+The native 1.32.7 engine consumes weed draws only for empty tiles before
+drawing shops from the same per-day random stream. Changed actions can thus
+change later shops even with an identical initial seed. These are valid
+native-engine games, but not identical future shop realizations for causal
+attribution.
 
-## 5. Submitted controllers
+Fresh seeds did not ensure coverage of recent leading responsive opponents.
+The final Gold cutoff was 5099.6 at rank 30, **455.3 Private score points above
+FlexService**. High local points did not translate into comparable field strength.
 
-### AdaptiveMilk
+The [final top-ten comparison](LEADING_SOLUTIONS.md) summarizes seven available
+primary accounts. Their full-action learned policies could absorb new complete
+behaviors; several emphasized recent imitation rather than enormous self-play
+budgets. Our route/market learners are not equivalent tests of that action space.
+The accounts differ in their use of RL, rules and planning, so they do not imply
+a single universally superior method. The counterfactual result of training a
+full controller within this project's resources remains unknown.
 
-AdaptiveMilk preserved the established opening and used economic forecasts
-at later investment decisions to choose animal exposure. The forecasts used
-visible prices and farm state, with approximate expectations for unrevealed
-shops. They did not read hidden world seeds or future observations.
+## Runtime and resource footprint
 
-On **32 new worlds × 11 opponents × 2 seats**, AdaptiveMilk scored
-**636 / 704 points**, compared with **595** for EconomicFirst and **501**
-for FeedDebt. Its total comprised 635 wins, two draws, and 67 losses.
-
-### FlexService
-
-FlexService evaluated complete paid service tours on an existing farm.
-The calculation included marginal wages, feed reserves, incremental animal
-production, transport and delivery, and nonlinear market value. A service
-route had to remain compatible with existing crop and retirement commitments.
-
-On **32 new worlds × 12 opponents × 2 seats**, FlexService scored
-**677 / 768**, compared with **622** for AdaptiveMilk and **548** for FeedDebt.
-The official submissions were FlexService 56705674 and AdaptiveMilk 56698261.
-
-Portfolio analysis identified a trade-off: an after-the-fact best-of-two
-diagnostic favored Flex + Feed at **728 / 768**, compared with **683 / 768**
-for Flex + Adaptive. This diagnostic is an unattainable per-game selection
-upper bound, not a reproduction of the official two-submission rating system.
-
-## 6. Native scheduling and longer cash-flow horizons
-
-**NativeDeadlines** rearranged the work of already-paid workers within limited
-windows while preserving necessary physical tasks. On 32 new worlds against
-17 opponents in both seats, it won **1055 / 1088** cells, versus **1037** for
-FlexService: 20 recoveries and two regressions.
-
-Both regressions occurred in one world. Additional feeding at turn 115
-removed a wheat sale at turn 120. By turn 168, the candidate held 32 cash
-instead of 62; seven workers required 33, so one could not be hired. The
-original feasibility forecast ended at turn 143 and missed this commitment.
-
-**Committed** extended the funding horizon to the next unresolved investment
-decision. Across two non-overlapping 32-world blocks with seven opponents,
-it won **843 / 896**, versus **832** for Flex, with 11 recoveries and no
-regressions. All 11 recoveries were against the earlier LateFlock policy;
-against the other six opponents, both scored **733 / 768**.
-
-**CareTrade** allowed one scheduled care action to be exchanged for additional
-feeding, accounting for both effects. It recovered two development outcomes,
-but on 32 new worlds scored **418 / 448**, identical to Committed, with mean
-final-balance difference lower by 28.88. This configuration was not promoted.
-
-These variants were local research results and were not part of the submitted
-pair. Committed's measured maximum callback was 6.878 seconds, substantially
-higher than the submitted controllers, adding a deployment cost to its narrow gain.
-
-## 7. Results and limitations
-
-The final Private result was **4644.3 / rank 246 / Silver** for FlexService.
-AdaptiveMilk's **4628.8** was slightly lower. Their final stored Public skill
-ratings were **2341.9** and **2250.9**; the Public team rank was 211.
-The official Gold cutoff was rank 30 at 5099.6. The old October 2 pending snapshot is
-retained as historical evidence, not used to describe the current result.
-
-The September 28 inventory recorded 6,297 complete official replays spanning 2,782
-opponent teams and 5,543 submissions. These counts do not represent that many
-independent worlds or executable opponent controllers. Local panels contained
-related policies and lacked sufficient coverage of recent leading responsive
-opponents. The shared feature index covered only 3,031 replays and was last
-updated September 11; later targeted analyses did use additional records. The gap is
-not proof those records were ignored, but collection volume was not evidence
-of current executable-opponent coverage. High local scores did not establish
-equivalent field strength.
-
-Same-seed pairing also needs precise interpretation. The native 1.32.7 engine
-draws weeds only for empty tiles before drawing shops from the same per-day
-RNG. Different actions can therefore change later shops even with the same
-initial seed. Our full-game runner used the native engine, not an independent
-shop stream. The measured game outcomes remain actual native-engine outcomes;
-they do not guarantee identical shop realizations for causal attribution.
-Changing the RNG would be a separate variance-reduction diagnostic, not an
-automatic replacement for deployment-faithful evaluation.
-
-## 8. What the leading solutions change in the interpretation
-
-The [final top-ten review](LEADING_SOLUTIONS.md) found substantive methods for
-seven teams. They used learned full-action policies, with different balances
-of replay imitation, RL and rules. Several relied primarily on imitation and
-fresh demonstrations rather than enormous self-play budgets. This undermines
-any claim that our restricted market/route learners fairly exhausted learning
-as a family. It does **not** prove that adopting a Transformer within our
-remaining time and implementation constraints would have delivered Gold.
-
-The useful contrast is the update mechanism. Our few compiled programs gained
-reliable local feedback and scheduling repairs; leading systems could ingest
-new complete behaviors as the field changed. Our last Committed gain was real
-but entirely against an older internal ancestor, so a larger local win total
-did not address the demonstrated competitive gap. Retaining tested finalists
-instead of making an unsupported last-minute replacement was defensible;
-staying within a narrow representation for so long deserves a separate review.
-
-The strongest measured progression in our work came from expanding narrow selectors into
-complete production programs with actual material, labor, and funding feedback.
-The remaining limitation was generalization across changing opponents and
-markets. [Transferable lessons](DESIGN_REVIEW.md) distinguish measured process
-limitations from hindsight hypotheses. [Prompt recommendations](PROMPT_RECOMMENDATIONS.md)
-are proposed edits, not changes to the original Goal or shared policy.
-[Reproduction](REPRODUCE.md) explains which exact policies can be rebuilt.
+The submitted policies' maximum measured callbacks were **0.1051 s** for
+FlexService and **0.0491 s** for AdaptiveMilk, with exact official-action parity.
+Four recorded final confirmation batches comprised **7,936 all-arm games**,
+using 18 CPU workers and totaling **3.715 hours of batch execution wall time**.
+These are measured subsets, not the entire project's compute bill.
+[Costs and coverage](COSTS.md) separates assistant tokens, cached input,
+execution, waiting and untracked monetary expenditure.

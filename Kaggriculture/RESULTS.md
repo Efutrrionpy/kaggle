@@ -2,8 +2,7 @@
 
 ## Official submissions
 
-**Final Private: 246th of 10,148 teams, Silver, score 4644.3.** The original
-target was Gold and was **not met**. The official API reports a locked,
+**Final Private: 246th of 10,148 teams, Silver, score 4644.3.** The official API reports a locked,
 verified final leaderboard; its medal certificate agrees on rank, medal and
 team count. Evidence was retrieved on **2026-10-22 at 08:48 UTC**.
 
@@ -73,7 +72,7 @@ reported as such. The [research report](RESEARCH.md) details the mechanisms.
 These are measured completed batch wall times, including all comparison arms,
 not cumulative project cost or isolated inference latency. Each used 18 spawned
 workers with one numerical thread per worker; no completed games were rerun for
-this retrospective. [Exact records](results/measured_batch_costs.json).
+this report. [Exact records](results/measured_batch_costs.json).
 
 | Batch | All-arm games | Wall time |
 |---|---:|---:|
@@ -81,6 +80,10 @@ this retrospective. [Exact records](results/measured_batch_costs.json).
 | FlexService confirmation | 2,304 | 62.3 min |
 | NativeDeadlines confirmation | 2,176 | 60.3 min |
 | Committed first confirmation | 1,344 | 44.1 min |
+
+These four batches total **7,936 games / 3.715 wall-hours**. Full-project
+compute and monetary costs were not completely tracked. The [cost report](COSTS.md)
+separately documents assistant model/cache usage, waiting and coverage limits.
 
 ## Supporting data
 

@@ -1,5 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
-<title id="title">Kaggle Research Studies</title><desc id="desc">Three studies in geological sequence prediction, cell tracking, and competitive planning. Decorative linework represents alignment, lineage linking, and routing; it is not experimental data.</desc>
-<rect width="1000" height="330" rx="8" fill="#F5F3ED"/>
-<text x="44" y="42" fill="#617078" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="2">EFUTRRIONPY   /   APPLIED MACHINE LEARNING</text><line x1="44" y1="64" x2="956" y2="64" stroke="#D6DAD4" stroke-width="1"/><text x="44" y="133" fill="#20343C" font-family="Georgia, Times New Roman, serif" font-size="58" font-weight="400" >Kaggle</text><text x="44" y="194" fill="#20343C" font-family="Georgia, Times New Roman, serif" font-size="58" font-weight="400" >Research Studies</text><text x="46" y="239" fill="#617078" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" >Models, experiments, and competition outcomes.</text><text x="46" y="295" fill="#617078" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="1">01  GEOLOGY     /     02  CELL TRACKING     /     03  PLANNING</text><text x="686" y="276" fill="#617078" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="1.5">ALIGN</text><text x="790" y="276" fill="#617078" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="1.5">LINK</text><text x="894" y="276" fill="#617078" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="1.5">PLAN</text><path d="M634 113 C655 86,674 134,702 100 S727 101,733 108" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.45"/><path d="M634 133 C655 106,674 154,702 120 S727 121,733 128" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.52"/><path d="M634 153 C655 126,674 174,702 140 S727 141,733 148" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.5900000000000001"/><path d="M634 173 C655 146,674 194,702 160 S727 161,733 168" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.66"/><path d="M634 193 C655 166,674 214,702 180 S727 181,733 188" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.73"/><path d="M634 213 C655 186,674 234,702 200 S727 201,733 208" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.8"/><path d="M634 233 C655 206,674 254,702 220 S727 221,733 228" fill="none" stroke="#B38043" stroke-width="1.6" opacity="0.8700000000000001"/><line x1="768" y1="111" x2="791" y2="155" stroke="#287C79" stroke-width="1.8"/><line x1="768" y1="111" x2="746" y2="155" stroke="#287C79" stroke-width="1.8"/><line x1="791" y1="155" x2="807" y2="201" stroke="#287C79" stroke-width="1.8"/><line x1="791" y1="155" x2="777" y2="201" stroke="#287C79" stroke-width="1.8"/><line x1="746" y1="155" x2="750" y2="224" stroke="#287C79" stroke-width="1.8"/><circle cx="768" cy="111" r="6" fill="#F5F3ED" stroke="#287C79" stroke-width="2"/><circle cx="791" cy="155" r="6" fill="#F5F3ED" stroke="#287C79" stroke-width="2"/><circle cx="746" cy="155" r="6" fill="#F5F3ED" stroke="#287C79" stroke-width="2"/><circle cx="807" cy="201" r="6" fill="#F5F3ED" stroke="#287C79" stroke-width="2"/><circle cx="777" cy="201" r="6" fill="#F5F3ED" stroke="#287C79" stroke-width="2"/><circle cx="750" cy="224" r="6" fill="#F5F3ED" stroke="#287C79" stroke-width="2"/><rect x="846" y="106" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="846" y="161" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="846" y="216" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="883" y="106" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="883" y="161" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="883" y="216" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="920" y="106" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="920" y="161" width="8" height="8" rx="2" fill="#D6DAD4"/><rect x="920" y="216" width="8" height="8" rx="2" fill="#D6DAD4"/><path d="M850 220 V165 H887 V110 H924 V220 H887" stroke="#856379" stroke-width="2.5" fill="none"/><circle cx="850" cy="220" r="5" fill="#856379"/><circle cx="887" cy="110" r="5" fill="#856379"/><circle cx="924" cy="220" r="5" fill="#856379"/><circle cx="887" cy="220" r="5" fill="#856379"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">Kaggle portfolio — two medals across three competitions</title>
+<desc id="desc">Final Private results: zero gold, one silver, one bronze, one unmedaled competition. Kaggriculture: silver, rank 246 of 10,148, score 4644.3. ROGII: bronze, rank 444 of 6,191, RMSE 8.889. Biohub: no medal, rank 1,714 of 4,020, score 0.91051. Each competition counts once.</desc>
+<defs>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3fa"/><stop offset=".5" stop-color="#b5c3d5"/><stop offset="1" stop-color="#e4edf7"/></linearGradient>
+<linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3cda1"/><stop offset=".5" stop-color="#bc7c49"/><stop offset="1" stop-color="#e2ae76"/></linearGradient>
+</defs>
+<rect width="1200" height="660" rx="18" fill="#f5f4ef"/>
+<path d="M18 0H1182Q1200 0 1200 18V178H0V18Q0 0 18 0Z" fill="#142b37"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="48" y="43" font-size="14" fill="#a7bdc8" font-weight="700" letter-spacing="2.2">EFUTRRIONPY / APPLIED MACHINE LEARNING</text>
+<text x="46" y="106" font-size="52" fill="#faf9f3" font-family="Georgia, Times New Roman, serif">Kaggle portfolio</text>
+<text x="49" y="143" font-size="19" fill="#c8d5db" >Methods. Measured outcomes. Reproducible work.</text>
+<text x="1151" y="99" font-size="36" fill="#faf9f3" text-anchor="end" font-weight="700">2 medals</text>
+<text x="1150" y="132" font-size="18" fill="#c8d5db" text-anchor="end">across 3 competitions</text>
+<rect x="48" y="203" width="1104" height="88" rx="12" fill="#fff" stroke="#dce2e3"/>
+<path d="M324 223V271M600 223V271M876 223V271" stroke="#e3e7e8"/>
+<circle cx="79" cy="246" r="8" fill="#b49b63"/>
+<text x="101" y="253" font-size="16" fill="#4c5e68" font-weight="700" letter-spacing="1">GOLD</text>
+<text x="289" y="259" font-size="37" fill="#243f50" text-anchor="end" font-weight="700">0</text>
+<circle cx="355" cy="246" r="8" fill="#91a5be"/>
+<text x="377" y="253" font-size="16" fill="#4c5e68" font-weight="700" letter-spacing="1">SILVER</text>
+<text x="565" y="259" font-size="37" fill="#243f50" text-anchor="end" font-weight="700">1</text>
+<circle cx="631" cy="246" r="8" fill="#bc7c49"/>
+<text x="653" y="253" font-size="16" fill="#4c5e68" font-weight="700" letter-spacing="1">BRONZE</text>
+<text x="841" y="259" font-size="37" fill="#243f50" text-anchor="end" font-weight="700">1</text>
+<circle cx="907" cy="246" r="8" fill="#a4afb2"/>
+<text x="929" y="253" font-size="16" fill="#4c5e68" font-weight="700" letter-spacing="1">NO MEDAL</text>
+<text x="1117" y="259" font-size="37" fill="#243f50" text-anchor="end" font-weight="700">1</text>
+<rect x="48" y="316" width="352" height="273" rx="14" fill="#eaf0f6" stroke="#ced9e5"/>
+<path d="M322 340H340L351 373L331 381L314 369Z" fill="#476b8f"/><path d="M345 340H362L359 369L342 381L331 373Z" fill="#5e7383"/><circle cx="339" cy="386" r="25" fill="url(#silver)" stroke="#5e7383" stroke-width="2"/><circle cx="339" cy="386" r="18" fill="none" stroke="#5e7383"/><path d="M339 374l3 8 9 1-7 6 2 9-7-5-8 5 2-9-6-6 9-1Z" fill="#5e7383"/>
+<text x="72" y="357" font-size="13" fill="#5e7383" font-weight="700" letter-spacing="2">SILVER MEDAL</text>
+<text x="72" y="403" font-size="29" fill="#1f3a4e" font-family="Georgia, Times New Roman, serif">Kaggriculture</text>
+<text x="72" y="433" font-size="15" fill="#5e7383" >Competitive resource planning</text>
+<line x1="72" y1="454" x2="376" y2="454" stroke="#ced9e5"/>
+<text x="72" y="493" font-size="30" fill="#1f3a4e" font-weight="700">246</text>
+<text x="137" y="491" font-size="18" fill="#5e7383" >/ 10,148 teams</text>
+<text x="72" y="533" font-size="24" fill="#1f3a4e" font-weight="700">4644.3</text>
+<text x="72" y="562" font-size="14" fill="#5e7383" >Final Private · Bradley–Terry</text>
+<rect x="424" y="316" width="352" height="273" rx="14" fill="#f5eade" stroke="#e5cfb7"/>
+<path d="M698 340H716L727 373L707 381L690 369Z" fill="#785044"/><path d="M721 340H738L735 369L718 381L707 373Z" fill="#8b715d"/><circle cx="715" cy="386" r="25" fill="url(#bronze)" stroke="#8b715d" stroke-width="2"/><circle cx="715" cy="386" r="18" fill="none" stroke="#8b715d"/><path d="M715 374l3 8 9 1-7 6 2 9-7-5-8 5 2-9-6-6 9-1Z" fill="#8b715d"/>
+<text x="448" y="357" font-size="13" fill="#8b715d" font-weight="700" letter-spacing="2">BRONZE MEDAL</text>
+<text x="448" y="403" font-size="29" fill="#553b2a" font-family="Georgia, Times New Roman, serif">ROGII</text>
+<text x="448" y="433" font-size="15" fill="#8b715d" >Wellbore geology prediction</text>
+<line x1="448" y1="454" x2="752" y2="454" stroke="#e5cfb7"/>
+<text x="448" y="493" font-size="30" fill="#553b2a" font-weight="700">444</text>
+<text x="513" y="491" font-size="18" fill="#8b715d" >/ 6,191 teams</text>
+<text x="448" y="533" font-size="24" fill="#553b2a" font-weight="700">8.889</text>
+<text x="448" y="562" font-size="14" fill="#8b715d" >Final Private · RMSE ↓</text>
+<rect x="800" y="316" width="352" height="273" rx="14" fill="#ebefec" stroke="#d6dfd9"/>
+<circle cx="1091" cy="382" r="27" fill="#f6f8f6" stroke="#a7b8ad" stroke-width="2"/><path d="M1077 382h28" stroke="#7c9284" stroke-width="3" stroke-linecap="round"/>
+<text x="824" y="357" font-size="13" fill="#6d8074" font-weight="700" letter-spacing="2">NO MEDAL</text>
+<text x="824" y="403" font-size="29" fill="#314a3c" font-family="Georgia, Times New Roman, serif">Biohub</text>
+<text x="824" y="433" font-size="15" fill="#6d8074" >3D cell tracking</text>
+<line x1="824" y1="454" x2="1128" y2="454" stroke="#d6dfd9"/>
+<text x="824" y="493" font-size="30" fill="#314a3c" font-weight="700">1,714</text>
+<text x="911" y="491" font-size="18" fill="#6d8074" >/ 4,020 teams</text>
+<text x="824" y="533" font-size="24" fill="#314a3c" font-weight="700">0.91051</text>
+<text x="824" y="562" font-size="14" fill="#6d8074" >Final Private · Score ↑</text>
+<text x="49" y="628" font-size="14" fill="#647178" >Official Private results · one award per competition</text>
+<text x="1151" y="628" font-size="14" fill="#647178" text-anchor="end">Evidence checked · 22 Oct 2026</text>
+</g>
 </svg>

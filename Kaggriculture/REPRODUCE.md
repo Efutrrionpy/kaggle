@@ -56,13 +56,17 @@ by this repository. Re-running every original opponent comparison requires
 the original assets. Sources and licenses are described
 [here](SOURCES_AND_LICENSES.md).
 
-## Closeout verification and limits
+## Verification and limits
 
 The final-result and top-ten JSON records are sanitized observations from
 2026-10-22. [Results](RESULTS.md) distinguishes final Private scores from Public
-skill ratings; [assets](ASSETS.md) records the new rebuild/entry-point checks and
-the actual cleanup. No leader model was trained or re-evaluated during closeout.
-Historical early-decision extracts preserve measured negative findings but do
-not reconstruct missing temporary prototypes. The original Goal is preserved
-for review; its old instructions are historical text, not an instruction to
-resume experiments or alter a user's pause.
+skill ratings. Both submission archives rebuilt byte-for-byte, all nine result
+table aggregations matched their per-cell rows, and each isolated stdio entry
+point reproduced one saved official opening action. These checks generated no
+new games or training. Earlier full-season parity remains the 1,438-action
+evidence per policy, not a new claim based on the opening smoke test.
+
+Historical early-model summaries preserve negative measurements but do not
+reconstruct missing temporary prototypes. The [resource report](COSTS.md)
+states what execution and usage records cover. No leading team's model was
+trained or re-evaluated for this comparison.

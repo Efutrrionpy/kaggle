@@ -1,0 +1,88 @@
+{
+  "snapshot_at_utc": "2026-10-22T11:16:34.993Z",
+  "coverage": {
+    "assistant_first_token_event_utc": "2026-08-11T19:14:00.997000+00:00",
+    "assistant_last_token_event_utc": "2026-10-22T11:16:01.726000+00:00",
+    "scheduler_first_submission_record_utc": "2026-10-02T10:28:30.095000+00:00",
+    "scheduler_last_submission_record_utc": "2026-10-22T11:16:34.665000+00:00",
+    "collector_installed_at_utc": "2026-10-02T11:50:33.852Z",
+    "includes": "Main Kaggriculture assistant transcript: research plus monitoring, maintenance and closeout; not research-only. Historical token events were backfilled.",
+    "excludes": "Other agent/subagent transcripts and separate advisor usage unless present in this main transcript. In-flight/unindexed tail and work outside recorded coverage are not included."
+  },
+  "source": {
+    "description": "Read-only own-agent aggregate from the existing local scheduling controller, backed by saved native token/turn events and scheduler records.",
+    "token_accounting": "native-request-v2",
+    "private_snapshot_sha256": "5409ac77e9c5c1501d951d397bab20efdfb092e2ed3c0e810f01cd0466a418cf",
+    "accounting_implementation_sha256": "2264a2f1df32667dfdc5be4179da1ba655fbed9e54c4f532778380c9d050ad64",
+    "cumulative_fallback_events": 0,
+    "incomplete_breakdown_events": 0,
+    "transcript_index_pending_bytes": 8920,
+    "malformed_index_lines": 0
+  },
+  "assistant_tokens": {
+    "input_tokens": 6239807630,
+    "cached_input_tokens": 6106877184,
+    "uncached_input_tokens": 132930446,
+    "output_tokens": 18925233,
+    "reasoning_output_tokens": 5761432,
+    "total_tokens": 6258732863
+  },
+  "assistant_by_model": {
+    "gpt-5.6-sol": {
+      "input_tokens": 3425915841,
+      "cached_input_tokens": 3373762048,
+      "output_tokens": 5985682,
+      "reasoning_output_tokens": 1973271,
+      "total_tokens": 3431901523,
+      "uncached_input_tokens": 52153793
+    },
+    "gpt-6-astra": {
+      "input_tokens": 2813891789,
+      "cached_input_tokens": 2733115136,
+      "output_tokens": 12939551,
+      "reasoning_output_tokens": 3788161,
+      "total_tokens": 2826831340,
+      "uncached_input_tokens": 80776653
+    }
+  },
+  "assistant_elapsed": {
+    "closed_turn_elapsed_seconds": 1932159.691,
+    "tool_call_pending_seconds_subset": 1211492.7149999999,
+    "definition": "Turn elapsed includes pending tools, waits, network latency and other overhead. Neither quantity is measured model/GPU compute time. Do not add the subset again."
+  },
+  "scheduler_observed_subset": {
+    "cpuAllocatedCoreSeconds": 36317.02600000003,
+    "gpuAllocatedSeconds": 0,
+    "queueWaitSeconds": 0.26400000000000007,
+    "jobs": 61,
+    "completed": 57,
+    "failed": 3,
+    "cancelled": 0,
+    "definition": "Allocated core-seconds are reserved cores multiplied by observed running wall time, not sampled CPU busy time. These post-competition records are not total research compute."
+  },
+  "gpu": {
+    "full_project_gpu_hours": null,
+    "observed_gpu_hardware_days": 0,
+    "interpretation": "No attributed hardware observations in this table; missing coverage, not proof of zero historical GPU use. Final policies and reported simulator batches run on CPU."
+  },
+  "money": {
+    "actual_attributable_payments": null,
+    "subscription_cost_allocation": null,
+    "api_list_price_estimate": null,
+    "electricity_cost_attributed_to_project": null,
+    "currency": null,
+    "status": "UNTRACKED",
+    "note": "No project-level payment ledger or defensible allocation. API list prices are not subscription charges. Shared-machine electricity estimates are not assigned to this project."
+  },
+  "local_experiment_measurements": {
+    "source": "measured_batch_costs.json",
+    "date": "2026-09-30",
+    "batches": 4,
+    "all_arm_games": 7936,
+    "total_running_wall_seconds": 13373.95388027998,
+    "workers_per_batch": 18,
+    "numerical_threads_per_worker": 1,
+    "hardware": "CPU simulation; exact CPU SKU and sampled busy-core time were not recorded in these receipts.",
+    "scope": "Four completed confirmation batches only; wall time includes batch overhead, excludes scheduler queue wait before execution. No reruns for accounting."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "scope": "Measured historical model comparisons; not complete executable closures for early temporary prototypes.",
+  "experiments": [
+    {
+      "method": "209-feature NumPy MLP, 64–32 hidden units; binary fixed-route selection",
+      "date": "2026-08-20",
+      "source_sha256": "76c322a9fed1e6bfa182006e66f83dee29ddcf3ed4e1e2d068c930d4581a3fa9",
+      "heldout_cells": 48,
+      "model_points": 29,
+      "baseline_selector_points": 36,
+      "limitation": "Can select only between two existing routes."
+    },
+    {
+      "method": "Balanced market-only behavior cloning, six SELL heads",
+      "date": "2026-08-23",
+      "source_sha256": "9cc6e47385cc5332964587701dab91035f5ae6d4d6f7f670ac9fe2e0c6ba3ce5",
+      "teacher_forced_holdout": {
+        "exact_row_accuracy": 0.9970817120622568,
+        "per_head_accuracy": 0.9995136186770428,
+        "nonzero_recall": 0.9978134110787172,
+        "nonzero_precision": 0.9956363636363637,
+        "teacher_nonzero_heads": 2744,
+        "predicted_nonzero_heads": 2750
+      },
+      "rollout": {
+        "pass": {
+          "bc": {
+            "record": "8-0",
+            "mean_money": 39383.875,
+            "max_terminal_sellables": 20
+          },
+          "teacher": {
+            "record": "8-0",
+            "mean_money": 39443.25,
+            "max_terminal_sellables": 20
+          },
+          "bc_to_teacher_money_ratio": 0.9984946727260051
+        },
+        "mirror": {
+          "bc": {
+            "record": "0-8",
+            "mean_money": 32343.625,
+            "mean_margin": -121961.375,
+            "max_terminal_sellables": 20
+          },
+          "teacher": {
+            "record": "0-8",
+            "mean_money": 32441.625,
+            "mean_margin": -121865.75,
+            "max_terminal_sellables": 20
+          },
+          "bc_to_teacher_money_ratio": 0.9969791895442969
+        }
+      },
+      "limitation": "Worker logistics remain fixed; high teacher imitation is not full-controller generalization."
+    },
+    {
+      "method": "Exact-quantity market behavior cloning",
+      "date": "2026-08-23",
+      "source_sha256": "f9e87898f57a28e93d0f99a7ce0f9a185426ab90a4ff74c7d9c2736def45db36",
+      "heldout": {
+        "samples": 4112,
+        "teacher_nonzero_heads": 2340,
+        "predicted_nonzero_heads": 2349,
+        "sell_gate_precision": 0.9961685823754789,
+        "sell_gate_recall": 1.0,
+        "sell_gate_f1": 0.9980806142034548,
+        "exact_quantity_row_accuracy": 0.7872081712062257,
+        "nonzero_exact_quantity_accuracy": 0.6064102564102564,
+        "nonzero_quantity_mae": 0.7170940170940171,
+        "wheat_nonzero_exact_quantity_accuracy": 0.3925399644760213,
+        "wheat_nonzero_quantity_mae": 1.4689165186500888,
+        "rollout_launched": false
+      },
+      "limitation": "No whole-game rollout result for this configuration."
+    },
+    {
+      "method": "Conservative three-gate counterfactual imitation router",
+      "date": "2026-08-23",
+      "source_sha256": "49e9a97e9cabeba03a2f5b4157644ac58a3c4cc17ebbd0f7b272567104989dd4",
+      "initial_study_games": 1232,
+      "additional_calibration_study_games": 1744,
+      "enabled_gates": [],
+      "fresh_holdout": {
+        "seeds": "360000:360032",
+        "games_per_policy": 640,
+        "student_record": "462-80-98",
+        "baseline_record": "462-80-98",
+        "paired_worlds": 320,
+        "mean_score_delta": 0.0,
+        "mean_margin_delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "every_opponent_mean_delta": 0.0
+      },
+      "limitation": "All interventions abstained; equal paired outcomes describe an inactive treatment."
+    }
+  ]
+}

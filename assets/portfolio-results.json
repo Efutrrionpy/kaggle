@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-22",
+  "basis": "Final official Private results reconciled with the existing competition evidence; not one medal per submission.",
+  "medal_tally": {"gold": 0, "silver": 1, "bronze": 1, "unmedaled_competitions": 1},
+  "competitions": [
+    {"name": "Kaggriculture", "medal": "silver", "rank": 246, "teams": 10148, "score": 4644.3, "metric": "Bradley-Terry", "evidence": "../Kaggriculture/results/final_result_20261022.json", "report": "../Kaggriculture/RESULTS.md"},
+    {"name": "ROGII", "medal": "bronze", "rank": 444, "teams": 6191, "score": 8.889, "metric": "RMSE", "evidence": "../ROGII/README.md", "report": "../ROGII/README.md"},
+    {"name": "Biohub", "medal": null, "rank": 1714, "teams": 4020, "score": 0.91051, "metric": "Competition score", "evidence": "../Biohub/results/official_evidence.json", "score_precision_source": "../Biohub/results/final_artifacts.json", "report": "../Biohub/FINAL_RESULTS.md"}
+  ],
+  "limits": "Scores belong to different metrics and are not cross-competition comparisons. Biohub's leaderboard display rounds the score; submission evidence retains 0.91051. Evidence dates and provenance remain in each competition's records."
+}

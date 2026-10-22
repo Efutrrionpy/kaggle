@@ -1,8 +1,6 @@
 {
   "observed_at_utc": "2026-10-22T08:48:36.623962+00:00",
-  "status": "FINAL_VERIFIED_SILVER_GOLD_OBJECTIVE_UNMET",
-  "objective": "Official final Private GOLD",
-  "objective_met": false,
+  "status": "FINAL_VERIFIED_SILVER",
   "competition": {
     "competitionName": "kaggriculture",
     "deadline": "2026-10-14T23:59:00Z",
@@ -96,6 +94,5 @@
       "sha256": "929619dea9d18fe153842cba77f712720be55d781a28376b13c6dd616d8a0378"
     }
   },
-  "legacy_probe_status_note": "Existing monitor status MEDAL_CONFIRMED includes SILVER and is not the current GOLD objective predicate. No Goal completion was issued.",
   "privacy": "Certificate image, account display name, numeric account identity and full leaderboard directory are not included."
 }

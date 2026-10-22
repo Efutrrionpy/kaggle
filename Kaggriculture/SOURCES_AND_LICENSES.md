@@ -23,7 +23,7 @@ Competition access and replay use are governed by the
 Full opponent source, raw replay collections, and account credentials are
 outside this published research subset.
 
-## Closeout references
+## Method and result references
 
 The [final top-ten comparison](LEADING_SOLUTIONS.md) links directly to author
 writeups, code repositories and official standings. Its summaries are our own

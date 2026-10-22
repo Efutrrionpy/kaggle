@@ -12,14 +12,14 @@ limited labor, and coupled production and transport constraints. The submitted
 policies combine demonstration-derived programs with current-state economics
 and explicit cash-flow feasibility.
 
-**Outcome.** The official final result is Silver; the original **Gold objective
-was not met**. Planning complete production and service programs improved our
+**Outcome.** The official final result is **Silver**. Planning complete
+production and service programs improved our
 local policy: FlexService scored **677 / 768** points against **622 / 768** for
 AdaptiveMilk. That panel did not establish strength against the evolving field.
 
 <sub>Official locked and verified leaderboard inspected on 22 October 2026, 08:48 UTC. Public skill ratings and final Private Bradley–Terry scores are different scales. Both displayed ranks belong to FlexService; the two controllers are one team.</sub>
 
-[Method](#method) · [Results](#results) · [Leading solutions](LEADING_SOLUTIONS.md) · [Research lessons](DESIGN_REVIEW.md) · [Prompt recommendations](PROMPT_RECOMMENDATIONS.md)
+[Method](#method) · [Results](#results) · [Costs](COSTS.md) · [Leading solutions](LEADING_SOLUTIONS.md) · [Reproduction](REPRODUCE.md)
 
 ## Method
 
@@ -75,12 +75,22 @@ In the native engine, action-dependent weed draws can change later shop draws:
 the same initial seed is not a guarantee of identical subsequent shop sequences.
 Recent leading opponents were insufficiently represented by this local panel.
 
+## Recorded resource use
+
+Four final confirmation batches ran **7,936 games in 3.715 batch wall-hours**
+using **18 CPU workers**. The assistant transcript separately records
+**132.93M uncached input**, **6.107B cached input** and **18.93M output tokens**
+over August 11–October 22, including research and subsequent maintenance.
+Actual attributable payments and lifetime compute totals are **untracked**.
+See [costs and coverage](COSTS.md); cached input and waiting are not extra
+generated output or measured GPU time.
+
 ## Code and reproduction
 
 - [Research report](RESEARCH.md): model progression, mechanisms, and negative results
 - [Results](RESULTS.md): matched comparisons and official observations
 - [Reproduction](REPRODUCE.md): exact reconstruction of both submitted policies
-- [Retained assets and cleanup](ASSETS.md): what remains runnable and what was removed
+- [Resource use](COSTS.md): measured execution, assistant tokens and accounting gaps
 - [FlexService code](strategies/flex_service/) and [AdaptiveMilk code](strategies/adaptive_milk/)
 
 Both submitted policies and their inference dependencies are included.
